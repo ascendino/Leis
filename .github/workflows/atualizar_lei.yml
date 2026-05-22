@@ -14,7 +14,6 @@ jobs:
     - name: Checkout do repositório
       uses: actions/checkout@v4
 
-    # Corrigido para a sintaxe oficial recomendada pelo GitHub
     - name: Configurar ambiente Python
       uses: actions/setup-python@v5
       with:
@@ -33,7 +32,8 @@ jobs:
         from bs4 import BeautifulSoup
         import re
 
-        with open('ctb_atualizado.html', 'r', encoding='utf-8', errors='ignore') as f:
+        # Mudado para latin-1 para ler corretamente a acentuação do site do Planalto
+        with open('ctb_atualizado.html', 'r', encoding='latin-1') as f:
             html = f.read()
 
         soup = BeautifulSoup(html, 'lxml')
