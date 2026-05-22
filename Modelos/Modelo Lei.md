@@ -1,0 +1,19 @@
+---
+Data: "{{date}}"
+tags:
+tipo:
+assunto:
+artigos:
+Inciso:
+topico:
+status:
+---
+---
+
+
+
+------
+
+
+
+---
