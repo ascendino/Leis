@@ -40,7 +40,7 @@ jobs:
         with open('CF_88.html', 'r', encoding='utf-8') as f:
             conteudo = f.read()
 
-        # 1. Remove cabeçalhos, scripts e estilos complexos
+        # 1. Remove cabeçalhos, scripts e estilos complexos (Mantém quebras estruturais)
         conteudo = re.sub(r'(?i)<head[^>]*>([\s\S]*?)</head>', '', conteudo)
         conteudo = re.sub(r'(?i)<script[^>]*>([\s\S]*?)</script>', '', conteudo)
         conteudo = re.sub(r'(?i)<style[^>]*>([\s\S]*?)</style>', '', conteudo)
@@ -57,27 +57,30 @@ jobs:
 
         conteudo = re.sub(r'(?i)<a([^>]+)>([\s\S]*?)</a>', processar_link, conteudo)
 
-        # CORREÇÃO CRUCIAL 1: Normaliza quebras de linha de bloco do HTML antes do filtro de tachados
+        # Normalização inicial padrão apenas para quebras do Windows (\r\n -> \n)
         conteudo = conteudo.replace('\r\n', '\n').replace('\r', '\n')
-        # Transforma quebras de linha consecutivas dentro de tags em espaços simples para não quebrar a regex
-        conteudo = re.sub(r'(<font[^>]*>|<strike[^>]*>|<p[^>]*>)([\s\S]*?)(</font>|</strike>|</p>)', lambda m: m.group(1) + m.group(2).replace('\n', ' ') + m.group(3), conteudo)
 
-        # Padroniza a escrita do caractere indicador de ordem ordinal (º) do Art. 6º
+        # FIX DO ART. 6º: Corrige a quebra do caractere ordinal 'º'
         conteudo = re.sub(r'(?i)Art\.\s*6\s*<\s*[^>]*>\s*o', 'Art. 6º', conteudo)
         conteudo = re.sub(r'(?i)Art\.\s*6\s+o', 'Art. 6º', conteudo)
 
-        # 3. CAPTURA DOS TACHADOS: Mapeia todas as formas de texto revogado do Planalto
-        conteudo = re.sub(r'(?i)<strike[^>]*>([\s\S]*?)</strike>', r'~~\1~~', conteudo)
-        conteudo = re.sub(r'(?i)<s>([\s\S]*?)</s>', r'~~\1~~', conteudo)
-        conteudo = re.sub(r'(?i)<del[^>]*>([\s\S]*?)</del>', r'~~\1~~', conteudo)
-        conteudo = re.sub(r'(?i)<font[^>]*style=[^>]*line-through[^>]*>([\s\S]*?)</font>', r'~~\1~~', conteudo)
-        conteudo = re.sub(r'(?i)<p[^>]*class=[\"\']?(?:text-through|txtTachado|revogado)[\"\']?[^>]*>([\s\S]*?)</p>', r'\n\n~~\1~~\n\n', conteudo)
+        # 3. CAPTURA DOS TACHADOS (Com remoção de quebra de linha APENAS dentro do texto riscado)
+        def limpar_quebras_internas(match):
+            texto_interno = match.group(1)
+            texto_linear = re.sub(r'\s*\n\s*', ' ', texto_interno).strip()
+            return f'~~{texto_linear}~~' if texto_linear else ''
+
+        conteudo = re.sub(r'(?i)<strike[^>]*>([\s\S]*?)</strike>', limpar_quebras_internas, conteudo)
+        conteudo = re.sub(r'(?i)<s>([\s\S]*?)</s>', limpar_quebras_internas, conteudo)
+        conteudo = re.sub(r'(?i)<del[^>]*>([\s\S]*?)</del>', limpar_quebras_internas, conteudo)
+        conteudo = re.sub(r'(?i)<font[^>]*style=[^>]*line-through[^>]*>([\s\S]*?)</font>', limpar_quebras_internas, conteudo)
+        conteudo = re.sub(r'(?i)<p[^>]*class=[\"\']?(?:text-through|txtTachado|revogado)[\"\']?[^>]*>([\s\S]*?)</p>', lambda m: '\n\n~~' + re.sub(r'\s*\n\s*', ' ', m.group(1)).strip() + '~~\n\n', conteudo)
 
         # 4. Limpa todas as demais tags estruturais do HTML com segurança
         texto_limpo = re.sub(r'<[^>]+>', '', conteudo)
         texto_limpo = html.unescape(texto_limpo)
 
-        # 5. Formatação de travessões legislativos (—) no início dos parágrafos/incisos
+        # 5. Formatação de travessões legislativos (—) no início dos incisos/parágrafos
         linhas_corrigidas = []
         for linha in texto_limpo.split('\n'):
             linha_sub = linha.strip()
@@ -87,24 +90,18 @@ jobs:
 
         texto_limpo = '\n'.join(linhas_corrigidas)
 
-        # 6. Otimização de espaçamentos do Markdown e colagem das tags do Obsidian
+        # 6. Otimização de espaçamentos e remoção de espaços duplicados
         texto_limpo = re.sub(r'[ \t]+', ' ', texto_limpo)
         texto_limpo = texto_limpo.replace('~~ ', '~~').replace(' ~~', '~~')
-        
-        # Remove quebras de linha acidentais que ficaram presas dentro dos marcadores ~~
-        texto_limpo = re.sub(r'~~([^~]+)~~', lambda m: '~~' + m.group(1).replace('\n', ' ').strip() + '~~', texto_limpo)
-
-        # Remove linhas em branco excessivas
         texto_limpo = re.sub(r'\n\s*\n\s*\n+', '\n\n', texto_limpo)
 
-        # CORREÇÃO CRUCIAL 2: Agrupa APENAS as referências de emendas de fim de parágrafo (Evita quebra do Art. 7)
+        # 7. Agrupa APENAS as referências de emendas de fim de parágrafo de forma limpa
         blocos = texto_limpo.split('\n\n')
         resultado = []
         for bloco in blocos:
             bloco_limpo = bloco.strip()
             if not bloco_limpo:
                 continue
-            # Se o bloco atual for apenas um indicador de Emenda solto (ex: '(Redação dada pela...)'), une ao anterior
             if (bloco_limpo.startswith('(Redação') or bloco_limpo.startswith('(Incluído') or bloco_limpo.startswith('(Vide')) and resultado:
                 resultado[-1] = resultado[-1] + ' ' + bloco_limpo
             else:
@@ -112,7 +109,7 @@ jobs:
 
         texto_limpo = '\n\n'.join(resultado)
 
-        # Criação da pasta de destino e gravação final limpa
+        # Criação do diretório e gravação final limpa
         os.makedirs('Constituicao', exist_ok=True)
 
         with open('Constituicao/CF88.md', 'w', encoding='utf-8') as f:
@@ -125,7 +122,7 @@ jobs:
         git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
         
         # Adiciona o arquivo gerado para o Git poder rastrear as modificações
-        git add Constituicao/CF88.md
+        git add Coinsitituicao/CF88.md
 
         if ! git diff --cached --quiet; then
           git commit -m "Auto: CF_88 atualizada em $(date +'%d/%m/%Y')"
