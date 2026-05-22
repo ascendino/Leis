@@ -1,1 +1,6 @@
 .obsidian/
+PRF/
+Modelos/
+*.md
+!Leis/
+!Constituicao/
