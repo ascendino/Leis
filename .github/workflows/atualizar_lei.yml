@@ -20,12 +20,12 @@ jobs:
         python-version: '3.10'
 
     - name: Instalar dependências de extração
-      run: pip install beautifulsoup4 lxml
+      run: pip install beautifulsoup4
 
-    # Baixa e converte a codificação do Planalto nativamente no Linux antes do Python rodar
+    # Baixa e converte a codificação do Planalto nativamente no Linux
     - name: Baixar Lei Seca Atualizada (Planalto)
       run: |
-        curl -sL -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" "https://planalto.gov.br" -o ctb_raw.html
+        curl -sL -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" "https://www.planalto.gov.br/ccivil_03/leis/l9503compilado.htm" -o ctb_raw.html
         iconv -f iso-8859-1 -t utf-8//IGNORE ctb_raw.html -o ctb_atualizado.html
 
     - name: Converter HTML para Markdown com Links
@@ -36,16 +36,17 @@ jobs:
         from bs4 import BeautifulSoup
         from urllib.parse import urljoin
 
-        url_base = 'https://planalto.gov.br'
+        url_base = 'https://www.planalto.gov.br/ccivil_03/leis/'
 
         with open('ctb_atualizado.html', 'r', encoding='utf-8') as f:
             conteudo = f.read()
 
-        soup = BeautifulSoup(conteudo, 'lxml')
+        # USANDO 'html.parser' para ignorar os erros de tags quebradas do Planalto
+        soup = BeautifulSoup(conteudo, 'html.parser')
 
-        # Remove elementos nocivos à leitura
-        for s in soup(['script', 'style']):
-            s.decompose()
+        # Remove elementos poluidores
+        for s in soup(['script', 'style', 'head', 'meta']:
+            if s: s.decompose()
 
         # Transforma tags de link HTML em Markdown clicável [Texto](Link)
         for a in soup.find_all('a', href=True):
@@ -54,8 +55,10 @@ jobs:
                 link_completo = urljoin(url_base, a['href'])
                 a.replace_with(f'[{texto_link}]({link_completo})')
 
-        # Extrai o texto geral da norma limpo
+        # Extrai o texto completo de forma tolerante
         texto_final = soup.get_text('\n')
+        
+        # Limpeza de espaços e linhas extras
         texto_final = re.sub(r'[ \t]+', ' ', texto_final)
         texto_final = re.sub(r'\n\s*\n', '\n\n', texto_final)
 
@@ -71,7 +74,7 @@ jobs:
         git add ctb_atualizado.md
         
         if ! git diff --cached --quiet; then
-          git commit -m "Auto: Código de Trânsito Brasileiro com links atualizado em $(date +'%d/%m/%Y')"
+          git commit -m "Auto: Código de Trânsito Brasileiro completo com links em $(date +'%d/%m/%Y')"
           git push
         else
           echo "Nenhuma alteração encontrada na lei."
