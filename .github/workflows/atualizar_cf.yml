@@ -95,7 +95,7 @@ jobs:
         texto_limpo = texto_limpo.replace('~~ ', '~~').replace(' ~~', '~~')
         texto_limpo = re.sub(r'\n\s*\n\s*\n+', '\n\n', texto_limpo)
 
-        # 7. Agrupa APENAS as referências de emendas de fim de parágrafo de forma limpa
+        # 7. Agrupa as referências de emendas de fim de parágrafo de forma limpa
         blocos = texto_limpo.split('\n\n')
         resultado = []
         for bloco in blocos:
@@ -108,6 +108,26 @@ jobs:
                 resultado.append(bloco_limpo)
 
         texto_limpo = '\n\n'.join(resultado)
+
+        # =========================================================================
+        # NOVA ETAPA: FORMATAÇÃO AUTOMÁTICA DE TÍTULOS E CAPÍTULOS PARA O OBSIDIAN
+        # =========================================================================
+        linhas_finais = []
+        for linha in texto_limpo.split('\n'):
+            l_strip = linha.strip()
+            # Se a linha começar com 'TÍTULO' seguido de algarismos romanos, vira Título 2 (##)
+            if re.match(r'^TÍTULO\s+[IVXLCDM]+', l_strip, re.IGNORECASE):
+                linha = '## ' + l_strip
+            # Se a linha começar com 'CAPÍTULO' seguido de algarismos romanos, vira Título 3 (###)
+            elif re.match(r'^CAPÍTULO\s+[IVXLCDM]+', l_strip, re.IGNORECASE):
+                linha = '### ' + l_strip
+            # Se a linha começar com 'SEÇÃO' seguido de algarismos romanos, vira Título 4 (####)
+            elif re.match(r'^SEÇÃO\s+[IVXLCDM]+', l_strip, re.IGNORECASE):
+                linha = '#### ' + l_strip
+            linhas_finais.append(linha)
+        
+        texto_limpo = '\n'.join(linhas_finais)
+        # =========================================================================
 
         # Criação do diretório e gravação final limpa
         os.makedirs('Constituicao', exist_ok=True)
