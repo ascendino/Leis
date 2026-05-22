@@ -1,4 +1,33 @@
-- name: Converter HTML para Markdown com Links e Tachados
+name: Atualizador Automático de CF/88
+on:
+  schedule:
+    # Roda todos os dias às 06:00 UTC (03:00 no horário de Brasília)
+    - cron: '0 6 * * *'
+  workflow_dispatch: # Permite força a atualização manualmente
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Necessário para o git push funcionar
+    steps:
+    - name: Checkout do repositório
+      uses: actions/checkout@v4
+
+    - name: Configurar ambiente Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.10'
+
+    # Baixa e converte a codificação do Planalto nativamente no Linux
+    - name: Baixar Lei Seca Atualizada (Planalto)
+      run: |
+        curl -sL -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" \
+          "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm" \
+          -o cf_raw.html
+        iconv -f iso-8859-1 -t utf-8//IGNORE cf_raw.html -o CF_88.html
+
+    - name: Converter HTML para Markdown com Links e Tachados
       run: |
         python -c "
         import os
@@ -29,26 +58,22 @@
         conteudo = re.sub(r'(?i)<a([^>]+)>([\s\S]*?)</a>', processar_link, conteudo)
 
         # =========================================================================
-        # BLINDAGEM DO TACHADO: Trata blocos inteiros e tags inline espalhadas
+        # PROCESSAMENTO DE TACHADOS COM BASE NO ART 6º (EVITA QUEBRA DE HTML MALFORMADO)
         # =========================================================================
-        
-        # A. Captura parágrafos inteiros que o Planalto marcou como classe de riscado/revogado
-        conteudo = re.sub(r'(?i)<p[^>]*class=[\"\']?(?:text-through|txtTachado|revogado)[\"\']?[^>]*>([\s\S]*?)</p>', r'<p>~~\1~~</p>', conteudo)
-        
-        # B. Captura elementos <font style='...line-through...'> mesmo que quebrem linhas
-        conteudo = re.sub(r'(?i)<font[^>]*style\s*=\s*[\"\'][^\"\']*line-through[^\"\']*[\"\'][^>]*>([\s\S]*?)</font>', r'~~\1~~', conteudo)
-        
-        # C. Captura as tags tradicionais (strike, s, del)
+        # A. Captura os formatos tradicionais inline (<strike>, <s>, <del>)
         conteudo = re.sub(r'(?i)<strike[^>]*>([\s\S]*?)</strike>', r'~~\1~~', conteudo)
         conteudo = re.sub(r'(?i)<s>([\s\S]*?)</s>', r'~~\1~~', conteudo)
         conteudo = re.sub(r'(?i)<del[^>]*>([\s\S]*?)</del>', r'~~\1~~', conteudo)
         
+        # B. Captura variações com tags de fontes/estilos inline (comum no Art 6º)
+        conteudo = re.sub(r'(?i)<font[^>]*style\s*=\s*[\"\'][^\"\']*line-through[^\"\']*[\"\'][^>]*>([\s\S]*?)</font>', r'~~\1~~', conteudo)
+        conteudo = re.sub(r'(?i)<p[^>]*class=[\"\']?(?:text-through|txtTachado|revogado)[\"\']?[^>]*>([\s\S]*?)</p>', r'<p>~~\1~~</p>', conteudo)
         # =========================================================================
 
         # 3. Tratamento pré-limpeza: Remove quebras de linha indesejadas
         conteudo = conteudo.replace('\r\n', '\n').replace('\r', '\n')
 
-        # 4. Remove absolutamente todas as demais tags HTML restantes (Agora as marcações ~~ estão salvas)
+        # 4. Remove absolutamente todas as demais tags HTML restantes (Garante as marcações ~~ salvas)
         texto_limpo = re.sub(r'<[^>]+>', '', conteudo)
         texto_limpo = html.unescape(texto_limpo)
 
@@ -88,3 +113,18 @@
         with open('Constituicao/CF88.md', 'w', encoding='utf-8') as f:
             f.write('# Constituição da República Federativa do Brasil de 1988\n\n' + texto_limpo.strip())
         "
+
+    - name: Verificar mudanças e commitar
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        
+        # Adiciona o arquivo gerado para o Git poder rastrear as modificações
+        git add Constituicao/CF88.md
+
+        if ! git diff --cached --quiet; then
+          git commit -m "Auto: CF_88 atualizada em $(date +'%d/%m/%Y')"
+          git push
+        else
+          echo "Nenhuma alteração encontrada na lei."
+        fi
