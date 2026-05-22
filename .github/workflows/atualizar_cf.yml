@@ -1,0 +1,119 @@
+YAML
+name: Atualizador Automático da CF
+
+on:
+  schedule:
+    # Roda todos os dias às 06:00 UTC (03:00 no horário de Brasília)
+    - cron: '0 6 * * *'
+  workflow_dispatch: # Permite forçar a atualização manualmente
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+    - name: Checkout do repositório
+      uses: actions/checkout@v4
+
+    - name: Configurar ambiente Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.10'
+
+    - name: Baixar CF Atualizada (Planalto)
+      run: |
+        curl -sL -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" \
+          "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm" \
+          -o cf_raw.html
+        iconv -f iso-8859-1 -t utf-8//IGNORE cf_raw.html -o cf_atualizada.html
+
+    - name: Converter HTML para Markdown com Links
+      run: |
+        python -c "
+        import os
+        import re
+        import html
+        from urllib.parse import urljoin
+
+        url_base = 'https://www.planalto.gov.br'
+
+        with open('cf_atualizada.html', 'r', encoding='utf-8') as f:
+            conteudo = f.read()
+
+        # 1. Remove cabeçalhos, scripts e estilos
+        conteudo = re.sub(r'(?i)<head[^>]*>([\s\S]*?)</head>', '', conteudo)
+        conteudo = re.sub(r'(?i)<script[^>]*>([\s\S]*?)</script>', '', conteudo)
+        conteudo = re.sub(r'(?i)<style[^>]*>([\s\S]*?)</style>', '', conteudo)
+
+        # 2. Converte links HTML para Markdown
+        def processar_link(match):
+            propriedades = match.group(1)
+            texto_interno = match.group(2).strip()
+            href_match = re.search(r'href=[\"\']?([^\"\' >]+)[\"\']?', propriedades, re.IGNORECASE)
+            if href_match and texto_interno:
+                link_completo = urljoin(url_base, href_match.group(1))
+                return f'[{texto_interno}]({link_completo})'
+            return texto_interno
+
+        conteudo = re.sub(r'(?i)<a([^>]+)>([\s\S]*?)</a>', processar_link, conteudo)
+
+        # 3. Normaliza quebras de linha
+        conteudo = conteudo.replace('\r\n', '\n').replace('\r', '\n')
+
+        # 4. Remove demais tags HTML
+        texto_limpo = re.sub(r'<[^>]+>', '', conteudo)
+        texto_limpo = html.unescape(texto_limpo)
+
+        # 5. Corrige hífens no início de linhas
+        linhas_corrigidas = []
+        for linha in texto_limpo.split('\n'):
+            linha_sub = linha.strip()
+            if linha_sub.startswith('-') or linha_sub.startswith('–') or linha_sub.startswith('—'):
+                linha = re.sub(r'^[-–—]\s*', '— ', linha_sub)
+            linhas_corrigidas.append(linha)
+
+        texto_limpo = '\n'.join(linhas_corrigidas)
+
+        # 6. Limpeza de espaços redundantes
+        texto_limpo = re.sub(r'[ \t]+', ' ', texto_limpo)
+        texto_limpo = re.sub(r'\n\s*\n\s*\n+', '\n\n', texto_limpo)
+
+        # 7. Une parágrafos curtos isolados ao parágrafo seguinte
+        blocos = texto_limpo.split('\n\n')
+        resultado = []
+        i = 0
+        while i < len(blocos):
+            bloco_atual = blocos[i].strip()
+            if len(bloco_atual) < 25 and bloco_atual and i + 1 < len(blocos):
+                proximo = blocos[i + 1].strip()
+                resultado.append(bloco_atual + ' ' + proximo)
+                i += 2
+            else:
+                resultado.append(bloco_atual)
+                i += 1
+
+        texto_limpo = '\n\n'.join(resultado)
+
+        # Cria a pasta destino
+        os.makedirs('Constituicao', exist_ok=True)
+
+        # Salva o arquivo final
+        with open('Constituicao/CF88.md', 'w', encoding='utf-8') as f:
+            f.write('# Constituição da República Federativa do Brasil de 1988\n\n' + texto_limpo.strip())
+        "
+
+    - name: Verificar mudanças e commitar
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+        git add Constituicao/CF88.md
+
+        if ! git diff --cached --quiet; then
+          git commit -m "Auto: CF88 atualizada em $(date +'%d/%m/%Y')"
+          git push origin main
+        else
+          echo "Nenhuma alteração encontrada na Constituição."
+        fi
