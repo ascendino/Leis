@@ -14,7 +14,7 @@ jobs:
     - name: Checkout do repositório
       uses: actions/checkout@v4
 
-    # Instala o Python e a biblioteca necessária para limpar o HTML
+    # Corrigido para a sintaxe oficial recomendada pelo GitHub
     - name: Configurar ambiente Python
       uses: actions/setup-python@v5
       with:
@@ -23,12 +23,10 @@ jobs:
     - name: Instalar dependências de limpeza
       run: pip install beautifulsoup4 lxml
 
-    # Baixa o HTML original do Planalto
     - name: Baixar Lei Seca Atualizada
       run: |
         curl -sL -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" "https://planalto.gov.br" -o ctb_atualizado.html
 
-    # Executa um mini script em Python que lê o HTML e salva apenas o texto limpo em Markdown
     - name: Converter HTML para Markdown limpo
       run: |
         python -c "
@@ -39,19 +37,13 @@ jobs:
             html = f.read()
 
         soup = BeautifulSoup(html, 'lxml')
-        
-        # Pega apenas o texto limpo da página
         texto_limpo = soup.get_text('\n')
-        
-        # Remove excesso de linhas em branco seguidas
         texto_limpo = re.sub(r'\n\s*\n', '\n\n', texto_limpo)
 
-        # Salva o arquivo final em formato Markdown (.md)
         with open('ctb_atualizado.md', 'w', encoding='utf-8') as f:
             f.write('# Código de Trânsito Brasileiro (Lei 9.503)\n\n' + texto_limpo)
         "
 
-    # Salva as alterações de ambos os arquivos de volta no seu repositório
     - name: Verificar mudanças e commitar
       run: |
         git config --global user.name "github-actions[bot]"
