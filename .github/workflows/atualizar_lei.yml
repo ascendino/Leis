@@ -79,11 +79,11 @@ jobs:
         texto_limpo = re.sub(r'[ \t]+', ' ', texto_limpo)
         texto_limpo = re.sub(r'\n\s*\n\s*\n+', '\n\n', texto_limpo)
         
-        # Garante a criação da nova pasta Leis/CTB antes de salvar o arquivo
-        os.makedirs('Leis/CTB', exist_ok=True)
+        # Garante a criação da nova pasta CTB antes de salvar o arquivo
+        os.makedirs('CTB', exist_ok=True)
         
         # Salva o arquivo final direto no caminho novo estruturado
-        with open('Leis/CTB/ctb_atualizado.md', 'w', encoding='utf-8') as f:
+        with open('CTB/ctb_atualizado.md', 'w', encoding='utf-8') as f:
             f.write('# Código de Trânsito Brasileiro (Lei 9.503)\n\n' + texto_limpo.strip())
         "
 
@@ -96,7 +96,7 @@ jobs:
         git rm -f ctb_atualizado.md ctb_atualizado.html ctb_raw.html || true
 
         # Adiciona apenas a pasta nova estruturada
-        git add Leis/CTB/ctb_atualizado.md
+        git add CTB/ctb_atualizado.md
 
         if ! git diff --cached --quiet; then
           git commit -m "Auto: CTB movido para pasta Leis/CTB e atualizado em $(date +'%d/%m/%Y')"
