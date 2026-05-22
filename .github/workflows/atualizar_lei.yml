@@ -25,7 +25,7 @@ jobs:
     # Baixa e converte a codificação do Planalto nativamente no Linux
     - name: Baixar Lei Seca Atualizada (Planalto)
       run: |
-        curl -sL -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" "https://www.planalto.gov.br/ccivil_03/leis/l9503compilado.htm" -o ctb_raw.html
+        curl -sL -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" "https://planalto.gov.br" -o ctb_raw.html
         iconv -f iso-8859-1 -t utf-8//IGNORE ctb_raw.html -o ctb_atualizado.html
 
     - name: Converter HTML para Markdown com Links
@@ -36,17 +36,18 @@ jobs:
         from bs4 import BeautifulSoup
         from urllib.parse import urljoin
 
-        url_base = 'https://www.planalto.gov.br/ccivil_03/leis/'
+        url_base = 'https://planalto.gov.br'
 
         with open('ctb_atualizado.html', 'r', encoding='utf-8') as f:
             conteudo = f.read()
 
-        # USANDO 'html.parser' para ignorar os erros de tags quebradas do Planalto
+        # O parser padrão do Python resolve o problema das tags corrompidas
         soup = BeautifulSoup(conteudo, 'html.parser')
 
-        # Remove elementos poluidores
-        for s in soup(['script', 'style', 'head', 'meta']:
-            if s: s.decompose()
+        # Remove elementos poluidores (Corrigido o fechamento do colchete)
+        for tag in ['script', 'style', 'head', 'meta']:
+            for elemento in soup.find_all(tag):
+                elemento.decompose()
 
         # Transforma tags de link HTML em Markdown clicável [Texto](Link)
         for a in soup.find_all('a', href=True):
@@ -55,10 +56,10 @@ jobs:
                 link_completo = urljoin(url_base, a['href'])
                 a.replace_with(f'[{texto_link}]({link_completo})')
 
-        # Extrai o texto completo de forma tolerante
+        # Extrai o texto de forma limpa e contínua
         texto_final = soup.get_text('\n')
         
-        # Limpeza de espaços e linhas extras
+        # Limpeza fina de espaçamentos redundantes
         texto_final = re.sub(r'[ \t]+', ' ', texto_final)
         texto_final = re.sub(r'\n\s*\n', '\n\n', texto_final)
 
@@ -69,7 +70,7 @@ jobs:
     - name: Verificar mudanças e commitar
       run: |
         git config --global user.name "github-actions[bot]"
-        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git config --global user.email "41898282+github-actions[bot]@://github.com"
         
         git add ctb_atualizado.md
         
