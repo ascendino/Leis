@@ -1,33 +1,4 @@
-name: Atualizador Automático de CF/88
-on:
-  schedule:
-    # Roda todos os dias às 06:00 UTC (03:00 no horário de Brasília)
-    - cron: '0 6 * * *'
-  workflow_dispatch: # Permite força a atualização manualmente
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write # Necessário para o git push funcionar
-    steps:
-    - name: Checkout do repositório
-      uses: actions/checkout@v4
-
-    - name: Configurar ambiente Python
-      uses: actions/setup-python@v5
-      with:
-        python-version: '3.10'
-
-    # Baixa e converte a codificação do Planalto nativamente no Linux
-    - name: Baixar Lei Seca Atualizada (Planalto)
-      run: |
-        curl -sL -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" \
-          "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm" \
-          -o cf_raw.html
-        iconv -f iso-8859-1 -t utf-8//IGNORE cf_raw.html -o CF_88.html
-
-    - name: Converter HTML para Markdown com Links e Tachados
+- name: Converter HTML para Markdown com Links e Tachados
       run: |
         python -c "
         import os
@@ -57,23 +28,30 @@ jobs:
 
         conteudo = re.sub(r'(?i)<a([^>]+)>([\s\S]*?)</a>', processar_link, conteudo)
 
+        # FIX DO ART. 6º: Remove quebras de linha artificiais e padroniza o 'º' que veio quebrado
+        conteudo = re.sub(r'(?i)Art\.\s*6\s*<\s*[^>]*>\s*o', 'Art. 6º', conteudo)
+        conteudo = re.sub(r'(?i)Art\.\s*6\n+o', 'Art. 6º', conteudo)
+
         # =========================================================================
-        # PROCESSAMENTO DE TACHADOS COM BASE NO ART 6º (EVITA QUEBRA DE HTML MALFORMADO)
+        # TRATAMENTO CORRIGIDO DE TACHADOS (PROCESSAMENTO LIMPO)
         # =========================================================================
-        # A. Captura os formatos tradicionais inline (<strike>, <s>, <del>)
-        conteudo = re.sub(r'(?i)<strike[^>]*>([\s\S]*?)</strike>', r'~~\1~~', conteudo)
-        conteudo = re.sub(r'(?i)<s>([\s\S]*?)</s>', r'~~\1~~', conteudo)
-        conteudo = re.sub(r'(?i)<del[^>]*>([\s\S]*?)</del>', r'~~\1~~', conteudo)
-        
-        # B. Captura variações com tags de fontes/estilos inline (comum no Art 6º)
-        conteudo = re.sub(r'(?i)<font[^>]*style\s*=\s*[\"\'][^\"\']*line-through[^\"\']*[\"\'][^>]*>([\s\S]*?)</font>', r'~~\1~~', conteudo)
-        conteudo = re.sub(r'(?i)<p[^>]*class=[\"\']?(?:text-through|txtTachado|revogado)[\"\']?[^>]*>([\s\S]*?)</p>', r'<p>~~\1~~</p>', conteudo)
+        # Remove quebras de linha internas de dentro das tags de tachado para não quebrar o Markdown
+        def limpar_tachado(match):
+            texto = match.group(1).strip()
+            texto = re.sub(r'\s*\n\s*', ' ', texto) # Transforma quebras internas em espaço simples
+            return f'~~{texto}~~' if texto else ''
+
+        conteudo = re.sub(r'(?i)<strike[^>]*>([\s\S]*?)</strike>', limpar_tachado, conteudo)
+        conteudo = re.sub(r'(?i)<s>([\s\S]*?)</s>', limpar_tachado, conteudo)
+        conteudo = re.sub(r'(?i)<del[^>]*>([\s\S]*?)</del>', limpar_tachado, conteudo)
+        conteudo = re.sub(r'(?i)<font[^>]*style\s*=\s*[\"\'][^\"\']*line-through[^\"\']*[\"\'][^>]*>([\s\S]*?)</font>', limpar_tachado, conteudo)
+        conteudo = re.sub(r'(?i)<p[^>]*class=[\"\']?(?:text-through|txtTachado|revogado)[\"\']?[^>]*>([\s\S]*?)</p>', limpar_tachado, conteudo)
         # =========================================================================
 
-        # 3. Tratamento pré-limpeza: Remove quebras de linha indesejadas
+        # 3. Tratamento pré-limpeza: Remove quebras de linha residuais do Windows
         conteudo = conteudo.replace('\r\n', '\n').replace('\r', '\n')
 
-        # 4. Remove absolutamente todas as demais tags HTML restantes (Garante as marcações ~~ salvas)
+        # 4. Remove absolutamente todas as demais tags HTML restantes
         texto_limpo = re.sub(r'<[^>]+>', '', conteudo)
         texto_limpo = html.unescape(texto_limpo)
 
@@ -91,7 +69,7 @@ jobs:
         texto_limpo = re.sub(r'[ \t]+', ' ', texto_limpo)
         texto_limpo = re.sub(r'\n\s*\n\s*\n+', '\n\n', texto_limpo)
 
-        # 7. Une parágrafos curtos isolados
+        # 7. Une parágrafos curtos isolados (evita órfãos como o 'o' solto)
         blocos = texto_limpo.split('\n\n')
         resultado = []
         i = 0
@@ -99,6 +77,7 @@ jobs:
             bloco_atual = blocos[i].strip()
             if len(bloco_atual) < 25 and bloco_atual and i + 1 < len(blocos):
                 proximo = blocos[i + 1].strip()
+                # Se o bloco atual for apenas lixo ou pedaço de artigo, junta colado
                 resultado.append(bloco_atual + ' ' + proximo)
                 i += 2
             else:
@@ -113,18 +92,3 @@ jobs:
         with open('Constituicao/CF88.md', 'w', encoding='utf-8') as f:
             f.write('# Constituição da República Federativa do Brasil de 1988\n\n' + texto_limpo.strip())
         "
-
-    - name: Verificar mudanças e commitar
-      run: |
-        git config --global user.name "github-actions[bot]"
-        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-        
-        # Adiciona o arquivo gerado para o Git poder rastrear as modificações
-        git add Constituicao/CF88.md
-
-        if ! git diff --cached --quiet; then
-          git commit -m "Auto: CF_88 atualizada em $(date +'%d/%m/%Y')"
-          git push
-        else
-          echo "Nenhuma alteração encontrada na lei."
-        fi
