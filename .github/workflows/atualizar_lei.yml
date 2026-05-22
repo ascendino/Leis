@@ -1,5 +1,4 @@
 name: Atualizador Automático de Lei
-
 on:
   schedule:
     # Roda todos os dias às 06:00 UTC (03:00 no horário de Brasília)
@@ -9,7 +8,8 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-
+    permissions:
+      contents: write # Necessário para o git push funcionar
     steps:
     - name: Checkout do repositório
       uses: actions/checkout@v4
@@ -22,7 +22,9 @@ jobs:
     # Baixa e converte a codificação do Planalto nativamente no Linux
     - name: Baixar Lei Seca Atualizada (Planalto)
       run: |
-        curl -sL -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" "https://planalto.gov.br" -o ctb_raw.html
+        curl -sL -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" \
+          "https://www.planalto.gov.br/ccivil_03/leis/l9503compilado.htm" \
+          -o ctb_raw.html
         iconv -f iso-8859-1 -t utf-8//IGNORE ctb_raw.html -o ctb_atualizado.html
 
     - name: Converter HTML para Markdown com Links
@@ -31,40 +33,31 @@ jobs:
         import re
         import html
         from urllib.parse import urljoin
-
-        url_base = 'https://planalto.gov.br'
-
+        url_base = 'https://www.planalto.gov.br'
         with open('ctb_atualizado.html', 'r', encoding='utf-8') as f:
             conteudo = f.read()
-
         # 1. Remove cabeçalhos complexos, scripts e estilos do código
         conteudo = re.sub(r'(?i)<head[^>]*>([\s\S]*?)</head>', '', conteudo)
         conteudo = re.sub(r'(?i)<script[^>]*>([\s\S]*?)</script>', '', conteudo)
         conteudo = re.sub(r'(?i)<style[^>]*>([\s\S]*?)</style>', '', conteudo)
-
         # 2. Converte tags de link HTML para Markdown de forma textual direta (sem depender de DOM)
         def processar_link(match):
             propriedades = match.group(1)
             texto_interno = match.group(2).strip()
-            
             # Captura o valor do atributo href
             href_match = re.search(r'href=[\"\']?([^\"\' >]+)[\"\']?', propriedades, re.IGNORECASE)
             if href_match and texto_interno:
                 link_completo = urljoin(url_base, href_match.group(1))
                 return f'[{texto_interno}]({link_completo})'
             return texto_interno
-
         # Aplica a expressão regular para capturar as âncoras textuais <a>
         conteudo = re.sub(r'(?i)<a([^>]+)>([\s\S]*?)</a>', processar_link, conteudo)
-
         # 3. Remove absolutamente todas as demais tags HTML restantes
         texto_limpo = re.sub(r'<[^>]+>', '', conteudo)
-        
         # 4. Decodifica caracteres especiais e limpa linhas
         texto_limpo = html.unescape(texto_limpo)
         texto_limpo = re.sub(r'[ \t]+', ' ', texto_limpo)
         texto_limpo = re.sub(r'\n\s*\n', '\n\n', texto_limpo)
-
         with open('ctb_atualizado.md', 'w', encoding='utf-8') as f:
             f.write('# Código de Trânsito Brasileiro (Lei 9.503)\n\n' + texto_limpo.strip())
         "
@@ -73,9 +66,9 @@ jobs:
       run: |
         git config --global user.name "github-actions[bot]"
         git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-        
+
         git add ctb_atualizado.md
-        
+
         if ! git diff --cached --quiet; then
           git commit -m "Auto: Código de Trânsito Brasileiro completo com links em $(date +'%d/%m/%Y')"
           git push
