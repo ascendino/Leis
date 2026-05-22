@@ -3,7 +3,7 @@ on:
   schedule:
     # Roda todos os dias às 06:00 UTC (03:00 no horário de Brasília)
     - cron: '0 6 * * *'
-  workflow_dispatch: # Permite força a atualização manualmente
+  workflow_dispatch: # Permite forçar a atualização manualmente
 
 jobs:
   build:
@@ -100,57 +100,4 @@ jobs:
             # Tratamento de Artigos, Incisos e Parágrafos para mantê-los isolados e organizados
             else:
                 # Se for um inciso ou travessão, garante a quebra de linha visual limpa
-                if re.match(r'^[IVXLCDM]+\s*-\s*', linha_sub) or linha_sub.startswith(('-', '–', '—')):
-                    linha_sub = re.sub(r'^[-–—]\s*', '', linha_sub)
-                    linhas_corrigidas.append('\n' + linha_sub)
-                # Alíneas isoladas (ex: a), b)) ganham quebra de linha própria para não grudar no inciso
-                elif re.match(r'^[a-z]\)', linha_sub):
-                    linhas_corrigidas.append('\n' + linha_sub)
-                # Artigos e Parágrafos ganham quebra própria
-                elif linha_sub.startswith(('Art.', 'Parágrafo', '§')):
-                    linhas_corrigidas.append('\n\n' + linha_sub)
-                else:
-                    linhas_corrigidas.append('\n' + linha_sub)
-
-        texto_limpo = ''.join(linhas_corrigidas)
-
-        # 6. Otimização final de espaços e alinhamento do delimitador de tachado
-        texto_limpo = re.sub(r'[ \t]+', ' ', texto_limpo)
-        texto_limpo = texto_limpo.replace('~~ ', '~~').replace(' ~~', '~~')
-        texto_limpo = re.sub(r'\n\s*\n\s*\n+', '\n\n', texto_limpo)
-
-        # 7. Une estritamente as notas de rodapé / emendas ao final do parágrafo correspondente
-        blocos = texto_limpo.split('\n\n')
-        resultado = []
-        for bloco in blocos:
-            bloco_limpo = bloco.strip()
-            if not bloco_limpo:
-                continue
-            if (bloco_limpo.startswith('(Redação') or bloco_limpo.startswith('(Incluído') or bloco_limpo.startswith('(Vide')) and resultado:
-                resultado[-1] = resultado[-1] + ' ' + bloco_limpo
-            else:
-                resultado.append(bloco_limpo)
-
-        texto_limpo = '\n\n'.join(resultado)
-
-        # Criação do diretório e gravação do arquivo final compilado
-        os.makedirs('Constituicao', exist_ok=True)
-
-        with open('Constituicao/CF88.md', 'w', encoding='utf-8') as f:
-            f.write('# Constituição da República Federativa do Brasil de 1988\n\n' + texto_limpo.strip())
-        "
-
-    - name: Verificar mudanças e commitar
-      run: |
-        git config --global user.name "github-actions[bot]"
-        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-        
-        # Adiciona o arquivo gerado para o Git poder rastrear as modificações
-        git add Constituicao/CF88.md
-
-        if ! git diff --cached --quiet; then
-          git commit -m "Auto: CF_88 atualizada em $(date +'%d/%m/%Y')"
-          git push
-        else
-          echo "Nenhuma alteração encontrada na lei."
-        fi
+                if re.match(r'^
