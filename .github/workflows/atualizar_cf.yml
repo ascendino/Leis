@@ -1,49 +1,18 @@
-name: Atualizador Automatico da CF
-
-on:
-  schedule:
-    - cron: '0 6 * * *'
-  workflow_dispatch:
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-
-    steps:
-    - name: Checkout do repositorio
-      uses: actions/checkout@v4
-
-    - name: Configurar ambiente Python
-      uses: actions/setup-python@v5
-      with:
-        python-version: '3.10'
-
-    - name: Baixar CF Atualizada (Planalto)
-      run: |
-        curl -sL -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" \
-          "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm" \
-          -o cf_raw.html
-        iconv -f iso-8859-1 -t utf-8//IGNORE cf_raw.html -o cf_atualizada.html
-
-    - name: Converter HTML para Markdown com Links
+- name: Converter HTML para Markdown com Links
       run: |
         python -c "
         import os
         import re
         import html
         from urllib.parse import urljoin
-
         url_base = 'https://www.planalto.gov.br'
-
         with open('cf_atualizada.html', 'r', encoding='utf-8') as f:
             conteudo = f.read()
-
         conteudo = re.sub(r'(?i)<head[^>]*>([\s\S]*?)</head>', '', conteudo)
         conteudo = re.sub(r'(?i)<script[^>]*>([\s\S]*?)</script>', '', conteudo)
         conteudo = re.sub(r'(?i)<style[^>]*>([\s\S]*?)</style>', '', conteudo)
-
+        
+        # 1. Trata os links primeiro (como você já fazia)
         def processar_link(match):
             propriedades = match.group(1)
             texto_interno = match.group(2).strip()
@@ -52,28 +21,35 @@ jobs:
                 link_completo = urljoin(url_base, href_match.group(1))
                 return f'[{texto_interno}]({link_completo})'
             return texto_interno
-
         conteudo = re.sub(r'(?i)<a([^>]+)>([\s\S]*?)</a>', processar_link, conteudo)
+        
+        # 2. NOVA ETAPA: Converter tags de tachado (strike, s, del e line-through) para Markdown (~~texto~~)
+        conteudo = re.sub(r'(?i)<strike[^>]*>([\s\S]*?)</strike>', r'~~\1~~', conteudo)
+        conteudo = re.sub(r'(?i)<s[^>]*>([\s\S]*?)</s>', r'~~\1~~', conteudo)
+        conteudo = re.sub(r'(?i)<del[^>]*>([\s\S]*?)</del>', r'~~\1~~', conteudo)
+        # O Planalto usa muito <font style=\"...text-decoration: line-through...\">
+        conteudo = re.sub(r'(?i)<font[^>]*style=[^>]*line-through[^>]*>([\s\S]*?)</font>', r'~~\1~~', conteudo)
+
         conteudo = conteudo.replace('\r\n', '\n').replace('\r', '\n')
+        
+        # 3. Agora sim, remove o restante das tags HTML
         texto_limpo = re.sub(r'<[^>]+>', '', conteudo)
         texto_limpo = html.unescape(texto_limpo)
-
+        
         linhas_corrigidas = []
         for linha in texto_limpo.split('\n'):
             linha_sub = linha.strip()
             if linha_sub.startswith('-') or linha_sub.startswith('–') or linha_sub.startswith('—'):
                 linha = re.sub(r'^[-–—]\s*', '— ', linha_sub)
             linhas_corrigidas.append(linha)
-
         texto_limpo = '\n'.join(linhas_corrigidas)
         texto_limpo = re.sub(r'[ \t]+', ' ', texto_limpo)
         texto_limpo = re.sub(r'\n\s*\n\s*\n+', '\n\n', texto_limpo)
-
         blocos = texto_limpo.split('\n\n')
         resultado = []
         i = 0
         while i < len(blocos):
-            bloco_atual = blocks = blocos[i].strip()
+            bloco_atual = blocos[i].strip()
             if len(bloco_atual) < 25 and bloco_atual and i + 1 < len(blocos):
                 proximo = blocos[i + 1].strip()
                 resultado.append(bloco_atual + ' ' + proximo)
@@ -81,24 +57,8 @@ jobs:
             else:
                 resultado.append(bloco_atual)
                 i += 1
-
         texto_limpo = '\n\n'.join(resultado)
         os.makedirs('Constituicao', exist_ok=True)
-
         with open('Constituicao/CF88.md', 'w', encoding='utf-8') as f:
             f.write('# Constituicao da Republica Federativa do Brasil de 1988\n\n' + texto_limpo.strip())
         "
-
-    - name: Verificar mudancas e commitar
-      run: |
-        git config --global user.name "github-actions[bot]"
-        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
-        git add Constituicao/CF88.md
-
-        if ! git diff --cached --quiet; then
-          git commit -m "Auto: CF88 atualizada em $(date +'%d/%m/%Y')"
-          git push origin main
-        else
-          echo "Nenhuma alteracao encontrada na Constituicao."
-        fi
