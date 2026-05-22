@@ -34,37 +34,36 @@ jobs:
         import re
         import html
         from urllib.parse import urljoin
-        
+
         url_base = 'https://www.planalto.gov.br'
-        
+
         with open('ctb_atualizado.html', 'r', encoding='utf-8') as f:
             conteudo = f.read()
-            
+
         # 1. Remove cabeçalhos complexos, scripts e estilos do código
         conteudo = re.sub(r'(?i)<head[^>]*>([\s\S]*?)</head>', '', conteudo)
         conteudo = re.sub(r'(?i)<script[^>]*>([\s\S]*?)</script>', '', conteudo)
         conteudo = re.sub(r'(?i)<style[^>]*>([\s\S]*?)</style>', '', conteudo)
-        
+
         # 2. Converte tags de link HTML para Markdown de forma textual direta
         def processar_link(match):
             propriedades = match.group(1)
             texto_interno = match.group(2).strip()
-            # Linha corrigida aqui abaixo para evitar o erro de sintaxe
             href_match = re.search(r'href=[\"\']?([^\"\' >]+)[\"\']?', propriedades, re.IGNORECASE)
             if href_match and texto_interno:
                 link_completo = urljoin(url_base, href_match.group(1))
                 return f'[{texto_interno}]({link_completo})'
             return texto_interno
-            
+
         conteudo = re.sub(r'(?i)<a([^>]+)>([\s\S]*?)</a>', processar_link, conteudo)
-        
+
         # 3. Tratamento pré-limpeza: Remove quebras de linha indesejadas
         conteudo = conteudo.replace('\r\n', '\n').replace('\r', '\n')
-        
+
         # 4. Remove absolutamente todas as demais tags HTML restantes
         texto_limpo = re.sub(r'<[^>]+>', '', conteudo)
         texto_limpo = html.unescape(texto_limpo)
-        
+
         # 5. Corrige hífens no início de linhas para evitar listas automáticas do Markdown
         linhas_corrigidas = []
         for linha in texto_limpo.split('\n'):
@@ -72,17 +71,22 @@ jobs:
             if linha_sub.startswith('-') or linha_sub.startswith('–') or linha_sub.startswith('—'):
                 linha = re.sub(r'^[-–—]\s*', '— ', linha_sub)
             linhas_corrigidas.append(linha)
-            
+
         texto_limpo = '\n'.join(linhas_corrigidas)
-        
+
         # 6. Limpeza final de espaços redundantes
         texto_limpo = re.sub(r'[ \t]+', ' ', texto_limpo)
         texto_limpo = re.sub(r'\n\s*\n\s*\n+', '\n\n', texto_limpo)
-        
-        # Garante a criação da nova pasta CTB antes de salvar o arquivo
+
+        # 7. Une linhas muito curtas isoladas (VETADO, incisos, parágrafos sem texto) ao parágrafo seguinte
+        texto_limpo = re.sub(r'\n\n(§\s*\d+[º°]?)\n\n', r'\n\n\1 ', texto_limpo)
+        texto_limpo = re.sub(r'\n\n([IVX]+\s*[—–-])\n\n', r'\n\n\1 ', texto_limpo)
+        texto_limpo = re.sub(r'\n\n(\(VETADO\))\n\n', r' \1\n\n', texto_limpo)
+
+        # Garante a criação da pasta CTB antes de salvar o arquivo
         os.makedirs('CTB', exist_ok=True)
-        
-        # Salva o arquivo final direto no caminho novo estruturado
+
+        # Salva o arquivo final com todas as correções aplicadas
         with open('CTB/ctb_atualizado.md', 'w', encoding='utf-8') as f:
             f.write('# Código de Trânsito Brasileiro (Lei 9.503)\n\n' + texto_limpo.strip())
         "
@@ -99,7 +103,7 @@ jobs:
         git add CTB/ctb_atualizado.md
 
         if ! git diff --cached --quiet; then
-          git commit -m "Auto: CTB movido para pasta Leis/CTB e atualizado em $(date +'%d/%m/%Y')"
+          git commit -m "Auto: CTB atualizado em $(date +'%d/%m/%Y')"
           git push
         else
           echo "Nenhuma alteração encontrada na lei."
