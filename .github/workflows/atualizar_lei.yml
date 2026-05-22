@@ -19,36 +19,45 @@ jobs:
       with:
         python-version: '3.10'
 
-    # Baixa a versão consolidada e atualizada direto da Câmara dos Deputados
-    - name: Baixar Lei Atualizada da Câmara
-      run: |
-        curl -sL "https://camara.leg.br" -o ctb_atualizado.html
+    - name: Instalar dependências de extração
+      run: pip install beautifulsoup4 lxml requests
 
-    - name: Converter HTML para Markdown limpo
+    # O download e a filtragem agora acontecem de forma isolada dentro do Python
+    - name: Baixar e Isolar Texto da Lei
       run: |
         python -c "
+        import requests
+        from bs4 import BeautifulSoup
         import re
         import html
 
-        # Corrigido para utf-8 para ler corretamente a acentuação do site da Câmara
-        with open('ctb_atualizado.html', 'r', encoding='utf-8', errors='ignore') as f:
-            conteudo = f.read()
-
-        # Remove scripts e estilos CSS para não poluírem o texto
-        conteudo = re.sub(r'<script[^>]*>([\s\S]*?)</script>', '', conteudo)
-        conteudo = re.sub(r'<style[^>]*>([\s\S]*?)</style>', '', conteudo)
-
-        # Remove todas as tags HTML
-        texto_limpo = re.sub(r'<[^>]+>', '', conteudo)
+        url = 'https://www2.camara.leg.br/legin/fed/lei/1997/lei-9503-23-setembro-1997-372348-normaatualizada-pl.html'
+        headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'}
         
-        # Corrige acentuações e caracteres especiais
-        texto_limpo = html.unescape(texto_limpo)
+        response = requests.get(url, headers=headers)
+        response.encoding = 'utf-8'
         
-        # Limpa linhas e espaços excessivos
+        soup = BeautifulSoup(response.text, 'lxml')
+        
+        # Encontra especificamente a área que contém o corpo da lei, removendo os menus do site
+        conteudo_lei = soup.find(class_='textoNorma')
+        
+        if conteudo_lei:
+            # Remove scripts ou estilos internos que possam ter restado
+            for s in conteudo_lei(['script', 'style']):
+                s.decompose()
+                
+            texto_bruto = conteudo_lei.get_text('\n')
+        else:
+            # Caso o layout mude, tenta pegar por uma tag de conteúdo geral
+            texto_bruto = soup.get_text('\n')
+
+        # Limpeza e formatação do texto
+        texto_limpo = html.unescape(texto_bruto)
         texto_limpo = re.sub(r'[ \t]+', ' ', texto_limpo)
         texto_limpo = re.sub(r'\n\s*\n', '\n\n', texto_limpo)
 
-        # Salva o arquivo final em formato Markdown limpo em UTF-8
+        # Salva o arquivo final Markdown perfeitamente limpo
         with open('ctb_atualizado.md', 'w', encoding='utf-8') as f:
             f.write('# Código de Trânsito Brasileiro (Lei 9.503)\n\n' + texto_limpo.strip())
         "
@@ -58,11 +67,11 @@ jobs:
         git config --global user.name "github-actions[bot]"
         git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
         
-        git add ctb_atualizado.html ctb_atualizado.md
+        git add ctb_atualizado.md
         
         if ! git diff --cached --quiet; then
           git commit -m "Auto: Código de Trânsito Brasileiro atualizado em $(date +'%d/%m/%Y')"
           git push
         else
-          echo "Nenhuma alteração encontrada na base da Câmara."
+          echo "Nenhuma alteração encontrada na lei."
         fi
