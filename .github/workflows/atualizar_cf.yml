@@ -61,20 +61,25 @@ jobs:
         conteudo = conteudo.replace('\r\n', '\n').replace('\r', '\n')
 
         # Garante o alinhamento de quebras de parágrafos críticos do Planalto antes de limpar as tags
-        conteudo = re.sub(r'(?i)</p>|<br\s*/?>|</tr>', '\n', conteudo)
-        conteudo = re.sub(r'(?i)<p[^>]*>|<tr>', '\n', conteudo)
+        conteudo = re.sub(r'(?i)</p>|<br\s*/?>|</tr>|</td>', '\n', conteudo)
+        conteudo = re.sub(r'(?i)<p[^>]*>|<tr>|<td>|<blockquote>', '\n', conteudo)
 
-        # 3. CAPTURA DOS TACHADOS (Garante linearidade interna para o Markdown não quebrar)
+        # 3. CAPTURA DOS TACHADOS (Corrigido para evitar acúmulo de delimitadores em blocos complexos)
         def limpar_quebras_internas(match):
             texto_interno = match.group(1)
+            # Remove sub-tags que possam estar dentro do próprio bloco riscado
+            texto_interno = re.sub(r'<[^>]+>', '', texto_interno)
             texto_linear = re.sub(r'\s*\n\s*', ' ', texto_interno).strip()
+            # Evita duplicar o delimitador caso ele já tenha sido tratado
+            if texto_linear.startswith('~~') and texto_linear.endswith('~~'):
+                return texto_linear
             return f'~~{texto_linear}~~' if texto_linear else ''
 
         conteudo = re.sub(r'(?i)<strike[^>]*>([\s\S]*?)</strike>', limpar_quebras_internas, conteudo)
         conteudo = re.sub(r'(?i)<s>([\s\S]*?)</s>', limpar_quebras_internas, conteudo)
         conteudo = re.sub(r'(?i)<del[^>]*>([\s\S]*?)</del>', limpar_quebras_internas, conteudo)
         conteudo = re.sub(r'(?i)<font[^>]*style=[^>]*line-through[^>]*>([\s\S]*?)</font>', limpar_quebras_internas, conteudo)
-        conteudo = re.sub(r'(?i)<p[^>]*class=[\"\']?(?:text-through|txtTachado|revogado)[\"\']?[^>]*>([\s\S]*?)</p>', lambda m: '\n\n~~' + re.sub(r'\s*\n\s*', ' ', m.group(1)).strip() + '~~\n\n', conteudo)
+        conteudo = re.sub(r'(?i)<p[^>]*class=[\"\']?(?:text-through|txtTachado|revogado)[\"\']?[^>]*>([\s\S]*?)</p>', lambda m: '\n\n~~' + re.sub(r'\s*\n\s*', ' ', re.sub(r'<[^>]+>', '', m.group(1))).strip() + '~~\n\n', conteudo)
 
         # 4. Remove todas as demais tags HTML restantes com segurança
         texto_limpo = re.sub(r'<[^>]+>', '', conteudo)
@@ -89,13 +94,13 @@ jobs:
             
             # Formatação de Títulos, Capítulos e Seções completos (Aplica ##, ###, ####)
             if re.match(r'^T[IÍ]TULO\s+[IVXLCDM\d]+', linha_sub, re.IGNORECASE):
-                linhas_corrigidas.append('\n## ' + linha_sub)
+                linhas_corrigidas.append('\n\n## ' + linha_sub + '\n\n')
             elif re.match(r'^CAP[IÍ]TULO\s+[IVXLCDM\d]+', linha_sub, re.IGNORECASE):
-                linhas_corrigidas.append('\n### ' + linha_sub)
+                linhas_corrigidas.append('\n\n### ' + linha_sub + '\n\n')
             elif re.match(r'^SE[CÇ][AÃ]O\s+[IVXLCDM\d]+', linha_sub, re.IGNORECASE):
-                linhas_corrigidas.append('\n#### ' + linha_sub)
+                linhas_corrigidas.append('\n\n#### ' + linha_sub + '\n\n')
             elif re.match(r'^SUBSE[CÇ][AÃ]O\s+[IVXLCDM\d]+', linha_sub, re.IGNORECASE):
-                linhas_corrigidas.append('\n##### ' + linha_sub)
+                linhas_corrigidas.append('\n\n##### ' + linha_sub + '\n\n')
             
             # Tratamento de Artigos, Incisos e Parágrafos para mantê-los isolados e organizados
             else:
@@ -106,8 +111,8 @@ jobs:
                 # Alíneas isoladas (ex: a), b)) ganham quebra de linha própria para não grudar no inciso
                 elif re.match(r'^[a-z]\)', linha_sub):
                     linhas_corrigidas.append('\n' + linha_sub)
-                # Artigos e Parágrafos ganham quebra própria
-                elif linha_sub.startswith(('Art.', 'Parágrafo', '§')):
+                # Artigos, Parágrafos e Parágrafos Únicos ganham quebra própria destacada
+                elif linha_sub.startswith(('Art.', 'Parágrafo', '§')) or re.match(r'^Par[aá]grafo\s+[uú]nico', linha_sub, re.IGNORECASE):
                     linhas_corrigidas.append('\n\n' + linha_sub)
                 else:
                     linhas_corrigidas.append('\n' + linha_sub)
@@ -117,6 +122,8 @@ jobs:
         # 6. Otimização final de espaços e alinhamento do delimitador de tachado
         texto_limpo = re.sub(r'[ \t]+', ' ', texto_limpo)
         texto_limpo = texto_limpo.replace('~~ ', '~~').replace(' ~~', '~~')
+        # Corrige possíveis bugs de acúmulo de tils residuais
+        texto_limpo = re.sub(r'~{3,}', '~~', texto_limpo)
         texto_limpo = re.sub(r'\n\s*\n\s*\n+', '\n\n', texto_limpo)
 
         # 7. Une estritamente as notas de rodapé / emendas ao final do parágrafo correspondente
