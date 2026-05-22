@@ -8,7 +8,7 @@ Presidência
 [LEI Nº 9.503, DE 23 DE SETEMBRO DE 1997](http://legislacao.planalto.gov.br/legisla/legislacao.nsf/Viw_Identificacao/lei%209.503-1997?OpenDocument)
 
  [Mensagem de veto](https://www.planalto.gov.br/Mensagem_Veto/anterior_98/Mvep1056-97.htm)
-
+ 
  [(Vide ADI 5322)](https://portal.stf.jus.br/processos/detalhe.asp?incidente=4778925)
  [Vide Lei nº 14.861, de 2024](https://www.planalto.gov.br/_Ato2023-2026/2024/Lei/L14861.htm)   
  [Vigência](https://www.planalto.gov.br/_Ato2023-2026/2024/Lei/L14861.htm#art2)
@@ -86,12 +86,12 @@ julgamento de infrações e de recursos e aplicação de penalidades.
 Art. 6º São objetivos básicos do Sistema Nacional de Trânsito:
 
         I
-- estabelecer diretrizes da Política Nacional de Trânsito, com vistas à segurança, à
+— estabelecer diretrizes da Política Nacional de Trânsito, com vistas à segurança, à
 fluidez, ao conforto, à defesa ambiental e à educação para o trânsito, e fiscalizar
 seu cumprimento;
 
         II
-- fixar, mediante normas e procedimentos, a padronização de critérios técnicos,
+— fixar, mediante normas e procedimentos, a padronização de critérios técnicos,
 financeiros e administrativos para a execução das atividades de trânsito;
 
 III - estabelecer a sistemática de fluxos permanentes de informações entre os seus
@@ -104,25 +104,25 @@ Da Composição e da Competência do Sistema Nacional de Trânsito
 Art. 7º Compõem o Sistema Nacional de Trânsito os seguintes órgãos e entidades:
 
         I
-- o Conselho Nacional de Trânsito - CONTRAN, coordenador do Sistema e órgão máximo
+— o Conselho Nacional de Trânsito - CONTRAN, coordenador do Sistema e órgão máximo
 normativo e consultivo;
 
         II
-- os Conselhos Estaduais de Trânsito - CETRAN e o Conselho de Trânsito do Distrito
+— os Conselhos Estaduais de Trânsito - CETRAN e o Conselho de Trânsito do Distrito
 Federal - CONTRANDIFE, órgãos normativos, consultivos e coordenadores; 
 
 III - os órgãos e entidades executivos de trânsito da União, dos Estados, do Distrito
 Federal e dos Municípios;
 
         IV
-- os órgãos e entidades executivos rodoviários da União, dos Estados, do Distrito
+— os órgãos e entidades executivos rodoviários da União, dos Estados, do Distrito
 Federal e dos Municípios;
 
         V
-- a Polícia Rodoviária Federal;
+— a Polícia Rodoviária Federal;
 
         VI
-- as Polícias Militares dos Estados e do Distrito Federal; e
+— as Polícias Militares dos Estados e do Distrito Federal; e
 
 VII - as Juntas Administrativas de Recursos de Infrações - JARI.
 
@@ -147,7 +147,7 @@ pela Lei nº 12.058, de 2009)](https://www.planalto.gov.br/_Ato2007-2010/2009/Le
 12.058, de 2009)](https://www.planalto.gov.br/_Ato2007-2010/2009/Lei/L12058.htm#art4)
 
 § 3o   (VETADO)
-
+      
 [(Incluído pela Lei nº 
 12.058, de 2009)](https://www.planalto.gov.br/_Ato2007-2010/2009/Lei/L12058.htm#art4)
 
@@ -235,12 +235,12 @@ XXI - (VETADO)
 14.599, de 2023)](https://www.planalto.gov.br/_Ato2023-2026/2023/Lei/L14599.htm#art1)
 
  XXIII - justiça;      
-
+ 
  [(Redação dada 
  pela Lei nº 14.599, de 2023)](https://www.planalto.gov.br/_Ato2023-2026/2023/Lei/L14599.htm#art1)
 
  XXIV - relações exteriores;      
-
+ 
  [(Redação dada 
  pela Lei nº 14.599, de 2023)](https://www.planalto.gov.br/_Ato2023-2026/2023/Lei/L14599.htm#art1)
 
@@ -249,27 +249,27 @@ XXV - (revogado);       
 nº 14.071, de 2020)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art1)     [(Vigência)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art7)
 
  XXVI - indústria e comércio;       
-
+ 
  [(Redação dada 
  pela Lei nº 14.599, de 2023)](https://www.planalto.gov.br/_Ato2023-2026/2023/Lei/L14599.htm#art1)
 
  XXVII - agropecuária;       
-
+ 
  [(Redação dada 
  pela Lei nº 14.599, de 2023)](https://www.planalto.gov.br/_Ato2023-2026/2023/Lei/L14599.htm#art1)
 
  XXVIII - transportes terrestres;      
-
+ 
  [(Incluído pela 
  Lei nº 14.599, de 2023)](https://www.planalto.gov.br/_Ato2023-2026/2023/Lei/L14599.htm#art1)
 
  XXIX - segurança pública;       
-
+ 
  [(Incluído pela 
  Lei nº 14.599, de 2023)](https://www.planalto.gov.br/_Ato2023-2026/2023/Lei/L14599.htm#art1)
 
  XXX - mobilidade urbana.       
-
+ 
  [(Incluído pela 
  Lei nº 14.599, de 2023)](https://www.planalto.gov.br/_Ato2023-2026/2023/Lei/L14599.htm#art1)
 
@@ -289,7 +289,7 @@ Lei nº 14.599, de 2023)](https://www.planalto.gov.br/_Ato2023-2026/2023/Lei/L14
  servidores de nível hierárquico igual ou superior ao Cargo 
  Comissionado Executivo (CCE) nível 17, ou por oficial-general, na 
  hipótese de tratar-se de militar.      
-
+ 
  [(Redação dada 
  pela Lei nº 14.599, de 2023)](https://www.planalto.gov.br/_Ato2023-2026/2023/Lei/L14599.htm#art1)
 
@@ -314,11 +314,11 @@ Art. 11. (VETADO)
 Art. 12. Compete ao CONTRAN:
 
         I
-- estabelecer as normas regulamentares referidas neste Código e as diretrizes da
+— estabelecer as normas regulamentares referidas neste Código e as diretrizes da
 Política Nacional de Trânsito;
 
         II
-- coordenar os órgãos do Sistema Nacional de Trânsito, objetivando a integração de
+— coordenar os órgãos do Sistema Nacional de Trânsito, objetivando a integração de
 suas atividades;
 
 III - 
@@ -326,14 +326,14 @@ III -
  (VETADO) 
 
         IV
-- criar Câmaras Temáticas;
+— criar Câmaras Temáticas;
 
         V
-- estabelecer seu regimento interno e as diretrizes para o funcionamento dos CETRAN e
+— estabelecer seu regimento interno e as diretrizes para o funcionamento dos CETRAN e
 CONTRANDIFE;
 
         VI
-- estabelecer as diretrizes do regimento das JARI;
+— estabelecer as diretrizes do regimento das JARI;
 
 VII - zelar pela uniformidade e cumprimento das normas contidas neste Código e nas
 resoluções complementares;
@@ -348,15 +348,15 @@ resoluções complementares;
 nº 14.071, de 2020)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art1)      [(Vigência)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art7)
 
         IX
-- responder às consultas que lhe forem formuladas, relativas à aplicação da
+— responder às consultas que lhe forem formuladas, relativas à aplicação da
 legislação de trânsito;
 
         X
-- normatizar os procedimentos sobre a aprendizagem, habilitação, expedição de
+— normatizar os procedimentos sobre a aprendizagem, habilitação, expedição de
 documentos de condutores, e registro e licenciamento de veículos;
 
         XI
-- aprovar, complementar ou alterar os dispositivos de sinalização e os dispositivos e
+— aprovar, complementar ou alterar os dispositivos de sinalização e os dispositivos e
 equipamentos de trânsito;
 
  XII - 
@@ -378,16 +378,16 @@ horária, avaliações, exames, execução e fiscalização.         
 
          § 1º  As propostas de normas regulamentares de que trata o
  inciso I do
-
+ 
  caput
-
+ 
  deste artigo serão submetidas a prévia
  consulta pública, por meio da rede mundial de computadores, pelo
  período mínimo de 30 (trinta) dias, antes do exame da matéria pelo
  Contran.        
 [ (Incluído pela Lei nº 
 14.071, de 2020)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art1)     [(Vigência)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art7)
-
+ 
          § 2º  As contribuições recebidas na consulta pública de que
  trata o § 1º deste artigo ficarão à disposição do público pelo prazo
  de 2 (dois) anos, contado da data de encerramento da consulta pública.    
@@ -398,25 +398,25 @@ horária, avaliações, exames, execução e fiscalização.         
  presidente do Contran poderá editar deliberação, ad referendum 
  do Plenário, para fins do disposto no inciso I do caput deste 
  artigo.      
-
+ 
  [(Redação dada 
  pela Lei nº 14.599, de 2023)](https://www.planalto.gov.br/_Ato2023-2026/2023/Lei/L14599.htm#art1)
 
  § 4º A deliberação de que trata o § 3º deste artigo:      
-
+ 
  [(Redação dada 
  pela Lei nº 14.599, de 2023)](https://www.planalto.gov.br/_Ato2023-2026/2023/Lei/L14599.htm#art1)
 
  I - na hipótese de não ser aprovada pelo Plenário do Contran no 
  prazo de 120 (cento e vinte) dias, perderá sua eficácia, com 
  manutenção dos efeitos dela decorrentes; e       
-
+ 
  [(Incluído pela 
  Lei nº 14.599, de 2023)](https://www.planalto.gov.br/_Ato2023-2026/2023/Lei/L14599.htm#art1)
 
  II - não está sujeita ao disposto nos §§ 1º e 2º deste artigo, 
  vedada sua reedição.      
-
+ 
  [(Incluído pela 
  Lei nº 14.599, de 2023)](https://www.planalto.gov.br/_Ato2023-2026/2023/Lei/L14599.htm#art1)
 
@@ -456,12 +456,12 @@ nº 14.071, de 2020)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.
  (VETADO) 
 
         I
-- 
+— 
 
  (VETADO) 
 
         II
-- 
+— 
 
  (VETADO) 
 
@@ -470,26 +470,26 @@ III -
  (VETADO) 
 
         IV
-- (VETADO) 
+— (VETADO)
 
 Art. 14. Compete aos Conselhos Estaduais de Trânsito - CETRAN e ao Conselho de Trânsito
 do Distrito Federal - CONTRANDIFE:
 
         I
-- cumprir e fazer cumprir a legislação e as normas de trânsito, no âmbito das
+— cumprir e fazer cumprir a legislação e as normas de trânsito, no âmbito das
 respectivas atribuições;
 
         II
-- elaborar normas no âmbito das respectivas competências;
+— elaborar normas no âmbito das respectivas competências;
 
 III - responder a consultas relativas à aplicação da legislação e dos procedimentos
 normativos de trânsito;
 
         IV
-- estimular e orientar a execução de campanhas educativas de trânsito;
+— estimular e orientar a execução de campanhas educativas de trânsito;
 
         V
-- julgar os recursos interpostos contra decisões:
+— julgar os recursos interpostos contra decisões:
 
         a)
 das JARI;
@@ -499,7 +499,7 @@ dos órgãos e entidades executivos estaduais, nos casos de inaptidão permanent
 constatados nos exames de aptidão física, mental ou psicológica;
 
         VI
-- indicar um representante para compor a comissão examinadora de candidatos portadores de
+— indicar um representante para compor a comissão examinadora de candidatos portadores de
 deficiência física à habilitação para conduzir veículos automotores;
 
 VII - (VETADO)
@@ -510,11 +510,11 @@ licenciamento de veículos, articulando os órgãos do Sistema no Estado, report
 CONTRAN;
 
         IX
-- dirimir conflitos sobre circunscrição e competência de trânsito no âmbito dos
+— dirimir conflitos sobre circunscrição e competência de trânsito no âmbito dos
 Municípios; e
 
         X
-- informar o CONTRAN sobre o cumprimento das exigências definidas nos §§ 1º e 2º do
+— informar o CONTRAN sobre o cumprimento das exigências definidas nos §§ 1º e 2º do
 art. 333.
 
         XI - designar, em caso de recursos deferidos e na hipótese de
@@ -553,10 +553,10 @@ funcionem.
 Art. 17. Compete às JARI:
 
         I
-- julgar os recursos interpostos pelos infratores;
+— julgar os recursos interpostos pelos infratores;
 
         II
-- solicitar aos órgãos e entidades executivos de trânsito e executivos rodoviários
+— solicitar aos órgãos e entidades executivos de trânsito e executivos rodoviários
 informações complementares relativas aos recursos, objetivando uma melhor análise da
 situação recorrida;
 
@@ -569,11 +569,11 @@ Art. 18. (VETADO)
 Art. 19. Compete ao órgão máximo executivo de trânsito da União:
 
         I
-- cumprir e fazer cumprir a legislação de trânsito e a execução das normas e
+— cumprir e fazer cumprir a legislação de trânsito e a execução das normas e
 diretrizes estabelecidas pelo CONTRAN, no âmbito de suas atribuições;
 
         II
-- proceder à supervisão, à coordenação, à correição dos órgãos delegados, ao
+— proceder à supervisão, à coordenação, à correição dos órgãos delegados, ao
 controle e à fiscalização da execução da Política Nacional de Trânsito e do
 Programa Nacional de Trânsito;
 
@@ -583,17 +583,17 @@ coordenando e executando o controle de ações para a preservação do ordenamen
 segurança do trânsito;
 
         IV
-- apurar, prevenir e reprimir a prática de atos de improbidade contra a fé pública, o
+— apurar, prevenir e reprimir a prática de atos de improbidade contra a fé pública, o
 patrimônio, ou a administração pública ou privada, referentes à segurança do
 trânsito;
 
         V
-- supervisionar a implantação de projetos e programas relacionados com a engenharia,
+— supervisionar a implantação de projetos e programas relacionados com a engenharia,
 educação, administração, policiamento e fiscalização do trânsito e outros, visando
 à uniformidade de procedimento;
 
         VI
-- estabelecer procedimentos sobre a aprendizagem e habilitação de condutores de
+— estabelecer procedimentos sobre a aprendizagem e habilitação de condutores de
 veículos, a expedição de documentos de condutores, de registro e licenciamento de
 veículos;
 
@@ -604,10 +604,10 @@ executivos dos Estados e do Distrito Federal;
 VIII - organizar e manter o Registro Nacional de Carteiras de Habilitação - RENACH;
 
         IX
-- organizar e manter o Registro Nacional de Veículos Automotores - RENAVAM;
+— organizar e manter o Registro Nacional de Veículos Automotores - RENAVAM;
 
         X
-- organizar a estatística geral de trânsito no território nacional, definindo os dados
+— organizar a estatística geral de trânsito no território nacional, definindo os dados
 a serem fornecidos pelos demais órgãos e promover sua divulgação;
 
  XI - estabelecer modelo padrão de coleta de informações sobre as 
@@ -737,11 +737,11 @@ e, pelo proprietário de veículo, dos dados de veículo de sua propriedade.
 estradas federais:
 
         I
-- cumprir e fazer cumprir a legislação e as normas de trânsito, no âmbito de suas
+— cumprir e fazer cumprir a legislação e as normas de trânsito, no âmbito de suas
 atribuições;
 
         II
-- realizar o patrulhamento ostensivo, executando operações relacionadas com a segurança
+— realizar o patrulhamento ostensivo, executando operações relacionadas com a segurança
 pública, com o objetivo de preservar a ordem, incolumidade das pessoas, o patrimônio da
 União e o de terceiros;
 
@@ -762,11 +762,11 @@ nº 14.071, de 2020)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.
 pela Lei nº 14.599, de 2023)](https://www.planalto.gov.br/_Ato2023-2026/2023/Lei/L14599.htm#art1)
 
         V
-- credenciar os serviços de escolta, fiscalizar e adotar medidas de segurança relativas
+— credenciar os serviços de escolta, fiscalizar e adotar medidas de segurança relativas
 aos serviços de remoção de veículos, escolta e transporte de carga indivisível;
 
         VI
-- assegurar a livre circulação nas rodovias federais, podendo solicitar ao órgão
+— assegurar a livre circulação nas rodovias federais, podendo solicitar ao órgão
 rodoviário a adoção de medidas emergenciais, e zelar pelo cumprimento das normas legais
 relativas ao direito de vizinhança, promovendo a interdição de construções e
 instalações não autorizadas;
@@ -783,17 +783,17 @@ VIII - implementar as medidas da Política Nacional de Segurança e Educação d
 Trânsito;
 
         IX
-- promover e participar de projetos e programas de educação e segurança, de acordo com
+— promover e participar de projetos e programas de educação e segurança, de acordo com
 as diretrizes estabelecidas pelo CONTRAN;
 
         X
-- integrar-se a outros órgãos e entidades do Sistema Nacional de Trânsito para fins de
+— integrar-se a outros órgãos e entidades do Sistema Nacional de Trânsito para fins de
 arrecadação e compensação de multas impostas na área de sua competência, com vistas
 à unificação do licenciamento, à simplificação e à celeridade das transferências
 de veículos e de prontuários de condutores de uma para outra unidade da Federação;
 
         XI
-- fiscalizar o nível de emissão de poluentes e ruído produzidos pelos veículos
+— fiscalizar o nível de emissão de poluentes e ruído produzidos pelos veículos
 automotores ou pela sua carga, de acordo com o estabelecido no art. 66, além de dar
 apoio, quando solicitado, às ações específicas dos órgãos ambientais.
 
@@ -815,11 +815,11 @@ apoio, quando solicitado, às ações específicas dos órgãos ambientais.
 dos Estados, do Distrito Federal e dos Municípios, no âmbito de sua circunscrição:
 
         I
-- cumprir e fazer cumprir a legislação e as normas de trânsito, no âmbito de suas
+— cumprir e fazer cumprir a legislação e as normas de trânsito, no âmbito de suas
 atribuições;
 
         II
-- planejar, projetar, regulamentar e operar o trânsito de veículos, de pedestres e de
+— planejar, projetar, regulamentar e operar o trânsito de veículos, de pedestres e de
 animais, e promover o desenvolvimento da circulação e da segurança de ciclistas;
 
 III - implantar, manter e operar o sistema de sinalização, os dispositivos e os
@@ -832,11 +832,11 @@ equipamentos de controle viário;
 pela Lei nº 14.599, de 2023)](https://www.planalto.gov.br/_Ato2023-2026/2023/Lei/L14599.htm#art1)
 
         V
-- estabelecer, em conjunto com os órgãos de policiamento ostensivo de trânsito, as
+— estabelecer, em conjunto com os órgãos de policiamento ostensivo de trânsito, as
 respectivas diretrizes para o policiamento ostensivo de trânsito;
 
         VI
-- executar a fiscalização de trânsito, autuar, aplicar as penalidades de advertência,
+— executar a fiscalização de trânsito, autuar, aplicar as penalidades de advertência,
 por escrito, e ainda as multas e medidas administrativas cabíveis, notificando os
 infratores e arrecadando as multas que aplicar;
 
@@ -848,15 +848,15 @@ administrativas cabíveis, relativas a infrações por excesso de peso, dimensõ
 lotação dos veículos, bem como notificar e arrecadar as multas que aplicar;
 
         IX
-- fiscalizar o cumprimento da norma contida no art. 95, aplicando as penalidades e
+— fiscalizar o cumprimento da norma contida no art. 95, aplicando as penalidades e
 arrecadando as multas nele previstas;
 
         X
-- implementar as medidas da Política Nacional de Trânsito e do Programa Nacional de
+— implementar as medidas da Política Nacional de Trânsito e do Programa Nacional de
 Trânsito;
 
         XI
-- promover e participar de projetos e programas de educação e segurança, de acordo com
+— promover e participar de projetos e programas de educação e segurança, de acordo com
 as diretrizes estabelecidas pelo CONTRAN;
 
 XII - integrar-se a outros órgãos e entidades do Sistema Nacional de Trânsito para fins
@@ -889,7 +889,7 @@ Art. 22. Compete aos órgãos ou entidades executivos de trânsito dos Estados e
 Distrito Federal, no âmbito de sua circunscrição:
 
         I
-- cumprir e fazer cumprir a legislação e as normas de trânsito, no âmbito das
+— cumprir e fazer cumprir a legislação e as normas de trânsito, no âmbito das
 respectivas atribuições;
 
  II - 
@@ -909,7 +909,7 @@ nº 14.071, de 2020)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.
 nº 14.071, de 2020)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art1)     [(Vigência)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art7)
 
         IV
-- estabelecer, em conjunto com as Polícias Militares, as diretrizes para o policiamento
+— estabelecer, em conjunto com as Polícias Militares, as diretrizes para o policiamento
 ostensivo de trânsito;
 
  V - executar a fiscalização de trânsito, autuar e aplicar as medidas 
@@ -942,11 +942,11 @@ do direito de dirigir e o recolhimento da Carteira Nacional de Habilitação;
 pela Lei nº 14.599, de 2023)](https://www.planalto.gov.br/_Ato2023-2026/2023/Lei/L14599.htm#art1)
 
         X
-- credenciar órgãos ou entidades para a execução de atividades previstas na
+— credenciar órgãos ou entidades para a execução de atividades previstas na
 legislação de trânsito, na forma estabelecida em norma do CONTRAN;
 
         XI
-- implementar as medidas da Política Nacional de Trânsito e do Programa Nacional de
+— implementar as medidas da Política Nacional de Trânsito e do Programa Nacional de
 Trânsito;
 
 XII - promover e participar de projetos e programas de educação e segurança de
@@ -964,7 +964,7 @@ para fins de imposição e notificação de penalidades e de arrecadação de mu
 áreas de suas competências;
 
         XV
-- fiscalizar o nível de emissão de poluentes e ruído produzidos pelos veículos
+— fiscalizar o nível de emissão de poluentes e ruído produzidos pelos veículos
 automotores ou pela sua carga, de acordo com o estabelecido no art. 66, além de dar
 apoio, quando solicitado, às ações específicas dos órgãos ambientais locais;
 
@@ -982,21 +982,21 @@ coordenação do respectivo CETRAN.
  1º.
  As competências descritas no 
  inciso II do
-
+ 
  caput
-
+ 
  deste artigo relativas ao processo de suspensão de
  condutores serão exercidas quando:     [(Incluído 
  pela Lei nº 14.599, de 2023)](https://www.planalto.gov.br/_Ato2023-2026/2023/Lei/L14599.htm#art1)
-
+ 
  I - o condutor atingir o limite de pontos estabelecido no inciso I
  do art. 261 deste Código;     [(Incluído 
  pela Lei nº 14.599, de 2023)](https://www.planalto.gov.br/_Ato2023-2026/2023/Lei/L14599.htm#art1)
-
+ 
  II - a infração previr a penalidade de suspensão do direito de
  dirigir de forma específica e a autuação tiver sido efetuada pelo
  próprio órgão executivo estadual de trânsito.  
-
+ 
  [(Incluído pela 
  Lei nº 14.599, de 2023)](https://www.planalto.gov.br/_Ato2023-2026/2023/Lei/L14599.htm#art1)
 
@@ -1012,25 +1012,25 @@ coordenação do respectivo CETRAN.
 Art. 23. Compete às Polícias Militares dos Estados e do Distrito Federal:
 
         I
-- 
+— 
 
  (VETADO) 
 
         II
-- (VETADO) 
+— (VETADO)
 
 III - executar a fiscalização de trânsito, quando e conforme convênio firmado, como
 agente do órgão ou entidade executivos de trânsito ou executivos rodoviários,
 concomitantemente com os demais agentes credenciados;
 
         IV
-- (VETADO) 
+— (VETADO)
 
         V
-- (VETADO) 
+— (VETADO)
 
         VI
-- (VETADO) 
+— (VETADO)
 
 VII - 
 
@@ -1051,7 +1051,7 @@ entidades executivos de trânsito dos Municípios, no âmbito de sua circunscri�
 13.154, de 2015)](https://www.planalto.gov.br/_Ato2015-2018/2015/Lei/L13154.htm#art1)
 
         I
-- cumprir e fazer cumprir a legislação e as normas de trânsito, no âmbito de suas
+— cumprir e fazer cumprir a legislação e as normas de trânsito, no âmbito de suas
 atribuições;
 
        II - 
@@ -1072,7 +1072,7 @@ equipamentos de controle viário;
 pela Lei nº 14.599, de 2023)](https://www.planalto.gov.br/_Ato2023-2026/2023/Lei/L14599.htm#art1)
 
         V
-- estabelecer, em conjunto com os órgãos de polícia ostensiva de trânsito, as
+— estabelecer, em conjunto com os órgãos de polícia ostensiva de trânsito, as
 diretrizes para o policiamento ostensivo de trânsito;
 
  VI - executar a fiscalização de trânsito em vias terrestres, 
@@ -1098,14 +1098,14 @@ pela Lei nº 14.599, de 2023)](https://www.planalto.gov.br/_Ato2023-2026/2023/Le
 pela Lei nº 14.599, de 2023)](https://www.planalto.gov.br/_Ato2023-2026/2023/Lei/L14599.htm#art1)
 
         IX
-- fiscalizar o cumprimento da norma contida no art. 95, aplicando as penalidades e
+— fiscalizar o cumprimento da norma contida no art. 95, aplicando as penalidades e
 arrecadando as multas nele previstas;
 
         X
-- implantar, manter e operar sistema de estacionamento rotativo pago nas vias;
+— implantar, manter e operar sistema de estacionamento rotativo pago nas vias;
 
         XI
-- arrecadar valores provenientes de estada e remoção de veículos e objetos, e escolta
+— arrecadar valores provenientes de estada e remoção de veículos e objetos, e escolta
 de veículos de cargas superdimensionadas ou perigosas;
 
 XII - credenciar os serviços de escolta, fiscalizar e adotar medidas de segurança
@@ -1122,7 +1122,7 @@ XIV - implantar as medidas da Política Nacional de Trânsito e do Programa Naci
 Trânsito;
 
         XV
-- promover e participar de projetos e programas de educação e segurança de trânsito de
+— promover e participar de projetos e programas de educação e segurança de trânsito de
 acordo com as diretrizes estabelecidas pelo CONTRAN;
 
 XVI - planejar e implantar medidas para redução da circulação de veículos e
@@ -1142,14 +1142,14 @@ XIX - articular-se com os demais órgãos do Sistema Nacional de Trânsito no Es
 coordenação do respectivo CETRAN;
 
         XX
-- fiscalizar o nível de emissão de poluentes e ruído produzidos pelos veículos
+— fiscalizar o nível de emissão de poluentes e ruído produzidos pelos veículos
 automotores ou pela sua carga, de acordo com o estabelecido no art. 66, além de dar apoio
 às ações específicas de órgão ambiental local, quando solicitado;
 
 XXI - vistoriar veículos que necessitem de autorização especial para transitar e
 estabelecer os requisitos técnicos a serem observados para a circulação desses
 veículos.
-
+ 
          XXII - 
  aplicar a penalidade de suspensão do direito de dirigir,
  quando prevista de forma específica para a infração cometida, e
@@ -1162,7 +1162,7 @@ veículos.
  destinadas à educação de crianças, adolescentes, jovens e adultos, por 
  meio de aulas teóricas e práticas sobre legislação, sinalização e 
  comportamento no trânsito.       
-
+ 
  [(Redação dada pela 
  Lei nº 14.440, de 2022)](https://www.planalto.gov.br/_Ato2019-2022/2022/Lei/L14440.htm#art15)
 
@@ -1222,14 +1222,14 @@ eficiência e à segurança para os usuários da via.
 capacitação técnica, assessoria e monitoramento das atividades relativas ao 
 trânsito durante prazo a ser estabelecido entre as partes, com ressarcimento dos 
 custos apropriados.      
-
+ 
 [ (Redação dada pela Lei nº 14.071, de 2020)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art1)      [(Vigência)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art7)
 
         § 2º  Quando não houver órgão ou entidade executivos de
  trânsito no respectivo Município, o convênio de que trata o
-
+ 
  caput
-
+ 
  deste artigo poderá ser celebrado diretamente pela prefeitura
  municipal com órgão ou entidade que integre o Sistema Nacional de
  Trânsito, permitido, inclusive, o consórcio com outro ente
@@ -1240,15 +1240,15 @@ custos apropriados.     
  Art. 25-A.  Os agentes dos órgãos policiais da Câmara dos
  Deputados e do Senado Federal, a que se referem o
  [inciso IV do
-
+ 
  caput
-
+ 
  do art. 51](https://www.planalto.gov.br/Constituicao/Constituicao.htm#art51iv)
  e o
  [inciso XIII do
-
+ 
  caput
-
+ 
  do art. 52 da Constituição Federal](https://www.planalto.gov.br/Constituicao/Constituicao.htm#art52xiii)
  , respectivamente, mediante convênio com o órgão ou entidade de
  trânsito com circunscrição sobre a via, poderão lavrar auto de
@@ -1259,12 +1259,12 @@ custos apropriados.     
  respectivas Casas Legislativas.   
 [(Incluído pela Lei nº 
 14.071, de 2020)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art1)     [(Vigência)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art7)
-
+ 
  Parágrafo único. Para atuarem na fiscalização de trânsito, os
  agentes mencionados no
-
+ 
  caput
-
+ 
  deste artigo deverão receber
  treinamento específico para o exercício das atividades, conforme
  regulamentação do Contran.   
@@ -1277,12 +1277,12 @@ DAS NORMAS GERAIS DE CIRCULAÇÃO E CONDUTA
 Art. 26. Os usuários das vias terrestres devem:
 
         I
-- abster-se de todo ato que possa constituir perigo ou obstáculo para o trânsito de
+— abster-se de todo ato que possa constituir perigo ou obstáculo para o trânsito de
 veículos, de pessoas ou de animais, ou ainda causar danos a propriedades públicas ou
 privadas;
 
         II
-- abster-se de obstruir o trânsito ou torná-lo perigoso, atirando, depositando ou
+— abster-se de obstruir o trânsito ou torná-lo perigoso, atirando, depositando ou
 abandonando na via objetos ou substâncias, ou nela criando qualquer outro obstáculo.
 
 Art. 27. Antes de colocar o veículo em circulação nas vias públicas, o condutor
@@ -1297,11 +1297,11 @@ Art. 29. O trânsito de veículos nas vias terrestres abertas à circulação ob
 às seguintes normas:
 
         I
-- a circulação far-se-á pelo lado direito da via, admitindo-se as exceções
+— a circulação far-se-á pelo lado direito da via, admitindo-se as exceções
 devidamente sinalizadas;
 
         II
-- o condutor deverá guardar distância de segurança lateral e frontal entre o seu e os
+— o condutor deverá guardar distância de segurança lateral e frontal entre o seu e os
 demais veículos, bem como em relação ao bordo da pista, considerando-se, no momento, a
 velocidade e as condições do local, da circulação, do veículo e as condições
 climáticas;
@@ -1320,17 +1320,17 @@ no caso de rotatória, aquele que estiver circulando por ela;
 nos demais casos, o que vier pela direita do condutor;
 
         IV
-- quando uma pista de rolamento comportar várias faixas de circulação no mesmo sentido,
+— quando uma pista de rolamento comportar várias faixas de circulação no mesmo sentido,
 são as da direita destinadas ao deslocamento dos veículos mais lentos e de maior porte,
 quando não houver faixa especial a eles destinada, e as da esquerda, destinadas à
 ultrapassagem e ao deslocamento dos veículos de maior velocidade;
 
         V
-- o trânsito de veículos sobre passeios, calçadas e nos acostamentos, só poderá
+— o trânsito de veículos sobre passeios, calçadas e nos acostamentos, só poderá
 ocorrer para que se adentre ou se saia dos imóveis ou áreas especiais de estacionamento;
 
         VI
-- os veículos precedidos de batedores terão prioridade de passagem, respeitadas as
+— os veículos precedidos de batedores terão prioridade de passagem, respeitadas as
 demais normas de circulação;
 
          VII - 
@@ -1366,14 +1366,14 @@ poderá ocorrer por ocasião da efetiva prestação de serviço de urgência; �
         d)
 a prioridade de passagem na via e no cruzamento deverá se dar com velocidade reduzida e
 com os devidos cuidados de segurança, obedecidas as demais normas deste Código;
-
+ 
          e) 
  as prerrogativas de livre circulação e de parada serão aplicadas
  somente quando os veículos estiverem identificados por dispositivos
  regulamentares de alarme sonoro e iluminação intermitente;  
  [ (Incluído pela 
  Lei nº 14.071, de 2020)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art1)    [(Vigência)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art7)
-
+ 
          f) a prerrogativa de livre estacionamento será aplicada somente
  quando os veículos estiverem identificados por dispositivos
  regulamentares de iluminação intermitente;    
@@ -1386,13 +1386,13 @@ que devidamente sinalizados, devendo estar identificados na forma estabelecida p
 CONTRAN;
 
         IX
-- a ultrapassagem de outro veículo em movimento deverá ser feita pela esquerda,
+— a ultrapassagem de outro veículo em movimento deverá ser feita pela esquerda,
 obedecida a sinalização regulamentar e as demais normas estabelecidas neste Código,
 exceto quando o veículo a ser ultrapassado estiver sinalizando o propósito de entrar à
 esquerda;
 
         X
-- todo condutor deverá, antes de efetuar uma ultrapassagem, certificar-se de que:
+— todo condutor deverá, antes de efetuar uma ultrapassagem, certificar-se de que:
 
         a)
 nenhum condutor que venha atrás haja começado uma manobra para ultrapassá-lo;
@@ -1406,7 +1406,7 @@ a faixa de trânsito que vai tomar esteja livre numa extensão suficiente para q
 manobra não ponha em perigo ou obstrua o trânsito que venha em sentido contrário;
 
         XI
-- todo condutor ao efetuar a ultrapassagem deverá:
+— todo condutor ao efetuar a ultrapassagem deverá:
 
         a)
 indicar com antecedência a manobra pretendida, acionando a luz indicadora de direção do
@@ -1438,22 +1438,22 @@ tanto pela faixa da esquerda como pela da direita.
 2º Respeitadas as normas de circulação e conduta estabelecidas neste artigo, em ordem
 decrescente, os veículos de maior porte serão sempre responsáveis pela segurança dos
 menores, os motorizados pelos não motorizados e, juntos, pela incolumidade dos pedestres.
-
+ 
          § 3º  Compete ao Contran regulamentar os dispositivos de alarme
  sonoro e iluminação intermitente previstos no inciso VII do
-
+ 
  caput
-
+ 
  deste artigo.    
  [ (Incluído pela 
  Lei nº 14.071, de 2020)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art1)    [(Vigência)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art7)
-
+ 
          § 4º  Em situações especiais, ato da autoridade máxima federal
  de segurança pública poderá dispor sobre a aplicação das exceções
  tratadas no inciso VII do
-
+ 
  caput
-
+ 
  deste artigo aos veículos
  oficiais descaracterizados.   
  [ (Incluído pela 
@@ -1463,11 +1463,11 @@ Art. 30. Todo condutor, ao perceber que outro que o segue tem o propósito de
 ultrapassá-lo, deverá:
 
         I
-- se estiver circulando pela faixa da esquerda, deslocar-se para a faixa da direita, sem
+— se estiver circulando pela faixa da esquerda, deslocar-se para a faixa da direita, sem
 acelerar a marcha;
 
         II
-- se estiver circulando pelas demais faixas, manter-se naquela na qual está circulando,
+— se estiver circulando pelas demais faixas, manter-se naquela na qual está circulando,
 sem acelerar a marcha.
 
 Parágrafo único. Os veículos mais lentos, quando em fila, deverão manter distância
@@ -1510,11 +1510,11 @@ Art. 38. Antes de entrar à direita ou à esquerda, em outra via ou em lotes lin
 condutor deverá:
 
         I
-- ao sair da via pelo lado direito, aproximar-se o máximo possível do bordo direito da
+— ao sair da via pelo lado direito, aproximar-se o máximo possível do bordo direito da
 pista e executar sua manobra no menor espaço possível;
 
         II
-- ao sair da via pelo lado esquerdo, aproximar-se o máximo possível de seu eixo ou da
+— ao sair da via pelo lado esquerdo, aproximar-se o máximo possível de seu eixo ou da
 linha divisória da pista, quando houver, caso se trate de uma pista com circulação nos
 dois sentidos, ou do bordo esquerdo, tratando-se de uma pista de um só sentido.
 
@@ -1535,17 +1535,17 @@ Art. 40. O uso de luzes em veículo obedecerá às seguintes determinações:
  utilização da luz baixa:     
 [ (Redação dada pela Lei 
 nº 14.071, de 2020)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art1)     [(Vigência)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art7)
-
+ 
          a) à noite;      
  [ (Incluído pela 
  Lei nº 14.071, de 2020)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art1)      [(Vigência)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art7)
-
+ 
          b) mesmo durante o dia, em túneis e sob chuva, neblina ou cerração;      
  [ (Incluído pela 
  Lei nº 14.071, de 2020)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art1)     [(Vigência)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art7)
 
         II
-- nas vias não iluminadas o condutor deve usar luz alta, exceto ao cruzar com outro
+— nas vias não iluminadas o condutor deve usar luz alta, exceto ao cruzar com outro
 veículo ou ao segui-lo;
 
 III - a troca de luz baixa e alta, de forma intermitente e por curto período de tempo,
@@ -1559,7 +1559,7 @@ risco à segurança para os veículos que circulam no sentido contrário;
 nº 14.071, de 2020)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art1)    [(Vigência)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art7)
 
         V
-- O condutor utilizará o pisca-alerta nas seguintes situações:
+— O condutor utilizará o pisca-alerta nas seguintes situações:
 
         a)
 em imobilizações ou situações de emergência;
@@ -1568,7 +1568,7 @@ em imobilizações ou situações de emergência;
 quando a regulamentação da via assim o determinar;
 
         VI
-- durante a noite, em circulação, o condutor manterá acesa a luz de placa;
+— durante a noite, em circulação, o condutor manterá acesa a luz de placa;
 
 VII - o condutor manterá acesas, à noite, as luzes de posição quando o veículo
 estiver parado para fins de embarque ou desembarque de passageiros e carga ou descarga de
@@ -1580,7 +1580,7 @@ mercadorias.
  durante o dia e à noite.
 [ (Redação dada pela Lei 
 nº 14.071, de 2020)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art1)      [(Vigência)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art7)
-
+ 
          § 2º  Os veículos que não dispuserem de luzes de rodagem diurna
  deverão manter acesos os faróis nas rodovias de pista simples situadas
  fora dos perímetros urbanos, mesmo durante o dia.    
@@ -1597,7 +1597,7 @@ nas seguintes situações:
 pela Lei nº 14.599, de 2023)](https://www.planalto.gov.br/_Ato2023-2026/2023/Lei/L14599.htm#art1)
 
         II
-- fora das áreas urbanas, quando for conveniente advertir a um condutor que se tem o
+— fora das áreas urbanas, quando for conveniente advertir a um condutor que se tem o
 propósito de ultrapassá-lo.
 
 Art. 42. Nenhum condutor deverá frear bruscamente seu veículo, salvo por razões de
@@ -1609,11 +1609,11 @@ intensidade do trânsito, obedecendo aos limites máximos de velocidade estabele
 a via, além de:
 
         I
-- não obstruir a marcha normal dos demais veículos em circulação sem causa
+— não obstruir a marcha normal dos demais veículos em circulação sem causa
 justificada, transitando a uma velocidade anormalmente reduzida;
 
         II
-- sempre que quiser diminuir a velocidade de seu veículo deverá antes certificar-se de
+— sempre que quiser diminuir a velocidade de seu veículo deverá antes certificar-se de
 que pode fazê-lo sem risco nem inconvenientes para os outros condutores, a não ser que
 haja perigo iminente;
 
@@ -1690,22 +1690,22 @@ Art. 53. Os animais isolados ou em grupos só podem circular nas vias quando con
 por um guia, observado o seguinte:
 
         I
-- para facilitar os deslocamentos, os rebanhos deverão ser divididos em grupos de tamanho
+— para facilitar os deslocamentos, os rebanhos deverão ser divididos em grupos de tamanho
 moderado e separados uns dos outros por espaços suficientes para não obstruir o
 trânsito;
 
         II
-- os animais que circularem pela pista de rolamento deverão ser mantidos junto ao bordo
+— os animais que circularem pela pista de rolamento deverão ser mantidos junto ao bordo
 da pista.
 
 Art. 54. Os condutores de motocicletas, motonetas e ciclomotores só poderão circular nas
 vias:
 
         I
-- utilizando capacete de segurança, com viseira ou óculos protetores;
+— utilizando capacete de segurança, com viseira ou óculos protetores;
 
         II
-- segurando o guidom com as duas mãos;
+— segurando o guidom com as duas mãos;
 
 III - usando vestuário de proteção, de acordo com as especificações do CONTRAN.
 
@@ -1713,10 +1713,10 @@ Art. 55. Os passageiros de motocicletas, motonetas e ciclomotores só poderão s
 transportados:
 
         I
-- utilizando capacete de segurança;
+— utilizando capacete de segurança;
 
         II
-- em carro lateral acoplado aos veículos ou em assento suplementar atrás do condutor;
+— em carro lateral acoplado aos veículos ou em assento suplementar atrás do condutor;
 
 III - usando vestuário de proteção, de acordo com as especificações do CONTRAN.
 
@@ -1728,7 +1728,7 @@ Art. 56.
   (VETADO).   
 [(Incluído pela Lei nº 
 14.071, de 2020)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art1)     [(Vigência)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art7)
-
+     
   Art. 57. Os ciclomotores devem ser conduzidos pela direita da pista de rolamento,
 preferencialmente no centro da faixa mais à direita ou no bordo direito da pista sempre
 que não houver acostamento ou faixa própria a eles destinada, proibida a sua
@@ -1754,7 +1754,7 @@ Art. 60. As vias abertas à circulação, de acordo com sua utilização, classi
 em:
 
         I
-- vias urbanas:
+— vias urbanas:
 
         a)
 via de trânsito rápido;
@@ -1769,7 +1769,7 @@ via coletora;
 via local;
 
         II
-- vias rurais:
+— vias rurais:
 
         a)
 rodovias;
@@ -1784,7 +1784,7 @@ sinalização, obedecidas suas características técnicas e as condições de tr
 1º Onde não existir sinalização regulamentadora, a velocidade máxima será de:
 
         I
-- nas vias urbanas:
+— nas vias urbanas:
 
         a)
 oitenta quilômetros por hora, nas vias de trânsito rápido:
@@ -1799,7 +1799,7 @@ quarenta quilômetros por hora, nas vias coletoras;
 trinta quilômetros por hora, nas vias locais;
 
         II
-- nas vias rurais:
+— nas vias rurais:
 
 a) nas rodovias de pista dupla:         
 [(Redação dada pela Lei nº 13.281, de 2016)](https://www.planalto.gov.br/_Ato2015-2018/2016/Lei/L13281.htm#art1)      
@@ -1810,12 +1810,12 @@ a) nas rodovias de pista dupla:         
 
  [(Redação dada pela 
  Lei nº 14.440, de 2022)](https://www.planalto.gov.br/_Ato2019-2022/2022/Lei/L14440.htm#art15)
-
+ 
  2. 90 km/h (noventa quilômetros por hora) 
  para os demais veículos;         
  [(Redação dada pela Lei nº 13.281, de 2016)](https://www.planalto.gov.br/_Ato2015-2018/2016/Lei/L13281.htm#art1)      
  [(Vigência)](https://www.planalto.gov.br/_Ato2015-2018/2016/Lei/L13281.htm#art7)
-
+ 
  3. (revogado);         
  [(Redação dada pela Lei nº 13.281, de 2016)](https://www.planalto.gov.br/_Ato2015-2018/2016/Lei/L13281.htm#art1)      
  [(Vigência)](https://www.planalto.gov.br/_Ato2015-2018/2016/Lei/L13281.htm#art7)
@@ -1826,15 +1826,15 @@ b) nas rodovias de pista simples:         
 
  1. 100 km/h (cem quilômetros por hora) para automóveis, camionetas, 
  caminhonetes e motocicletas;       
-
+ 
  [(Redação dada pela 
  Lei nº 14.440, de 2022)](https://www.planalto.gov.br/_Ato2019-2022/2022/Lei/L14440.htm#art15)
-
+ 
  2. 90 km/h (noventa quilômetros por hora) 
  para os demais veículos;         
  [(Incluído pela Lei nº 13.281, de 2016)](https://www.planalto.gov.br/_Ato2015-2018/2016/Lei/L13281.htm#art1)      
  [(Vigência)](https://www.planalto.gov.br/_Ato2015-2018/2016/Lei/L13281.htm#art7)
-
+ 
  c) nas estradas: 60 km/h (sessenta 
  quilômetros por hora).         
  [(Incluído pela Lei nº 13.281, de 2016)](https://www.planalto.gov.br/_Ato2015-2018/2016/Lei/L13281.htm#art1)      
@@ -1859,13 +1859,13 @@ Art. 64.  As crianças com idade inferior a 10 (dez) anos que
  relacionadas a tipos específicos de veículos regulamentadas pelo Contran.       
 [ (Redação dada pela Lei 
 nº 14.071, de 2020)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art1)     [(Vigência)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art7)
-
+ 
          Parágrafo único. O Contran disciplinará o uso excepcional de
  dispositivos de retenção no banco dianteiro do veículo e as
  especificações técnicas dos dispositivos de retenção a que se refere o
-
+ 
  caput
-
+ 
  deste artigo.   
  [ (Incluído pela 
  Lei nº 14.071, de 2020)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art1)      [(Vigência)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art7)
@@ -1882,11 +1882,11 @@ circulação, só poderão ser realizadas mediante prévia permissão da autorid
 trânsito com circunscrição sobre a via e dependerão de:
 
         I
-- autorização expressa da respectiva confederação desportiva ou de entidades estaduais
+— autorização expressa da respectiva confederação desportiva ou de entidades estaduais
 a ela filiadas;
 
         II
-- caução ou fiança para cobrir possíveis danos materiais à via;
+— caução ou fiança para cobrir possíveis danos materiais à via;
 
       III - contrato de seguro contra riscos e sinistros em favor de 
  terceiros;      
@@ -1895,7 +1895,7 @@ a ela filiadas;
 pela Lei nº 14.599, de 2023)](https://www.planalto.gov.br/_Ato2023-2026/2023/Lei/L14599.htm#art1)
 
         IV
-- prévio recolhimento do valor correspondente aos custos operacionais em que o órgão ou
+— prévio recolhimento do valor correspondente aos custos operacionais em que o órgão ou
 entidade permissionária incorrerá.
 
 Parágrafo único. A autoridade com circunscrição sobre a via arbitrará os valores
@@ -1920,13 +1920,13 @@ Lei nº 12.619, de 2012)](https://www.planalto.gov.br/_Ato2011-2014/2012/Lei/L12
  [(Incluído pela Lei 
  nº 13.103, de 2015)](https://www.planalto.gov.br/_Ato2015-2018/2015/Lei/L13103.htm#art7)    
 [(Vigência)](https://www.planalto.gov.br/Decreto-Lei/Del4657.htm#art1)
-
+ 
       II - de transporte 
  rodoviário de cargas.          
  [(Incluído pela Lei 
  nº 13.103, de 2015)](https://www.planalto.gov.br/_Ato2015-2018/2015/Lei/L13103.htm#art7)    
 [(Vigência)](https://www.planalto.gov.br/Decreto-Lei/Del4657.htm#art1)
-
+ 
  § 1o 
   (Revogado).          
  [(Redação dada pela 
@@ -1944,7 +1944,7 @@ Lei nº 12.619, de 2012)](https://www.planalto.gov.br/_Ato2011-2014/2012/Lei/L12
  [(Redação dada pela 
  Lei nº 13.103, de 2015)](https://www.planalto.gov.br/_Ato2015-2018/2015/Lei/L13103.htm#art7)    
 [(Vigência)](https://www.planalto.gov.br/Decreto-Lei/Del4657.htm#art1)
-
+ 
   § 4o 
   (Revogado).          
  [(Redação dada pela 
@@ -1962,24 +1962,24 @@ Lei nº 12.619, de 2012)](https://www.planalto.gov.br/_Ato2011-2014/2012/Lei/L12
  [(Redação dada pela 
  Lei nº 13.103, de 2015)](https://www.planalto.gov.br/_Ato2015-2018/2015/Lei/L13103.htm#art7)    
 [(Vigência)](https://www.planalto.gov.br/Decreto-Lei/Del4657.htm#art1)
-
+ 
  § 7o 
   (Revogado).          
  [(Redação dada pela 
  Lei nº 13.103, de 2015)](https://www.planalto.gov.br/_Ato2015-2018/2015/Lei/L13103.htm#art7)    
 [(Vigência)](https://www.planalto.gov.br/Decreto-Lei/Del4657.htm#art1)
-
+ 
   § 8o  
  ([VETADO](https://www.planalto.gov.br/_Ato2011-2014/2012/Msg/VEP-151.htm)).          [(Incluído 
 Lei nº 12.619, de 2012)](https://www.planalto.gov.br/_Ato2011-2014/2012/Lei/L12619.htm#art5)
 [(Vigência)](https://www.planalto.gov.br/_Ato2011-2014/2012/Msg/VEP-151.htm#art12)
-
+ 
   Art 67-B.  
  [VETADO](https://www.planalto.gov.br/_Ato2011-2014/2012/Msg/VEP-151.htm)).
  [(Incluído 
 Lei nº 12.619, de 2012)](https://www.planalto.gov.br/_Ato2011-2014/2012/Lei/L12619.htm#art5)
 [(Vigência)](https://www.planalto.gov.br/_Ato2011-2014/2012/Msg/VEP-151.htm#art12)
-
+ 
  Art. 67-C.  É vedado ao 
  motorista profissional dirigir por mais de 5 (cinco) horas e meia 
  ininterruptas veículos de transporte rodoviário coletivo de passageiros ou 
@@ -1987,7 +1987,7 @@ Lei nº 12.619, de 2012)](https://www.planalto.gov.br/_Ato2011-2014/2012/Lei/L12
  [(Redação dada pela 
  Lei nº 13.103, de 2015)](https://www.planalto.gov.br/_Ato2015-2018/2015/Lei/L13103.htm#art7)    
 [(Vigência)](https://www.planalto.gov.br/Decreto-Lei/Del4657.htm#art1)
-
+ 
  § 1o Serão 
  observados 30 (trinta) minutos para descanso dentro de cada 6 (seis) horas 
  na condução de veículo de transporte de carga, sendo facultado o seu 
@@ -1996,7 +1996,7 @@ Lei nº 12.619, de 2012)](https://www.planalto.gov.br/_Ato2011-2014/2012/Lei/L12
  [(Incluído pela Lei 
  nº 13.103, de 2015)](https://www.planalto.gov.br/_Ato2015-2018/2015/Lei/L13103.htm#art7)    
 [(Vigência)](https://www.planalto.gov.br/Decreto-Lei/Del4657.htm#art1)
-
+ 
  § 1o-A. 
   Serão observados 30 (trinta) minutos para descanso a cada 4 (quatro) horas 
  na condução de veículo rodoviário de passageiros, sendo facultado o seu 
@@ -2004,7 +2004,7 @@ Lei nº 12.619, de 2012)](https://www.planalto.gov.br/_Ato2011-2014/2012/Lei/L12
  [(Incluído pela Lei 
  nº 13.103, de 2015)](https://www.planalto.gov.br/_Ato2015-2018/2015/Lei/L13103.htm#art7)    
 [(Vigência)](https://www.planalto.gov.br/Decreto-Lei/Del4657.htm#art1)
-
+ 
  § 2o Em 
  situações excepcionais de inobservância justificada do tempo de direção, 
  devidamente registradas, o tempo de direção poderá ser elevado pelo período 
@@ -2014,7 +2014,7 @@ Lei nº 12.619, de 2012)](https://www.planalto.gov.br/_Ato2011-2014/2012/Lei/L12
  [(Incluído pela Lei 
  nº 13.103, de 2015)](https://www.planalto.gov.br/_Ato2015-2018/2015/Lei/L13103.htm#art7)    
 [(Vigência)](https://www.planalto.gov.br/Decreto-Lei/Del4657.htm#art1)
-
+ 
  § 3o O 
  condutor é obrigado, dentro do período de 24 (vinte e quatro) horas, a 
  observar o mínimo de 11 (onze) horas de descanso, que podem ser fracionadas, 
@@ -2023,9 +2023,9 @@ Lei nº 12.619, de 2012)](https://www.planalto.gov.br/_Ato2011-2014/2012/Lei/L12
  [(Incluído pela Lei 
  nº 13.103, de 2015)](https://www.planalto.gov.br/_Ato2015-2018/2015/Lei/L13103.htm#art7)    
 [(Vigência)](https://www.planalto.gov.br/Decreto-Lei/Del4657.htm#art1)    
-
+ 
  [(Vide ADI 5322)](https://portal.stf.jus.br/processos/detalhe.asp?incidente=4778925)
-
+ 
  § 4o 
  Entende-se como tempo de direção ou de condução apenas o período em que o 
  condutor estiver efetivamente ao volante, em curso entre a origem e o 
@@ -2033,7 +2033,7 @@ Lei nº 12.619, de 2012)](https://www.planalto.gov.br/_Ato2011-2014/2012/Lei/L12
  [(Incluído pela Lei 
  nº 13.103, de 2015)](https://www.planalto.gov.br/_Ato2015-2018/2015/Lei/L13103.htm#art7)    
 [(Vigência)](https://www.planalto.gov.br/Decreto-Lei/Del4657.htm#art1)
-
+ 
  § 5o 
  Entende-se como início de viagem a partida do veículo na ida ou 
  no retorno, com ou sem carga, considerando-se como sua continuação as 
@@ -2041,14 +2041,14 @@ Lei nº 12.619, de 2012)](https://www.planalto.gov.br/_Ato2011-2014/2012/Lei/L12
  [(Incluído pela Lei 
  nº 13.103, de 2015)](https://www.planalto.gov.br/_Ato2015-2018/2015/Lei/L13103.htm#art7)    
 [(Vigência)](https://www.planalto.gov.br/Decreto-Lei/Del4657.htm#art1)
-
+ 
  § 6o O 
  condutor somente iniciará uma viagem após o cumprimento integral do 
  intervalo de descanso previsto no § 3o deste artigo.        
  [(Incluído pela Lei 
  nº 13.103, de 2015)](https://www.planalto.gov.br/_Ato2015-2018/2015/Lei/L13103.htm#art7)    
 [(Vigência)](https://www.planalto.gov.br/Decreto-Lei/Del4657.htm#art1)
-
+ 
  § 7o 
  Nenhum transportador de cargas ou coletivo de passageiros, embarcador, 
  consignatário de cargas, operador de terminais de carga, operador de 
@@ -2081,19 +2081,19 @@ disponíveis em cada localidade.     
 
 [(Incluído pela Lei nº 
 14.440, de 2022)](https://www.planalto.gov.br/_Ato2019-2022/2022/Lei/L14440.htm#art15)
-
+ 
   Art. 67-D.  ([VETADO](https://www.planalto.gov.br/_Ato2011-2014/2012/Msg/VEP-151.htm)). 
  [(Incluído 
 Lei nº 12.619, de 2012)](https://www.planalto.gov.br/_Ato2011-2014/2012/Lei/L12619.htm#art5)
 [(Vigência)](https://www.planalto.gov.br/_Ato2011-2014/2012/Msg/VEP-151.htm#art12)
-
+ 
  Art. 67-E.  O motorista 
  profissional é responsável por controlar e registrar o tempo de condução 
  estipulado no art. 67-C, com vistas à sua estrita observância.        
  [(Incluído pela Lei 
  nº 13.103, de 2015)](https://www.planalto.gov.br/_Ato2015-2018/2015/Lei/L13103.htm#art7)    
 [(Vigência)](https://www.planalto.gov.br/Decreto-Lei/Del4657.htm#art1)
-
+ 
  § 1o A não 
  observância dos períodos de descanso estabelecidos no art. 67-C sujeitará o 
  motorista profissional às penalidades daí decorrentes, previstas neste 
@@ -2107,10 +2107,10 @@ Lei nº 12.619, de 2012)](https://www.planalto.gov.br/_Ato2011-2014/2012/Lei/L12
  rodoviário de cargas que não observar os períodos de direção e de 
  descanso quando ocorrer a situação excepcional descrita no § 8º do art. 
  67-C deste Código.     
-
+ 
  [(Incluído pela Lei 
  nº 14.440, de 2022)](https://www.planalto.gov.br/_Ato2019-2022/2022/Lei/L14440.htm#art15)
-
+ 
  § 2o O 
  tempo de direção será controlado mediante registrador instantâneo 
  inalterável de velocidade e tempo e, ou por meio de anotação em diário de 
@@ -2119,14 +2119,14 @@ Lei nº 12.619, de 2012)](https://www.planalto.gov.br/_Ato2011-2014/2012/Lei/L12
  [(Incluído pela Lei 
  nº 13.103, de 2015)](https://www.planalto.gov.br/_Ato2015-2018/2015/Lei/L13103.htm#art7)    
 [(Vigência)](https://www.planalto.gov.br/Decreto-Lei/Del4657.htm#art1)
-
+ 
  § 3o O 
  equipamento eletrônico ou registrador deverá funcionar de forma independente 
  de qualquer interferência do condutor, quanto aos dados registrados.        
  [(Incluído pela Lei 
  nº 13.103, de 2015)](https://www.planalto.gov.br/_Ato2015-2018/2015/Lei/L13103.htm#art7)    
 [(Vigência)](https://www.planalto.gov.br/Decreto-Lei/Del4657.htm#art1)
-
+ 
  § 4o A 
  guarda, a preservação e a exatidão das informações contidas no equipamento 
  registrador instantâneo inalterável de velocidade e de tempo são de 
@@ -2180,11 +2180,11 @@ existirem numa distância de até cinqüenta metros dele, observadas as seguinte
 disposições:
 
         I
-- onde não houver faixa ou passagem, o cruzamento da via deverá ser feito em sentido
+— onde não houver faixa ou passagem, o cruzamento da via deverá ser feito em sentido
 perpendicular ao de seu eixo;
 
         II
-- para atravessar uma passagem sinalizada para pedestres ou delimitada por marcas sobre a
+— para atravessar uma passagem sinalizada para pedestres ou delimitada por marcas sobre a
 pista:
 
         a)
@@ -2279,11 +2279,11 @@ Distrito Federal e dos Municípios, nas respectivas áreas de atuação.
 pela Lei nº 14.599, de 2023)](https://www.planalto.gov.br/_Ato2023-2026/2023/Lei/L14599.htm#art1)
 
         I
-- a adoção, em todos os níveis de ensino, de um currículo interdisciplinar com
+— a adoção, em todos os níveis de ensino, de um currículo interdisciplinar com
 conteúdo programático sobre segurança de trânsito;
 
         II
-- a adoção de conteúdos relativos à educação para o trânsito nas escolas de
+— a adoção de conteúdos relativos à educação para o trânsito nas escolas de
 formação para o magistério e o treinamento de professores e multiplicadores;
 
 III - a criação de corpos técnicos interprofissionais para levantamento e análise de
@@ -2315,7 +2315,7 @@ mensagens educativas de trânsito em todo o território nacional, em caráter
 suplementar às campanhas previstas nos arts. 75 e 77.      
 [(Incluído pela Lei nº 
 12.006, de 2009).](https://www.planalto.gov.br/_Ato2007-2010/2009/Lei/L12006.htm#art1)
-
+        
  Art. 77-B.  
 Toda peça publicitária destinada à divulgação ou promoção, nos meios de 
 comunicação social, de produto oriundo da indústria automobilística ou afim, 
@@ -2360,17 +2360,17 @@ revista;      
  [(Incluído pela Lei 
  nº 12.006, de 2009).](https://www.planalto.gov.br/_Ato2007-2010/2009/Lei/L12006.htm#art1)
          V  outdoor.       
-
+ 
  [(Incluído pela Lei 
  nº 12.006, de 2009).](https://www.planalto.gov.br/_Ato2007-2010/2009/Lei/L12006.htm#art1)
          § 3o  
 Para efeito do disposto no § 2o, equiparam-se ao fabricante o 
 montador, o encarroçador, o importador e o revendedor autorizado dos veículos e 
 demais produtos discriminados no § 1o deste artigo. 
-
+ 
  [(Incluído pela Lei 
  nº 12.006, de 2009).](https://www.planalto.gov.br/_Ato2007-2010/2009/Lei/L12006.htm#art1)
-
+        
  Art. 77-C.  
 Quando se tratar de publicidade veiculada em outdoor instalado à margem 
 de rodovia, dentro ou fora da respectiva faixa de domínio, a obrigação prevista 
@@ -2378,7 +2378,7 @@ no art. 77-B estende-se à propaganda de qualquer tipo de produto e anunciante,
 inclusive àquela de caráter institucional ou eleitoral.      
  [(Incluído pela Lei 
  nº 12.006, de 2009).](https://www.planalto.gov.br/_Ato2007-2010/2009/Lei/L12006.htm#art1)
-
+        
  Art. 77-D.  
 O Conselho Nacional de Trânsito (Contran) especificará o conteúdo e o padrão de 
 apresentação das mensagens, bem como os procedimentos envolvidos na respectiva 
@@ -2386,7 +2386,7 @@ veiculação, em conformidade com as diretrizes fixadas para as campanhas
 educativas de trânsito a que se refere o art. 75.       
  [(Incluído pela Lei 
  nº 12.006, de 2009).](https://www.planalto.gov.br/_Ato2007-2010/2009/Lei/L12006.htm#art1)
-
+        
  Art. 77-E.  
 A veiculação de publicidade feita em desacordo com as condições fixadas nos 
 arts. 77-A a 77-D constitui infração punível com as seguintes sanções:       
@@ -2509,21 +2509,21 @@ Art. 86-A.  As vagas de estacionamento
 Art. 87. Os sinais de trânsito classificam-se em:
 
         I
-- verticais;
+— verticais;
 
         II
-- horizontais;
+— horizontais;
 
 III - dispositivos de sinalização auxiliar;
 
         IV
-- luminosos;
+— luminosos;
 
         V
-- sonoros;
+— sonoros;
 
         VI
-- gestos do agente de trânsito e do condutor.
+— gestos do agente de trânsito e do condutor.
 
 Art. 88. Nenhuma via pavimentada poderá ser entregue após sua construção, ou reaberta
 ao trânsito após a realização de obras ou de manutenção, enquanto não estiver
@@ -2536,10 +2536,10 @@ específica e adequada.
 Art. 89. A sinalização terá a seguinte ordem de prevalência:
 
         I
-- as ordens do agente de trânsito sobre as normas de circulação e outros sinais;
+— as ordens do agente de trânsito sobre as normas de circulação e outros sinais;
 
         II
-- as indicações do semáforo sobre os demais sinais;
+— as indicações do semáforo sobre os demais sinais;
 
 III - as indicações dos sinais sobre as demais normas de trânsito.
 
@@ -2621,7 +2621,7 @@ Disposições Gerais
 Art. 96. Os veículos classificam-se em:
 
         I
-- quanto à tração:
+— quanto à tração:
 
         a)
 automotor;
@@ -2641,88 +2641,88 @@ de tração animal;
 reboque ou semi-reboque;
 
         II
-- quanto à espécie:
+— quanto à espécie:
 
         a)
 de passageiros:
 
         1
-- bicicleta;
+— bicicleta;
 
         2
-- ciclomotor;
+— ciclomotor;
 
         3
-- motoneta;
+— motoneta;
 
         4
-- motocicleta;
+— motocicleta;
 
         5
-- triciclo;
+— triciclo;
 
         6
-- quadriciclo;
+— quadriciclo;
 
         7
-- automóvel;
+— automóvel;
 
         8
-- microônibus;
+— microônibus;
 
         9
-- ônibus;
+— ônibus;
 
         10
-- bonde;
+— bonde;
 
         11
-- reboque ou semi-reboque;
+— reboque ou semi-reboque;
 
         12
-- charrete;
+— charrete;
 
         b)
 de carga:
 
         1
-- motoneta;
+— motoneta;
 
         2
-- motocicleta;
+— motocicleta;
 
         3
-- triciclo;
+— triciclo;
 
         4
-- quadriciclo;
+— quadriciclo;
 
         5
-- caminhonete;
+— caminhonete;
 
         6
-- caminhão;
+— caminhão;
 
         7
-- reboque ou semi-reboque;
+— reboque ou semi-reboque;
 
         8
-- carroça;
+— carroça;
 
         9
-- carro-de-mão;
+— carro-de-mão;
 
         c)
 misto:
 
         1
-- camioneta;
+— camioneta;
 
         2
-- utilitário;
+— utilitário;
 
         3
-- outros;
+— outros;
 
         d)
 de competição;
@@ -2731,16 +2731,16 @@ de competição;
 de tração:
 
         1
-- caminhão-trator;
+— caminhão-trator;
 
         2
-- trator de rodas;
+— trator de rodas;
 
         3
-- trator de esteiras;
+— trator de esteiras;
 
         4
-- trator misto;
+— trator misto;
 
  f) especial:       
 
@@ -2870,14 +2870,14 @@ ou entidade de metrologia legal.
  § 4º Somente poderá haver autuação, por ocasião da pesagem do 
  veículo, quando o veículo ou a combinação de veículos ultrapassar os 
  limites de peso fixados, acrescidos da respectiva tolerância.       
-
+ 
  [(Incluído pela Lei nº 14.229, de 2021)](https://www.planalto.gov.br/_Ato2019-2022/2021/Lei/L14229.htm#art2)    
  [(Vigência)](https://www.planalto.gov.br/_Ato2019-2022/2021/Lei/L14229.htm#art7)
 
  § 5º O fabricante fará constar em lugar visível da estrutura do 
  veículo e no Renavam o limite técnico de peso por eixo, na forma 
  definida pelo Contran.        
-
+ 
  [(Incluído pela Lei nº 14.229, de 2021)](https://www.planalto.gov.br/_Ato2019-2022/2021/Lei/L14229.htm#art2)    
  [(Vigência)](https://www.planalto.gov.br/_Ato2019-2022/2021/Lei/L14229.htm#art7)
 
@@ -2890,12 +2890,12 @@ unidade tratora.
  coletivo de passageiros poderão ser dotados de pneus extralargos.         
 [(Incluído pela Lei nº 13.281, de 2016)](https://www.planalto.gov.br/_Ato2015-2018/2016/Lei/L13281.htm#art1)      
 [(Vigência)](https://www.planalto.gov.br/_Ato2015-2018/2016/Lei/L13281.htm#art7)
-
+ 
  § 2º  O Contran regulamentará o uso de 
  pneus extralargos para os demais veículos.         
  [(Incluído pela Lei nº 13.281, de 2016)](https://www.planalto.gov.br/_Ato2015-2018/2016/Lei/L13281.htm#art1)      
  [(Vigência)](https://www.planalto.gov.br/_Ato2015-2018/2016/Lei/L13281.htm#art7)
-
+ 
  § 3º  É permitida a fabricação de 
  veículos de transporte de passageiros de até 15 m (quinze metros) de 
  comprimento na configuração de chassi 8x2.         
@@ -2929,12 +2929,12 @@ de seis meses, atendidas as medidas de segurança consideradas necessárias.
  § 4º O Contran estabelecerá os requisitos mínimos e específicos a 
  serem observados pela autoridade com circunscrição sobre a via para 
  a concessão da autorização de que trata o 
-
+ 
  caput 
  deste artigo quando o veículo ou a combinação de veículos trafegar 
  exclusivamente em via rural não pavimentada, os quais deverão 
  contemplar o caráter diferenciado e regional dessas vias.      
-
+ 
 [(Incluído pela Lei nº 14.229, de 2021)](https://www.planalto.gov.br/_Ato2019-2022/2021/Lei/L14229.htm#art2)    
  [(Vigência)](https://www.planalto.gov.br/_Ato2019-2022/2021/Lei/L14229.htm#art7)
 
@@ -3010,7 +3010,7 @@ pela Lei nº 14.599, de 2023)](https://www.planalto.gov.br/_Ato2023-2026/2023/Le
  deste artigo será de 2 (dois) anos, desde que mantenham suas 
  características originais de fábrica e não se envolvam em sinistro 
  de trânsito com danos de média ou grande monta.     
-
+ 
  [(Redação dada 
  pela Lei nº 14.599, de 2023)](https://www.planalto.gov.br/_Ato2023-2026/2023/Lei/L14599.htm#art1)
 
@@ -3018,12 +3018,12 @@ Art. 105. São equipamentos obrigatórios dos veículos, entre outros a serem
 estabelecidos pelo CONTRAN:
 
         I
-- cinto de segurança, conforme regulamentação específica do CONTRAN, com exceção dos
+— cinto de segurança, conforme regulamentação específica do CONTRAN, com exceção dos
 veículos destinados ao transporte de passageiros em percursos em que seja permitido
 viajar em pé;
 
         II
-- para os veículos de transporte e de condução escolar, os de transporte de passageiros
+— para os veículos de transporte e de condução escolar, os de transporte de passageiros
 com mais de dez lugares e os de carga com peso bruto total superior a quatro mil,
 quinhentos e trinta e seis quilogramas, equipamento registrador instantâneo inalterável
 de velocidade e tempo;
@@ -3032,14 +3032,14 @@ III - encosto de cabeça, para todos os tipos de veículos automotores, segundo 
 estabelecidas pelo CONTRAN;
 
         IV
-- (VETADO) 
+— (VETADO)
 
         V
-- dispositivo destinado ao controle de emissão de gases poluentes e de ruído, segundo
+— dispositivo destinado ao controle de emissão de gases poluentes e de ruído, segundo
 normas estabelecidas pelo CONTRAN.
 
         VI
-- para as bicicletas, a campainha, sinalização noturna dianteira, traseira, lateral e
+— para as bicicletas, a campainha, sinalização noturna dianteira, traseira, lateral e
 nos pedais, e espelho retrovisor do lado esquerdo.
 
 VII - equipamento suplementar de retenção - 
@@ -3131,12 +3131,12 @@ especial da autoridade de trânsito, em itinerário e horário fixados.
 Art. 111. É vedado, nas áreas envidraçadas do veículo:
 
         I
-- 
+— 
 
  [(VETADO)](https://www.planalto.gov.br/Mensagem_Veto/anterior_98/Mvep1056-97.htm) 
 
         II
-- o uso de cortinas, persianas fechadas ou similares nos veículos em movimento, salvo nos
+— o uso de cortinas, persianas fechadas ou similares nos veículos em movimento, salvo nos
 que possuam espelhos retrovisores em ambos os lados.
 
 III - aposição de
@@ -3204,7 +3204,7 @@ aparelhos automotores destinados a puxar ou a arrastar maquinaria de qualquer
 natureza ou a executar trabalhos de construção ou de pavimentação são sujeitos 
 ao registro na repartição competente, se transitarem em via pública, dispensados 
 o licenciamento e o emplacamento. 
-
+        
 [(Redação dada pela Lei nº 13.154, de 2015)](https://www.planalto.gov.br/_Ato2015-2018/2015/Lei/L13154.htm#art1)     
 [(Vide)](https://www.planalto.gov.br/_Ato2015-2018/2015/Lei/L13154.htm#art2)
 
@@ -3240,7 +3240,7 @@ Lei nº 12.694, de 2012)](https://www.planalto.gov.br/_Ato2011-2014/2012/Lei/L12
  veículos artesanais utilizados para trabalho agrícola (jericos), para efeito 
  do registro de que trata o § 4o-A, ficam dispensados da 
  exigência prevista no art. 106.        
-
+ 
  [(Incluído pela Lei nº 
  13.154, de 2015)](https://www.planalto.gov.br/_Ato2015-2018/2015/Lei/L13154.htm#art1)
 
@@ -3265,7 +3265,7 @@ Lei nº 12.694, de 2012)](https://www.planalto.gov.br/_Ato2011-2014/2012/Lei/L12
  poderão usar placas particulares, obedecidos os critérios e os 
  limites estabelecidos pela legislação que regula o uso de veículo 
  oficial.     
-
+ 
  [(Redação dada 
  pela Lei nº 14.599, de 2023)](https://www.planalto.gov.br/_Ato2023-2026/2023/Lei/L14599.htm#art1)
 
@@ -3273,7 +3273,7 @@ Lei nº 12.694, de 2012)](https://www.planalto.gov.br/_Ato2011-2014/2012/Lei/L12
  artigo serão concedidas mediante solicitação aos órgãos executivos 
  de trânsito dos Estados e do Distrito Federal e serão vinculadas ao 
  órgão de segurança pública solicitante.      
-
+ 
  [(Redação dada 
  pela Lei nº 14.599, de 2023)](https://www.planalto.gov.br/_Ato2023-2026/2023/Lei/L14599.htm#art1)
 
@@ -3344,11 +3344,11 @@ trânsito consultará o cadastro do RENAVAM e exigirá do proprietário os segui
 documentos:
 
         I
-- nota fiscal fornecida pelo fabricante ou revendedor, ou documento equivalente expedido
+— nota fiscal fornecida pelo fabricante ou revendedor, ou documento equivalente expedido
 por autoridade competente;
 
         II
-- documento fornecido pelo Ministério das Relações Exteriores, quando se tratar de
+— documento fornecido pelo Ministério das Relações Exteriores, quando se tratar de
 veículo importado por membro de missões diplomáticas, de repartições consulares de
 carreira, de representações de organismos internacionais e de seus integrantes.
 
@@ -3356,15 +3356,15 @@ Art. 123. Será obrigatória a expedição de novo Certificado de Registro de Ve
 quando:
 
         I
-- for transferida a propriedade;
+— for transferida a propriedade;
 
         II
-- o proprietário mudar o Município de domicílio ou residência;
+— o proprietário mudar o Município de domicílio ou residência;
 
 III - for alterada qualquer característica do veículo;
 
         IV
-- houver mudança de categoria.
+— houver mudança de categoria.
 
         §
 1º No caso de transferência de propriedade, o prazo para o proprietário adotar as
@@ -3389,7 +3389,7 @@ que expediu o anterior e ao RENAVAM.
  regras:  
  [(Incluído pela 
  Lei nº 15.153, de 2025)](https://www.planalto.gov.br/_Ato2023-2026/2025/Lei/L15153.htm#art2)   
-
+ 
  [ Vigência](https://www.planalto.gov.br/_Ato2023-2026/2025/Lei/L15153.htm#art3)
 
  I - no caso de transferência de propriedade realizada em meio 
@@ -3407,7 +3407,7 @@ que expediu o anterior e ao RENAVAM.
  por todos os órgãos de trânsito dos Estados e do Distrito Federal;  
  [(Incluído pela 
  Lei nº 15.153, de 2025)](https://www.planalto.gov.br/_Ato2023-2026/2025/Lei/L15153.htm#art2)   
-
+ 
  [ Vigência](https://www.planalto.gov.br/_Ato2023-2026/2025/Lei/L15153.htm#art3)
 
  III - a assinatura eletrônica avançada do contrato de 
@@ -3415,16 +3415,16 @@ que expediu o anterior e ao RENAVAM.
  plataforma de assinatura homologada pelo órgão máximo executivo de 
  trânsito da União ou pelos órgãos executivos de trânsito dos Estados 
  e do Distrito Federal, conforme regulamentação do Contran; 
-
+ 
  [(Incluído pela 
  Lei nº 15.153, de 2025)](https://www.planalto.gov.br/_Ato2023-2026/2025/Lei/L15153.htm#art2)   
-
+ 
  [ Vigência](https://www.planalto.gov.br/_Ato2023-2026/2025/Lei/L15153.htm#art3)
 
  IV - (VETADO);  
  [(Incluído pela 
  Lei nº 15.153, de 2025)](https://www.planalto.gov.br/_Ato2023-2026/2025/Lei/L15153.htm#art2)   
-
+ 
  [ Vigência](https://www.planalto.gov.br/_Ato2023-2026/2025/Lei/L15153.htm#art3)
 
  V - a vistoria de transferência da propriedade poderá ser realizada 
@@ -3432,32 +3432,32 @@ que expediu o anterior e ao RENAVAM.
  Estados e do Distrito Federal.  
  [(Incluído pela 
  Lei nº 15.153, de 2025)](https://www.planalto.gov.br/_Ato2023-2026/2025/Lei/L15153.htm#art2)   
-
+ 
  [ Vigência](https://www.planalto.gov.br/_Ato2023-2026/2025/Lei/L15153.htm#art3)
 
 Art. 124. Para a expedição do novo Certificado de Registro de Veículo serão exigidos
 os seguintes documentos:
 
         I
-- Certificado de Registro de Veículo anterior;
+— Certificado de Registro de Veículo anterior;
 
         II
-- Certificado de Licenciamento Anual;
+— Certificado de Licenciamento Anual;
 
 III - comprovante de transferência de propriedade, quando for o caso, conforme modelo e
 normas estabelecidas pelo CONTRAN;
 
         IV
-- Certificado de Segurança Veicular e de emissão de poluentes e ruído, quando houver
+— Certificado de Segurança Veicular e de emissão de poluentes e ruído, quando houver
 adaptação ou alteração de características do veículo;
 
         V
-- comprovante de procedência e justificativa da propriedade dos componentes e agregados
+— comprovante de procedência e justificativa da propriedade dos componentes e agregados
 adaptados ou montados no veículo, quando houver alteração das características
 originais de fábrica;
 
         VI
-- autorização do Ministério das Relações Exteriores, no caso de veículo da categoria
+— autorização do Ministério das Relações Exteriores, no caso de veículo da categoria
 de missões diplomáticas, de repartições consulares de carreira, de representações de
 organismos internacionais e de seus integrantes;
 
@@ -3472,11 +3472,11 @@ cometidas;    
         IX -        [(Revogado pela Lei nº 9.602, de 1998)](https://www.planalto.gov.br/L9602.htm#art7)
 
         X
-- comprovante relativo ao cumprimento do disposto no art. 98, quando houver alteração
+— comprovante relativo ao cumprimento do disposto no art. 98, quando houver alteração
 nas características originais do veículo que afetem a emissão de poluentes e ruído;
 
         XI
-- comprovante de aprovação de inspeção veicular e de poluentes e ruído, quando for o
+— comprovante de aprovação de inspeção veicular e de poluentes e ruído, quando for o
 caso, conforme regulamentações do CONTRAN e do CONAMA.
 
 Parágrafo único. Os veículos cuja transferência de propriedade seja resultado de 
@@ -3493,10 +3493,10 @@ Art. 125. As informações sobre o chassi, o monobloco, os agregados e as caract
 originais do veículo deverão ser prestadas ao RENAVAM:
 
         I
-- pelo fabricante ou montadora, antes da comercialização, no caso de veículo nacional;
+— pelo fabricante ou montadora, antes da comercialização, no caso de veículo nacional;
 
         II
-- pelo órgão alfandegário, no caso de veículo importado por pessoa física;
+— pelo órgão alfandegário, no caso de veículo importado por pessoa física;
 
 III - pelo importador, no caso de veículo importado por pessoa jurídica.
 
@@ -3540,7 +3540,7 @@ independentemente da responsabilidade pelas infrações cometidas.     
 Art. 129. O registro e o licenciamento dos veículos de propulsão humana e dos 
 veículos de tração animal obedecerão à regulamentação estabelecida em legislação 
 municipal do domicílio ou residência de seus proprietários. 
-
+   
 [(Redação 
 dada pela Lei nº 13.154, de 2015)](https://www.planalto.gov.br/_Ato2015-2018/2015/Lei/L13154.htm#art1)
 
@@ -3568,7 +3568,7 @@ pela Lei nº 14.599, de 2023)](https://www.planalto.gov.br/_Ato2023-2026/2023/Le
 será executado por empresas registradoras de contrato especializadas, na 
 modalidade de credenciamento pelos órgãos executivos de trânsito dos Estados e 
 do Distrito Federal, observado o disposto no 
-
+ 
  [inciso III do parágrafo único do art. 79 da Lei nº 
  14.133, de 1º de abril de 2021.](https://www.planalto.gov.br/_Ato2019-2022/2021/Lei/L14133.htm#art79piii)       
 
@@ -3621,7 +3621,7 @@ ruído, conforme disposto no art. 104.
 
  [(Redação dada pela Lei nº 
 14.229, de 2021)](https://www.planalto.gov.br/_Ato2019-2022/2021/Lei/L14229.htm#art2)
-
+ 
          § 5º  Após a inclusão das informações de que trata o § 4º deste
  artigo no Certificado de Licenciamento Anual, o veículo somente será
  licenciado mediante comprovação do atendimento às campanhas de
@@ -3657,7 +3657,7 @@ Município de destino.       
 parágrafo único pela Lei nº 13.103, de 2015)](https://www.planalto.gov.br/_Ato2015-2018/2015/Lei/L13103.htm#art8)     [(Vigência)](https://www.planalto.gov.br/Decreto-Lei/Del4657.htm#art1)
 
  § 2o 
-
+               
 [(Revogado 
 pela Lei nº 13.154, de 2015)](https://www.planalto.gov.br/_Ato2015-2018/2015/Lei/L13154.htm#art7)
 
@@ -3682,12 +3682,12 @@ Art. 134.  No caso de transferência de propriedade, expirado o
  data da comunicação.      
 [ (Redação dada pela Lei 
 nº 14.071, de 2020)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art1) [(Vigência)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art7)
-
+ 
          Parágrafo único. O comprovante de transferência de propriedade de
  que trata o
-
+ 
  caput
-
+ 
  deste artigo poderá ser substituído por
  documento eletrônico com assinatura eletrônica válida, na forma
  regulamentada pelo Contran. 
@@ -3713,10 +3713,10 @@ somente poderão circular nas vias com autorização emitida pelo órgão ou ent
 executivos de trânsito dos Estados e do Distrito Federal, exigindo-se, para tanto:
 
         I
-- registro como veículo de passageiros;
+— registro como veículo de passageiros;
 
         II
-- inspeção semestral para verificação dos equipamentos obrigatórios e de segurança;
+— inspeção semestral para verificação dos equipamentos obrigatórios e de segurança;
 
 III - pintura de faixa horizontal na cor amarela, com quarenta centímetros de largura, à
 meia altura, em toda a extensão das partes laterais e traseira da carroçaria, com o
@@ -3724,14 +3724,14 @@ dístico ESCOLAR, em preto, sendo que, em caso de veículo de carroçaria pintad
 amarela, as cores aqui indicadas devem ser invertidas;
 
         IV
-- equipamento registrador instantâneo inalterável de velocidade e tempo;
+— equipamento registrador instantâneo inalterável de velocidade e tempo;
 
         V
-- lanternas de luz branca, fosca ou amarela dispostas nas extremidades da parte superior
+— lanternas de luz branca, fosca ou amarela dispostas nas extremidades da parte superior
 dianteira e lanternas de luz vermelha dispostas na extremidade superior da parte traseira;
 
         VI
-- cintos de segurança em número igual à lotação;
+— cintos de segurança em número igual à lotação;
 
 VII - outros requisitos e equipamentos obrigatórios estabelecidos pelo CONTRAN.
 
@@ -3744,10 +3744,10 @@ Art. 138. O condutor de veículo destinado à condução de escolares deve satis
 seguintes requisitos:
 
         I
-- ter idade superior a vinte e um anos;
+— ter idade superior a vinte e um anos;
 
         II
-- ser habilitado na categoria D;
+— ser habilitado na categoria D;
 
 III - 
 
@@ -3760,7 +3760,7 @@ III -
 nº 14.071, de 2020)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art1)       [(Vigência)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art7)
 
         V
-- ser aprovado em curso especializado, nos termos da regulamentação do CONTRAN.
+— ser aprovado em curso especializado, nos termos da regulamentação do CONTRAN.
 
 Art. 139. O disposto neste Capítulo não exclui a competência municipal de aplicar as
 exigências previstas em seus regulamentos, para o transporte de escolares.
@@ -3823,10 +3823,10 @@ DA HABILITAÇÃO
 pela Lei nº 14.599, de 2023)](https://www.planalto.gov.br/_Ato2023-2026/2023/Lei/L14599.htm#art1)
 
         I
-- ser penalmente imputável;
+— ser penalmente imputável;
 
         II
-- saber ler e escrever;
+— saber ler e escrever;
 
 III - possuir Carteira de Identidade ou equivalente.
 
@@ -3857,16 +3857,16 @@ Art. 143. Os candidatos poderão habilitar-se nas categorias de A a E, obedecida
 seguinte gradação:
 
         I
-- Categoria A - condutor de veículo motorizado de duas ou três rodas, com ou sem carro
+— Categoria A - condutor de veículo motorizado de duas ou três rodas, com ou sem carro
 lateral;
 
         II
-- Categoria B - condutor de veículo motorizado, não abrangido pela categoria A, cujo
+— Categoria B - condutor de veículo motorizado, não abrangido pela categoria A, cujo
 peso bruto total não exceda a três mil e quinhentos quilogramas e cuja lotação não
 exceda a oito lugares, excluído o do motorista;
 
        III 
-- Categoria C - condutor de veículo abrangido pela categoria B e de veículo 
+— Categoria C - condutor de veículo abrangido pela categoria B e de veículo
 motorizado utilizado em transporte de carga cujo peso bruto total exceda a 3.500 
 kg (três mil e quinhentos quilogramas);    
 
@@ -3902,7 +3902,7 @@ gravíssima nos últimos 12 (doze) meses.   
  (oito) lugares, excluído o do motorista.          
 [(Incluído pela Lei nº 
 12.452, de 2011)](https://www.planalto.gov.br/_Ato2011-2014/2011/Lei/L12452.htm#art2)
-
+       
 § 3º Aplica-se o disposto no inciso V ao condutor da combinação de veículos com 
 mais de uma unidade tracionada, independentemente da capacidade de tração ou do 
 peso bruto total.         
@@ -3925,7 +3925,7 @@ Art. 144. O trator de roda, o trator de esteira, o trator misto ou o equipamento
 destinado à movimentação de cargas ou execução de trabalho agrícola, de
 terraplenagem, de construção ou de pavimentação só podem ser conduzidos na via
 pública por condutor habilitado nas categorias C, D ou E.
-
+       
 Parágrafo único.  O trator de roda e os 
 equipamentos automotores destinados a executar trabalhos agrícolas poderão ser 
 conduzidos em via pública também por condutor habilitado na categoria B.         
@@ -3937,10 +3937,10 @@ coletivo de passageiros, de escolares, de emergência ou de produto perigoso, o 
 deverá preencher os seguintes requisitos:
 
         I
-- ser maior de vinte e um anos;
+— ser maior de vinte e um anos;
 
         II
-- estar habilitado:
+— estar habilitado:
 
         a)
 no mínimo há dois anos na categoria B, ou no mínimo há um ano na categoria C, quando
@@ -3956,7 +3956,7 @@ no mínimo há um ano na categoria C, quando pretender habilitar-se na categoria
 nº 14.071, de 2020)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art1)       [(Vigência)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art7)
 
         IV
-- ser aprovado em curso especializado e em curso de treinamento de prática veicular em
+— ser aprovado em curso especializado e em curso de treinamento de prática veicular em
 situação de risco, nos termos da normatização do CONTRAN.
 
  Parágrafo único.  A 
@@ -3969,7 +3969,7 @@ Lei nº 12.619, de 2012)](https://www.planalto.gov.br/_Ato2011-2014/2012/Lei/L12
 [(Vigência)](https://www.planalto.gov.br/_Ato2011-2014/2012/Msg/VEP-151.htm#art12)
 
 § 2o (VETADO).
-
+        
 [(Incluído pela Lei nº 13.154, de 2015)](https://www.planalto.gov.br/_Ato2015-2018/2015/Lei/L13154.htm#art1)
 
 Art. 145-A.  Além do 
@@ -3989,22 +3989,22 @@ aos exames:    
 Provisória nº 1.327, de 2025)](https://www.planalto.gov.br/_Ato2023-2026/2025/Mpv/mpv1327.htm#art1)[2020)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art5)
 
        I 
-- de aptidão física e mental e de avaliação psicológica;    
+— de aptidão física e mental e de avaliação psicológica;
 [(Redação dada pela Medida 
 Provisória nº 1.327, de 2025)](https://www.planalto.gov.br/_Ato2023-2026/2025/Mpv/mpv1327.htm#art1)
 
         II
-- 
+— 
 
  (VETADO) 
 
 III - escrito, sobre legislação de trânsito;
 
         IV
-- de noções de primeiros socorros, conforme regulamentação do CONTRAN;
+— de noções de primeiros socorros, conforme regulamentação do CONTRAN;
 
         V
-- de direção veicular, realizado na via pública, em veículo da categoria para a qual
+— de direção veicular, realizado na via pública, em veículo da categoria para a qual
 estiver habilitando-se.
 
 § 1º  Os
@@ -4012,7 +4012,7 @@ resultados dos exames e a identificação dos respectivos examinadores serão re
 no RENACH.      [(Renumerado do parágrafo único, pela Lei nº 9.602, de 1998)](https://www.planalto.gov.br/L9602.htm#art2)
 
  § 1º-A.  Os exames serão realizados:     
-
+ 
  [(Incluído pela Medida 
  Provisória nº 1.327, de 2025)](https://www.planalto.gov.br/_Ato2023-2026/2025/Mpv/mpv1327.htm#art1)
 
@@ -4072,10 +4072,10 @@ terá essa informação incluída na sua Carteira Nacional de Habilitação, con
 especificações do Conselho Nacional de Trânsito – Contran.       
  [(Incluído pela Lei
 nº 10.350, de 2001)](https://www.planalto.gov.br/LEIS_2001/L10350.htm#art1)
-
+ 
           § 6º  [(Revogado 
  pela Medida Provisória nº 1.327, de 2025)](https://www.planalto.gov.br/_Ato2023-2026/2025/Mpv/mpv1327.htm#art2)
-
+ 
          § 7º  [(Revogado 
  pela Medida Provisória nº 1.327, de 2025)](https://www.planalto.gov.br/_Ato2023-2026/2025/Mpv/mpv1327.htm#art2)
 
@@ -4086,7 +4086,7 @@ nº 10.350, de 2001)](https://www.planalto.gov.br/LEIS_2001/L10350.htm#art1)
 
 [(Incluído pela Lei nº 13.146, de 
 2015)](https://www.planalto.gov.br/_Ato2015-2018/2015/Lei/L13146.htm#art109)   [(Vigência)](https://www.planalto.gov.br/_Ato2015-2018/2015/Lei/L13146.htm#art127)
-
+ 
  § 1o  O material didático 
  audiovisual utilizado em aulas teóricas dos cursos que precedem os 
  exames previstos no art. 147 desta Lei deve ser acessível, por meio de 
@@ -4095,7 +4095,7 @@ nº 10.350, de 2001)](https://www.planalto.gov.br/LEIS_2001/L10350.htm#art1)
 
 [(Incluído pela Lei nº 13.146, de 
 2015)](https://www.planalto.gov.br/_Ato2015-2018/2015/Lei/L13146.htm#art109)   [(Vigência)](https://www.planalto.gov.br/_Ato2015-2018/2015/Lei/L13146.htm#art127)
-
+ 
  § 2o  É assegurado também ao 
  candidato com deficiência auditiva requerer, no ato de sua inscrição, os 
  serviços de intérprete da Libras, para acompanhamento em aulas práticas 
@@ -4138,7 +4138,7 @@ Lei nº 9.602, de 1998)](https://www.planalto.gov.br/L9602.htm#art148§5)
  União, com titulação de especialista em medicina do tráfego e em 
  psicologia do trânsito, conferida pelo respectivo conselho profissional, 
  nos termos de regulação do Contran.     
-
+ 
  [(Incluído pela 
  Medida Provisória nº 1.327, de 2025)](https://www.planalto.gov.br/_Ato2023-2026/2025/Mpv/mpv1327.htm#art1)
 
@@ -4154,37 +4154,37 @@ Provisória nº 1.327, de 2025)](https://www.planalto.gov.br/_Ato2023-2026/2025/
  renovação da Carteira Nacional de Habilitação.     
  [ (Redação dada 
  pela Lei nº 14.071, de 2020)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art1)    [(Vigência)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art7)   
-
+ 
  [(Vide Lei nº 
  14.599, de 2023)](https://www.planalto.gov.br/_Ato2023-2026/2023/Lei/L14599.htm#art7p)
-
+ 
  § 1o 
   O exame de que trata este artigo buscará aferir o consumo de substâncias 
  psicoativas que, comprovadamente, comprometam a capacidade de direção e 
  deverá ter janela de detecção mínima de 90 (noventa) dias, nos termos das 
  normas do Contran.         [(Incluído pela Lei nº 13.103, de 2015)](https://www.planalto.gov.br/_Ato2015-2018/2015/Lei/L13103.htm#art8)  [(Vigência)](https://www.planalto.gov.br/Decreto-Lei/Del4657.htm#art1)
-
+ 
  § 2º  Além da realização do exame previsto no
-
+ 
  caput
-
+ 
  deste artigo, os condutores das categorias C, D e E com idade inferior
  a 70 (setenta) anos serão submetidos a novo exame a cada período de 2
  (dois) anos e 6 (seis) meses, a partir da obtenção ou renovação da
  Carteira Nacional de Habilitação, independentemente da validade dos
  demais exames de que trata o inciso I do
-
+ 
  caput
-
+ 
  do art. 147
  deste Código.     
  [ (Redação dada 
  pela Lei nº 14.071, de 2020)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art1)      [(Vigência)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art7)
-
+ 
  § 3º  (Revogado).    
  [ (Redação dada 
  pela Lei nº 14.071, de 2020)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art1)      [(Vigência)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art7)
-
+ 
  § 4º  É garantido o direito de contraprova e de recurso
  administrativo, sem efeito suspensivo, no caso de resultado positivo
  para os exames de que trata este artigo, nos termos das normas do
@@ -4194,12 +4194,12 @@ Provisória nº 1.327, de 2025)](https://www.planalto.gov.br/_Ato2023-2026/2025/
 
  § 5º O resultado positivo no exame previsto no § 2º deste artigo 
  acarretará ao condutor:      
-
+ 
  [(Redação dada 
  pela Lei nº 14.599, de 2023)](https://www.planalto.gov.br/_Ato2023-2026/2023/Lei/L14599.htm#art1)
 
  I - (VETADO); e       
-
+ 
  [(Incluído pela 
  Lei nº 14.599, de 2023)](https://www.planalto.gov.br/_Ato2023-2026/2023/Lei/L14599.htm#art1)
 
@@ -4207,10 +4207,10 @@ Provisória nº 1.327, de 2025)](https://www.planalto.gov.br/_Ato2023-2026/2025/
  meses, condicionado o levantamento da suspensão à inclusão no Renach 
  de resultado negativo em novo exame, vedada a aplicação de outras 
  penalidades, ainda que acessórias.    
-
+ 
  [(Incluído pela 
  Lei nº 14.599, de 2023)](https://www.planalto.gov.br/_Ato2023-2026/2023/Lei/L14599.htm#art1)
-
+ 
  § 6o 
   O resultado do exame somente será divulgado para o interessado e não poderá 
  ser utilizado para fins estranhos ao disposto neste artigo ou no 
@@ -4225,14 +4225,14 @@ Provisória nº 1.327, de 2025)](https://www.planalto.gov.br/_Ato2023-2026/2025/
 
  [(Redação dada pela 
  Lei nº 14.440, de 2022)](https://www.planalto.gov.br/_Ato2019-2022/2022/Lei/L14440.htm#art15)
-
+ 
  I - fixar preços 
  para os exames;        [ (Incluído pela Lei nº 13.103, de 2015)](https://www.planalto.gov.br/_Ato2015-2018/2015/Lei/L13103.htm#art8)  [(Vigência)](https://www.planalto.gov.br/Decreto-Lei/Del4657.htm#art1)
-
+ 
  II - limitar o 
  número de empresas ou o número de locais em que a atividade pode ser 
  exercida; e           [(Incluído pela Lei nº 13.103, de 2015)](https://www.planalto.gov.br/_Ato2015-2018/2015/Lei/L13103.htm#art8) [(Vigência)](https://www.planalto.gov.br/Decreto-Lei/Del4657.htm#art1)
-
+ 
  III - estabelecer 
  regras de exclusividade territorial.          
  [ (Incluído pela 
@@ -4240,7 +4240,7 @@ Provisória nº 1.327, de 2025)](https://www.planalto.gov.br/_Ato2023-2026/2025/
 
  § 8º A não realização do exame previsto neste artigo acarretará ao 
  condutor:     
-
+ 
  [(Incluído pela 
  Lei nº 14.599, de 2023)](https://www.planalto.gov.br/_Ato2023-2026/2023/Lei/L14599.htm#art1)
 
@@ -4248,14 +4248,14 @@ Provisória nº 1.327, de 2025)](https://www.planalto.gov.br/_Ato2023-2026/2025/
  impedimento de obter ou de renovar a Carteira Nacional de 
  Habilitação até que seja realizado o exame com resultado negativo e 
  a aplicação das sanções previstas no art. 165-B deste Código; e     
-
+ 
  [(Incluído pela 
  Lei nº 14.599, de 2023)](https://www.planalto.gov.br/_Ato2023-2026/2023/Lei/L14599.htm#art1)
 
  II - no caso do § 2º, a aplicação das sanções previstas no § 5º 
  deste artigo e nos arts. 165-B e 165-D deste Código, conforme a 
  irregularidade verificada.      
-
+ 
  [(Incluído pela 
  Lei nº 14.599, de 2023)](https://www.planalto.gov.br/_Ato2023-2026/2023/Lei/L14599.htm#art1)
 
@@ -4265,7 +4265,7 @@ Provisória nº 1.327, de 2025)](https://www.planalto.gov.br/_Ato2023-2026/2025/
  prazo para a realização do exame com 30 (trinta) dias de 
  antecedência, bem como as penalidades decorrentes da sua não 
  realização.      
-
+ 
  [(Incluído pela 
  Lei nº 14.599, de 2023)](https://www.planalto.gov.br/_Ato2023-2026/2023/Lei/L14599.htm#art1)
 
@@ -4303,7 +4303,7 @@ veículos é obrigada a fornecer curso de direção defensiva, primeiros socorro
 conforme normatização do CONTRAN.
 
 Art. 151. 
-
+ 
 [ (Revogado pela Lei nº 
 14.071, de 2020)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art6)      [(Vigência)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art7)
 
@@ -4405,10 +4405,10 @@ Art. 157.
 Art. 158. A aprendizagem só poderá realizar-se:       
 
         I
-- nos termos, horários e locais estabelecidos pelo órgão executivo de trânsito;
+— nos termos, horários e locais estabelecidos pelo órgão executivo de trânsito;
 
         II
-- acompanhado o aprendiz por instrutor autorizado.
+— acompanhado o aprendiz por instrutor autorizado.
 
 § 1º Além do aprendiz e do instrutor, o veículo utilizado na 
 aprendizagem poderá conduzir apenas mais um acompanhante.       
@@ -4416,7 +4416,7 @@ aprendizagem poderá conduzir apenas mais um acompanhante.      
 [(Renumerado do parágrafo único pela Lei nº 12.217, de 2010).](https://www.planalto.gov.br/_Ato2007-2010/2010/Lei/L12217.htm#art1)
 
  § 2o  
-
+ 
 [ (Revogado pela Lei nº 
 14.071, de 2020)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art6)       [(Vigência)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art7)
 
@@ -4501,7 +4501,7 @@ Provisória nº 1.327, de 2025)](https://www.planalto.gov.br/_Ato2023-2026/2025/
  (Revogado).       
 [ (Redação dada pela Lei 
 nº 14.071, de 2020)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art1)      [(Vigência)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art7)
-
+ 
          § 12.  Os órgãos ou entidades executivos de trânsito dos
  Estados e do Distrito Federal enviarão por meio eletrônico, com 30
  (trinta) dias de antecedência, aviso de vencimento da validade da
@@ -4592,7 +4592,7 @@ III - com Carteira Nacional de Habilitação ou
  [(Vigência)](https://www.planalto.gov.br/_Ato2015-2018/2016/Lei/L13281.htm#art7)
 
         IV
-- 
+— 
 
  (VETADO) 
 
@@ -4618,7 +4618,7 @@ habilitado;     
 14.440, de 2022)](https://www.planalto.gov.br/_Ato2019-2022/2022/Lei/L14440.htm#art15)
 
         VI
-- sem usar lentes corretoras de visão, aparelho auxiliar de audição, de prótese
+— sem usar lentes corretoras de visão, aparelho auxiliar de audição, de prótese
 física ou as adaptações do veículo impostas por ocasião da concessão ou da
 renovação da licença para conduzir:
 
@@ -4669,7 +4669,7 @@ Medida administrativa - a mesma prevista no inciso III do art. 162.
 
 Art. 165.  Dirigir sob a influência de álcool ou de qualquer outra substância psicoativa que determine dependência:       [(Redação 
 dada pela Lei nº 11.705, de 2008)](https://www.planalto.gov.br/_Ato2007-2010/2008/Lei/L11705.htm#art5)
-
+ 
          Infração - gravíssima;       [(Redação 
  dada pela Lei nº 11.705, de 2008)](https://www.planalto.gov.br/_Ato2007-2010/2008/Lei/L11705.htm#art5) 
 
@@ -4698,22 +4698,22 @@ reincidência no período de até 12 (doze) meses.        
  estabelecida pelo art. 277:         
 [(Incluído pela Lei nº 13.281, de 2016)](https://www.planalto.gov.br/_Ato2015-2018/2016/Lei/L13281.htm#art2)      
 [(Vigência)](https://www.planalto.gov.br/_Ato2015-2018/2016/Lei/L13281.htm#art7)
-
+ 
  Infração - gravíssima;         
  [(Incluído pela Lei nº 13.281, de 2016)](https://www.planalto.gov.br/_Ato2015-2018/2016/Lei/L13281.htm#art2)      
  [(Vigência)](https://www.planalto.gov.br/_Ato2015-2018/2016/Lei/L13281.htm#art7)
-
+ 
  Penalidade - multa (dez vezes) e suspensão do 
  direito de dirigir por 12 (doze) meses;         
  [(Incluído pela Lei nº 13.281, de 2016)](https://www.planalto.gov.br/_Ato2015-2018/2016/Lei/L13281.htm#art2)      
  [(Vigência)](https://www.planalto.gov.br/_Ato2015-2018/2016/Lei/L13281.htm#art7)
-
+ 
  Medida administrativa - recolhimento do 
  documento de habilitação e retenção do veículo, observado o disposto no 
  § 4º do art. 270.         
  [(Incluído pela Lei nº 13.281, de 2016)](https://www.planalto.gov.br/_Ato2015-2018/2016/Lei/L13281.htm#art2)      
  [(Vigência)](https://www.planalto.gov.br/_Ato2015-2018/2016/Lei/L13281.htm#art7)
-
+ 
  Parágrafo único. Aplica-se em dobro a multa 
  prevista no caput em caso de reincidência no período de até 12 
  (doze) meses         
@@ -4722,13 +4722,13 @@ reincidência no período de até 12 (doze) meses.        
 
  Art. 165-B. Dirigir veículo sem realizar o exame toxicológico 
  previsto no art. 148-A deste Código:       
-
+ 
  [(Redação dada 
  pela Lei nº 14.599, de 2023)](https://www.planalto.gov.br/_Ato2023-2026/2023/Lei/L14599.htm#art1)    
-
+ 
  [Produção de 
  efeitos](https://www.planalto.gov.br/_Ato2023-2026/2023/Lei/L14599.htm#art7)
-
+ 
          Infração - gravíssima;     
  [ (Incluído pela 
  Lei nº 14.071, de 2020)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art1)     [(Vigência)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art7)
@@ -4736,10 +4736,10 @@ reincidência no período de até 12 (doze) meses.        
  Penalidade - multa (cinco vezes) e, em caso de reincidência no 
  período de até 12 (doze) meses, multa (dez vezes) e suspensão do 
  direito de dirigir.      
-
+ 
  [(Redação dada 
  pela Lei nº 14.599, de 2023)](https://www.planalto.gov.br/_Ato2023-2026/2023/Lei/L14599.htm#art1)      
-
+ 
  [Produção de 
  efeitos](https://www.planalto.gov.br/_Ato2023-2026/2023/Lei/L14599.htm#art7)
 
@@ -4747,45 +4747,45 @@ reincidência no período de até 12 (doze) meses.        
  art. 148-A deste Código, configurar-se-á a infração quando o 
  condutor dirigir veículo após o trigésimo dia do vencimento do prazo 
  estabelecido.      
-
+ 
  [(Redação dada 
  pela Lei nº 14.599, de 2023)](https://www.planalto.gov.br/_Ato2023-2026/2023/Lei/L14599.htm#art1)  
-
+ 
  [Produção de 
  efeitos](https://www.planalto.gov.br/_Ato2023-2026/2023/Lei/L14599.htm#art7)
 
  Art. 165-C. Dirigir veículo tendo obtido resultado positivo no 
  exame toxicológico previsto no caput do art. 148-A deste 
  Código:        
-
+ 
  [(Incluído pela 
  Lei nº 14.599, de 2023)](https://www.planalto.gov.br/_Ato2023-2026/2023/Lei/L14599.htm#art1)      
-
+ 
  [Produção de 
  efeitos](https://www.planalto.gov.br/_Ato2023-2026/2023/Lei/L14599.htm#art7)
 
  Infração - gravíssima;       
-
+ 
  [(Incluído pela 
  Lei nº 14.599, de 2023)](https://www.planalto.gov.br/_Ato2023-2026/2023/Lei/L14599.htm#art1)     
-
+ 
  [Produção de 
  efeitos](https://www.planalto.gov.br/_Ato2023-2026/2023/Lei/L14599.htm#art7)
 
  Penalidade - multa (cinco vezes) e, em caso de reincidência no 
  período de até 12 (doze) meses, multa (dez vezes) e suspensão do 
  direito de dirigir.      
-
+ 
  [(Incluído pela 
  Lei nº 14.599, de 2023)](https://www.planalto.gov.br/_Ato2023-2026/2023/Lei/L14599.htm#art1)    
-
+ 
  [Produção de 
  efeitos](https://www.planalto.gov.br/_Ato2023-2026/2023/Lei/L14599.htm#art7)
 
   Art. 165-D. Deixar de realizar o exame 
  toxicológico previsto no § 2º do art. 148-A deste Código, após 30 
  (trinta) dias do vencimento do prazo estabelecido:  
-
+ 
  [(Incluído pela 
  Lei nº 14.599, de 2023)](https://www.planalto.gov.br/_Ato2023-2026/2023/Lei/L14599.htm#art1)     
  [Produção de 
@@ -4809,7 +4809,7 @@ Parágrafo único. A competência para
 aplicação da penalidade de que trata este artigo será do órgão ou entidade 
 executivos de trânsito de registro da Carteira Nacional de Habilitação do 
 infrator.     
-
+ 
  [(Incluído pela 
  Lei nº 14.599, de 2023)](https://www.planalto.gov.br/_Ato2023-2026/2023/Lei/L14599.htm#art1)     
  [Produção de 
@@ -4918,7 +4918,7 @@ veículo.
 
  § 1o   As penalidades são aplicáveis aos promotores e aos 
 condutores participantes.        
-
+ 
  [(Incluído 
  pela Lei nº 
  12.971, de 2014)](https://www.planalto.gov.br/_Ato2011-2014/2014/Lei/L12971.htm#art1)   
@@ -4964,20 +4964,20 @@ veículo.
 pela Lei nº 14.599, de 2023)](https://www.planalto.gov.br/_Ato2023-2026/2023/Lei/L14599.htm#art1)
 
         I
-- de prestar ou providenciar socorro à vítima, podendo fazê-lo;
+— de prestar ou providenciar socorro à vítima, podendo fazê-lo;
 
         II
-- de adotar providências, podendo fazê-lo, no sentido de evitar perigo para o trânsito
+— de adotar providências, podendo fazê-lo, no sentido de evitar perigo para o trânsito
 no local;
 
 III - de preservar o local, de forma a facilitar os trabalhos da polícia e da perícia;
 
         IV
-- de adotar providências para remover o veículo do local, quando determinadas por
+— de adotar providências para remover o veículo do local, quando determinadas por
 policial ou agente da autoridade de trânsito;
 
         V
-- de identificar-se ao policial e de lhe prestar informações necessárias à confecção
+— de identificar-se ao policial e de lhe prestar informações necessárias à confecção
 do boletim de ocorrência:
 
 Infração - gravíssima;
@@ -5013,7 +5013,7 @@ de impedimento absoluto de sua remoção e em que o veículo esteja devidamente
 sinalizado:
 
         I
-- em pista de rolamento de rodovias e vias de trânsito rápido:
+— em pista de rolamento de rodovias e vias de trânsito rápido:
 
 Infração - grave;
 
@@ -5022,7 +5022,7 @@ Penalidade - multa;
 Medida administrativa - remoção do veículo;
 
         II
-- nas demais vias:
+— nas demais vias:
 
 Infração - leve;
 
@@ -5039,7 +5039,7 @@ Medida administrativa - remoção do veículo.
 Art. 181. Estacionar o veículo:
 
         I
-- nas esquinas e a menos de cinco metros do bordo do alinhamento da via transversal:
+— nas esquinas e a menos de cinco metros do bordo do alinhamento da via transversal:
 
 Infração - média;
 
@@ -5048,7 +5048,7 @@ Penalidade - multa;
 Medida administrativa - remoção do veículo;
 
         II
-- afastado da guia da calçada (meio-fio) de cinqüenta centímetros a um metro:
+— afastado da guia da calçada (meio-fio) de cinqüenta centímetros a um metro:
 
 Infração - leve;
 
@@ -5065,7 +5065,7 @@ Penalidade - multa;
 Medida administrativa - remoção do veículo;
 
         IV
-- em desacordo com as posições estabelecidas neste Código:
+— em desacordo com as posições estabelecidas neste Código:
 
 Infração - média;
 
@@ -5074,7 +5074,7 @@ Penalidade - multa;
 Medida administrativa - remoção do veículo;
 
         V
-- na pista de rolamento das estradas, das rodovias, das vias de trânsito rápido e das
+— na pista de rolamento das estradas, das rodovias, das vias de trânsito rápido e das
 vias dotadas de acostamento:
 
 Infração - gravíssima;
@@ -5084,7 +5084,7 @@ Penalidade - multa;
 Medida administrativa - remoção do veículo;
 
         VI
-- junto ou sobre hidrantes de incêndio, registro de água ou tampas de poços de visita
+— junto ou sobre hidrantes de incêndio, registro de água ou tampas de poços de visita
 de galerias subterrâneas, desde que devidamente identificados, conforme especificação
 do CONTRAN:
 
@@ -5113,7 +5113,7 @@ Penalidade - multa;
 Medida administrativa - remoção do veículo;
 
         IX
-- onde houver guia de calçada (meio-fio) rebaixada destinada à entrada ou saída de
+— onde houver guia de calçada (meio-fio) rebaixada destinada à entrada ou saída de
 veículos:
 
 Infração - média;
@@ -5123,7 +5123,7 @@ Penalidade - multa;
 Medida administrativa - remoção do veículo;
 
         X
-- impedindo a movimentação de outro veículo:
+— impedindo a movimentação de outro veículo:
 
 Infração - média;
 
@@ -5132,7 +5132,7 @@ Penalidade - multa;
 Medida administrativa - remoção do veículo;
 
         XI
-- ao lado de outro veículo em fila dupla:
+— ao lado de outro veículo em fila dupla:
 
 Infração - grave;
 
@@ -5169,7 +5169,7 @@ Penalidade - multa;
 Medida administrativa - remoção do veículo;
 
         XV
-- na contramão de direção:
+— na contramão de direção:
 
 Infração - média;
 
@@ -5206,7 +5206,7 @@ Penalidade - multa;
 Medida administrativa - remoção do veículo;
 
 XIX - em locais e horários de estacionamento e parada proibidos pela sinalização (placa
-- Proibido Parar e Estacionar):
+— Proibido Parar e Estacionar):
 
 Infração - grave;
 
@@ -5238,14 +5238,14 @@ preferencialmente após a remoção do veículo.
 Art. 182. Parar o veículo:
 
         I
-- nas esquinas e a menos de cinco metros do bordo do alinhamento da via transversal:
+— nas esquinas e a menos de cinco metros do bordo do alinhamento da via transversal:
 
 Infração - média;
 
 Penalidade - multa;
 
         II
-- afastado da guia da calçada (meio-fio) de cinqüenta centímetros a um metro:
+— afastado da guia da calçada (meio-fio) de cinqüenta centímetros a um metro:
 
 Infração - leve;
 
@@ -5258,14 +5258,14 @@ Infração - média;
 Penalidade - multa;
 
         IV
-- em desacordo com as posições estabelecidas neste Código:
+— em desacordo com as posições estabelecidas neste Código:
 
 Infração - leve;
 
 Penalidade - multa;
 
         V
-- na pista de rolamento das estradas, das rodovias, das vias de trânsito rápido e das
+— na pista de rolamento das estradas, das rodovias, das vias de trânsito rápido e das
 demais vias dotadas de acostamento:
 
 Infração - grave;
@@ -5273,7 +5273,7 @@ Infração - grave;
 Penalidade - multa;
 
         VI
-- no passeio ou sobre faixa destinada a pedestres, nas ilhas, refúgios, canteiros
+— no passeio ou sobre faixa destinada a pedestres, nas ilhas, refúgios, canteiros
 centrais e divisores de pista de rolamento e marcas de canalização:
 
 Infração - leve;
@@ -5294,29 +5294,29 @@ Infração - média;
 Penalidade - multa;
 
         IX
-- na contramão de direção:
+— na contramão de direção:
 
 Infração - média;
 
 Penalidade - multa;
 
         X
-- em local e horário proibidos especificamente pela sinalização (placa - Proibido
+— em local e horário proibidos especificamente pela sinalização (placa - Proibido
 Parar):
 
 Infração - média;
 
 Penalidade - multa.
-
+ 
          XI - 
  sobre ciclovia ou ciclofaixa:      
  [ (Incluído pela 
  Lei nº 14.071, de 2020)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art1)    [(Vigência)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art7)
-
+ 
          Infração - grave;       
  [ (Incluído pela 
  Lei nº 14.071, de 2020)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art1)      [(Vigência)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art7)
-
+ 
          Penalidade - multa.     
  [ (Incluído pela 
  Lei nº 14.071, de 2020)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art1)     [(Vigência)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art7)
@@ -5330,7 +5330,7 @@ Penalidade - multa.
 Art. 184. Transitar com o veículo:
 
         I
-- na faixa ou pista da direita, regulamentada como de circulação exclusiva para
+— na faixa ou pista da direita, regulamentada como de circulação exclusiva para
 determinado tipo de veículo, exceto para acesso a imóveis lindeiros ou conversões à
 direita:
 
@@ -5339,7 +5339,7 @@ Infração - leve;
 Penalidade - multa;
 
         II
-- na faixa ou pista da esquerda regulamentada como de circulação exclusiva para
+— na faixa ou pista da esquerda regulamentada como de circulação exclusiva para
 determinado tipo de veículo:
 
 Infração - grave;
@@ -5350,11 +5350,11 @@ III - na faixa ou via de
 trânsito exclusivo, regulamentada com circulação destinada aos veículos de 
 transporte público coletivo de passageiros, salvo casos de força maior e com 
 autorização do poder público competente: 
-
+           
 [(Incluído pela Lei nº 13.154, de 2015)](https://www.planalto.gov.br/_Ato2015-2018/2015/Lei/L13154.htm#art1)
 
 Infração - gravíssima; 
-
+        
 [(Incluído pela Lei nº 13.154, de 2015)](https://www.planalto.gov.br/_Ato2015-2018/2015/Lei/L13154.htm#art1)
 
 Penalidade - multa e apreensão 
@@ -5368,11 +5368,11 @@ do veículo.         
 Art. 185. Quando o veículo estiver em movimento, deixar de conservá-lo:
 
         I
-- na faixa a ele destinada pela sinalização de regulamentação, exceto em situações
+— na faixa a ele destinada pela sinalização de regulamentação, exceto em situações
 de emergência;
 
         II
-- nas faixas da direita, os veículos lentos e de maior porte:
+— nas faixas da direita, os veículos lentos e de maior porte:
 
 Infração - média;
 
@@ -5381,7 +5381,7 @@ Penalidade - multa.
 Art. 186. Transitar pela contramão de direção em:
 
         I
-- vias com duplo sentido de circulação, exceto para ultrapassar outro veículo e apenas
+— vias com duplo sentido de circulação, exceto para ultrapassar outro veículo e apenas
 pelo tempo necessário, respeitada a preferência do veículo que transitar em sentido
 contrário:
 
@@ -5390,7 +5390,7 @@ Infração - grave;
 Penalidade - multa;
 
         II
-- vias com sinalização de regulamentação de sentido único de circulação:
+— vias com sinalização de regulamentação de sentido único de circulação:
 
 Infração - gravíssima;
 
@@ -5400,14 +5400,14 @@ Art. 187. Transitar em locais e horários não permitidos pela regulamentação
 estabelecida pela autoridade competente:  
 
         I
-- para todos os tipos de veículos:
+— para todos os tipos de veículos:
 
 Infração - média;
 
 Penalidade - multa;
 
         II
--         [(Revogado pela Lei nº 9.602,
+— [(Revogado pela Lei nº 9.602,
 de 1998)](https://www.planalto.gov.br/L9602.htm#art7)
 
 Art. 188. Transitar ao lado de outro veículo, interrompendo ou perturbando o trânsito:
@@ -5534,10 +5534,10 @@ Penalidade - multa.
 Art. 202. Ultrapassar outro veículo:
 
         I
-- pelo acostamento;
+— pelo acostamento;
 
         II
-- em interseções e passagens de nível;
+— em interseções e passagens de nível;
 
  Infração - gravíssima;           
  [(Redação 
@@ -5554,19 +5554,19 @@ dada pela Lei nº
 Art. 203. Ultrapassar pela contramão outro veículo:
 
         I
-- nas curvas, aclives e declives, sem visibilidade suficiente;
+— nas curvas, aclives e declives, sem visibilidade suficiente;
 
         II
-- nas faixas de pedestre;
+— nas faixas de pedestre;
 
 III - nas pontes, viadutos ou túneis;
 
         IV
-- parado em fila junto a sinais luminosos, porteiras, cancelas, cruzamentos ou qualquer
+— parado em fila junto a sinais luminosos, porteiras, cancelas, cruzamentos ou qualquer
 outro impedimento à livre circulação;
 
         V
-- onde houver marcação viária longitudinal de divisão de fluxos opostos do tipo linha
+— onde houver marcação viária longitudinal de divisão de fluxos opostos do tipo linha
 dupla contínua ou simples contínua amarela:
 
  Infração - gravíssima;           
@@ -5609,20 +5609,20 @@ Penalidade - multa.
 Art. 206. Executar operação de retorno:
 
         I
-- em locais proibidos pela sinalização;
+— em locais proibidos pela sinalização;
 
         II
-- nas curvas, aclives, declives, pontes, viadutos e túneis;
+— nas curvas, aclives, declives, pontes, viadutos e túneis;
 
 III - passando por cima de calçada, passeio, ilhas, ajardinamento ou canteiros de
 divisões de pista de rolamento, refúgios e faixas de pedestres e nas de veículos não
 motorizados;
 
         IV
-- nas interseções, entrando na contramão de direção da via transversal;
+— nas interseções, entrando na contramão de direção da via transversal;
 
         V
-- com prejuízo da livre circulação ou da segurança, ainda que em locais permitidos:
+— com prejuízo da livre circulação ou da segurança, ainda que em locais permitidos:
 
 Infração - gravíssima;
 
@@ -5697,14 +5697,14 @@ Penalidade - multa.
 Art. 213. Deixar de parar o veículo sempre que a respectiva marcha for interceptada:
 
         I
-- por agrupamento de pessoas, como préstitos, passeatas, desfiles e outros:
+— por agrupamento de pessoas, como préstitos, passeatas, desfiles e outros:
 
 Infração - gravíssima;
 
 Penalidade - multa.
 
         II
-- por agrupamento de veículos, como cortejos, formações militares e outros:
+— por agrupamento de veículos, como cortejos, formações militares e outros:
 
 Infração - grave;
 
@@ -5713,10 +5713,10 @@ Penalidade - multa.
 Art. 214. Deixar de dar preferência de passagem a pedestre e a veículo não motorizado:
 
         I
-- que se encontre na faixa a ele destinada;
+— que se encontre na faixa a ele destinada;
 
         II
-- que não haja concluído a travessia mesmo que ocorra sinal verde para o veículo;
+— que não haja concluído a travessia mesmo que ocorra sinal verde para o veículo;
 
 III - portadores de deficiência física, crianças, idosos e gestantes:
 
@@ -5725,10 +5725,10 @@ Infração - gravíssima;
 Penalidade - multa.
 
         IV
-- quando houver iniciado a travessia mesmo que não haja sinalização a ele destinada;
+— quando houver iniciado a travessia mesmo que não haja sinalização a ele destinada;
 
         V
-- que esteja atravessando a via transversal para onde se dirige o veículo:
+— que esteja atravessando a via transversal para onde se dirige o veículo:
 
 Infração - grave;
 
@@ -5737,7 +5737,7 @@ Penalidade - multa.
 Art. 215. Deixar de dar preferência de passagem:
 
         I
-- em interseção não sinalizada:
+— em interseção não sinalizada:
 
         a)
 a veículo que estiver circulando por rodovia ou rotatória;
@@ -5746,7 +5746,7 @@ a veículo que estiver circulando por rodovia ou rotatória;
 a veículo que vier da direita;
 
         II
-- nas interseções com sinalização de regulamentação de Dê a Preferência:
+— nas interseções com sinalização de regulamentação de Dê a Preferência:
 
 Infração - grave;
 
@@ -5773,40 +5773,40 @@ vias:         [(Redação dada pela Lei
 nº 11.334, de 2006)](https://www.planalto.gov.br/_Ato2004-2006/2006/Lei/L11334.htm#art1)         
 [(Vide ADI nº 
  3951)](https://portal.stf.jus.br/processos/detalhe.asp?incidente=2556471)
-
+ 
          I - quando a velocidade for superior à máxima em 
 até 20% (vinte por cento):       [(Redação dada pela Lei nº 11.334, de 2006)](https://www.planalto.gov.br/_Ato2004-2006/2006/Lei/L11334.htm#art1)
-
+ 
          Infração - média;      
  [(Redação dada pela Lei 
  nº 11.334, de 2006)](https://www.planalto.gov.br/_Ato2004-2006/2006/Lei/L11334.htm#art1)
-
+ 
          Penalidade - multa;      
  [(Redação dada pela Lei 
  nº 11.334, de 2006)](https://www.planalto.gov.br/_Ato2004-2006/2006/Lei/L11334.htm#art1)
-
+ 
          II - quando a velocidade for superior à máxima 
 em mais de 20% (vinte por cento) até 50% (cinqüenta por cento):       
  [(Redação dada pela Lei 
  nº 11.334, de 2006)](https://www.planalto.gov.br/_Ato2004-2006/2006/Lei/L11334.htm#art1)
-
+ 
          Infração - grave;       
  [(Redação dada pela Lei 
  nº 11.334, de 2006)](https://www.planalto.gov.br/_Ato2004-2006/2006/Lei/L11334.htm#art1)
-
+ 
          Penalidade - multa;        
  [(Redação dada pela Lei 
  nº 11.334, de 2006)](https://www.planalto.gov.br/_Ato2004-2006/2006/Lei/L11334.htm#art1)
-
+ 
          III - quando a velocidade for superior à máxima 
 em mais de 50% (cinqüenta por cento):        
  [(Incluído pela Lei nº 
  11.334, de 2006)](https://www.planalto.gov.br/_Ato2004-2006/2006/Lei/L11334.htm#art1)
-
+ 
         Infração - gravíssima;       
  [ (Redação dada pela 
  Lei nº 14.071, de 2020)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art1)
-
+ 
          Penalidade - multa (três vezes) e suspensão do direito de dirigir.       
  [ (Redação dada 
  pela Lei nº 14.071, de 2020)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art1)     [(Vigência)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art7)
@@ -5823,26 +5823,26 @@ Art. 220. Deixar de reduzir a velocidade do veículo de forma compatível com a 
 do trânsito:
 
         I
-- quando se aproximar de passeatas, aglomerações, cortejos, préstitos e desfiles:
+— quando se aproximar de passeatas, aglomerações, cortejos, préstitos e desfiles:
 
 Infração - gravíssima;
 
 Penalidade - multa;
 
         II
-- nos locais onde o trânsito esteja sendo controlado pelo agente da autoridade de
+— nos locais onde o trânsito esteja sendo controlado pelo agente da autoridade de
 trânsito, mediante sinais sonoros ou gestos;
 
 III - ao aproximar-se da guia da calçada (meio-fio) ou acostamento;
 
         IV
-- ao aproximar-se de ou passar por interseção não sinalizada;
+— ao aproximar-se de ou passar por interseção não sinalizada;
 
         V
-- nas vias rurais cuja faixa de domínio não esteja cercada;
+— nas vias rurais cuja faixa de domínio não esteja cercada;
 
         VI
-- nos trechos em curva de pequeno raio;
+— nos trechos em curva de pequeno raio;
 
 VII - ao aproximar-se de locais sinalizados com advertência de obras ou trabalhadores na
 pista;
@@ -5850,20 +5850,20 @@ pista;
 VIII - sob chuva, neblina, cerração ou ventos fortes;
 
         IX
-- quando houver má visibilidade;
+— quando houver má visibilidade;
 
         X
-- quando o pavimento se apresentar escorregadio, defeituoso ou avariado;
+— quando o pavimento se apresentar escorregadio, defeituoso ou avariado;
 
         XI
-- à aproximação de animais na pista;
+— à aproximação de animais na pista;
 
 XII - em declive;
 
          Infração - grave;       
  [ (Incluído pela 
  Lei nº 14.071, de 2020)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art1)     [(Vigência)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art7)
-
+ 
          Penalidade - multa;    
  [ (Incluído pela 
  Lei nº 14.071, de 2020)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art1)      [(Vigência)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art7)
@@ -5873,7 +5873,7 @@ XIII - ao ultrapassar ciclista:
  Infração - gravíssima;      
 [ (Redação dada pela Lei 
 nº 14.071, de 2020)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art1)      [(Vigência)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art7)
-
+ 
          Penalidade - multa;     
  [ (Redação dada 
  pela Lei nº 14.071, de 2020)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art1)      [(Vigência)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art7)
@@ -5932,10 +5932,10 @@ não manter acesas as luzes externas ou omitir-se quanto a providências necess�
 tornar visível o local, quando:
 
         I
-- tiver de remover o veículo da pista de rolamento ou permanecer no acostamento;
+— tiver de remover o veículo da pista de rolamento ou permanecer no acostamento;
 
         II
-- a carga for derramada sobre a via e não puder ser retirada imediatamente:
+— a carga for derramada sobre a via e não puder ser retirada imediatamente:
 
 Infração - grave;
 
@@ -5951,19 +5951,19 @@ Penalidade - multa.
 Art. 227. Usar buzina:
 
         I
-- em situação que não a de simples toque breve como advertência ao pedestre ou a
+— em situação que não a de simples toque breve como advertência ao pedestre ou a
 condutores de outros veículos;
 
         II
-- prolongada e sucessivamente a qualquer pretexto;
+— prolongada e sucessivamente a qualquer pretexto;
 
 III - entre as vinte e duas e as seis horas;
 
         IV
-- em locais e horários proibidos pela sinalização;
+— em locais e horários proibidos pela sinalização;
 
         V
-- em desacordo com os padrões e freqüências estabelecidas pelo CONTRAN:
+— em desacordo com os padrões e freqüências estabelecidas pelo CONTRAN:
 
 Infração - leve;
 
@@ -5990,23 +5990,23 @@ Medida administrativa - remoção do veículo.
 Art. 230. Conduzir o veículo:
 
         I
-- com o lacre, a inscrição do chassi, o selo, a placa ou qualquer outro elemento de
+— com o lacre, a inscrição do chassi, o selo, a placa ou qualquer outro elemento de
 identificação do veículo violado ou falsificado;
 
         II
-- transportando passageiros em compartimento de carga, salvo por motivo de força maior,
+— transportando passageiros em compartimento de carga, salvo por motivo de força maior,
 com permissão da autoridade competente e na forma estabelecida pelo CONTRAN;
 
 III - com dispositivo anti-radar;
 
         IV
-- sem qualquer uma das placas de identificação;
+— sem qualquer uma das placas de identificação;
 
         V
-- que não esteja registrado e devidamente licenciado;
+— que não esteja registrado e devidamente licenciado;
 
         VI
-- com qualquer uma das placas de identificação sem condições de legibilidade e
+— com qualquer uma das placas de identificação sem condições de legibilidade e
 visibilidade:
 
 Infração - gravíssima;
@@ -6020,13 +6020,13 @@ VII - com a cor ou característica alterada;
 VIII - sem ter sido submetido à inspeção de segurança veicular, quando obrigatória;
 
         IX
-- sem equipamento obrigatório ou estando este ineficiente ou inoperante;
+— sem equipamento obrigatório ou estando este ineficiente ou inoperante;
 
         X
-- com equipamento obrigatório em desacordo com o estabelecido pelo CONTRAN;
+— com equipamento obrigatório em desacordo com o estabelecido pelo CONTRAN;
 
         XI
-- com descarga livre ou silenciador de motor de explosão defeituoso, deficiente ou
+— com descarga livre ou silenciador de motor de explosão defeituoso, deficiente ou
 inoperante;
 
 XII - com equipamento ou acessório proibido;
@@ -6037,7 +6037,7 @@ XIV - com registrador instantâneo inalterável de velocidade e tempo viciado ou
 defeituoso, quando houver exigência desse aparelho;
 
         XV
-- com inscrições, adesivos, legendas e símbolos de caráter publicitário afixados ou
+— com inscrições, adesivos, legendas e símbolos de caráter publicitário afixados ou
 pintados no pára-brisa e em toda a extensão da parte traseira do veículo, excetuadas as
 hipóteses previstas neste Código;
 
@@ -6059,7 +6059,7 @@ Penalidade - multa;
 Medida administrativa - retenção do veículo para regularização;
 
         XX
-- sem portar a autorização para condução de escolares, na forma estabelecida no art.
+— sem portar a autorização para condução de escolares, na forma estabelecida no art.
 136:
 
  Infração  
@@ -6067,13 +6067,13 @@ Medida administrativa - retenção do veículo para regularização;
  [(Redação dada pela 
  Lei nº 13.855, de 2019)](https://www.planalto.gov.br/_Ato2019-2022/2019/Lei/L13855.htm#art2)      
  [(Vigência)](https://www.planalto.gov.br/_Ato2019-2022/2019/Lei/L13855.htm#art2)
-
+ 
  Penalidade  
  multa (cinco vezes);            
  [(Redação dada pela 
  Lei nº 13.855, de 2019)](https://www.planalto.gov.br/_Ato2019-2022/2019/Lei/L13855.htm#art2)      
  [(Vigência)](https://www.planalto.gov.br/_Ato2019-2022/2019/Lei/L13855.htm#art2)
-
+ 
  Medida 
  administrativa  remoção do veículo;            
  [(Incluído pela Lei 
@@ -6095,14 +6095,14 @@ Penalidade - multa.
  tempo de permanência do condutor ao volante e aos intervalos para descanso, 
  quando se tratar de veículo de transporte de carga ou coletivo de 
  passageiros:         [ (Redação dada pela Lei nº 13.103, de 2015)](https://www.planalto.gov.br/_Ato2015-2018/2015/Lei/L13103.htm#art8)  [(Vigência)](https://www.planalto.gov.br/Decreto-Lei/Del4657.htm#art1)
-
+ 
  Infração - média;           [ (Redação dada pela Lei nº 13.103, de 2015)](https://www.planalto.gov.br/_Ato2015-2018/2015/Lei/L13103.htm#art8)  [(Vigência)](https://www.planalto.gov.br/Decreto-Lei/Del4657.htm#art1)
-
+ 
  Penalidade - 
  multa;         
  [ (Redação 
  dada pela Lei nº 13.103, de 2015)](https://www.planalto.gov.br/_Ato2015-2018/2015/Lei/L13103.htm#art8)  [(Vigência)](https://www.planalto.gov.br/Decreto-Lei/Del4657.htm#art1)
-
+ 
  Medida 
  administrativa - retenção do veículo para cumprimento do tempo de descanso 
  aplicável.        [ (Redação 
@@ -6120,7 +6120,7 @@ pela Lei nº
   Se o condutor cometeu infração igual nos últimos 12 (doze) meses, será 
  convertida, automaticamente, a penalidade disposta no inciso XXIII em 
  infração grave.        [ (Incluído pela Lei nº 13.103, de 2015)](https://www.planalto.gov.br/_Ato2015-2018/2015/Lei/L13103.htm#art8)  [(Vigência)](https://www.planalto.gov.br/Decreto-Lei/Del4657.htm#art1)
-
+ 
  § 2o 
   Em se tratando de condutor estrangeiro, a liberação do veículo fica 
  condicionada ao pagamento ou ao depósito, judicial ou administrativo, da 
@@ -6130,10 +6130,10 @@ pela Lei nº
 Art. 231. Transitar com o veículo:
 
         I
-- danificando a via, suas instalações e equipamentos;
+— danificando a via, suas instalações e equipamentos;
 
         II
-- derramando, lançando ou arrastando sobre a via:
+— derramando, lançando ou arrastando sobre a via:
 
         a)
 carga que esteja transportando;
@@ -6156,7 +6156,7 @@ III - produzindo fumaça, gases ou partículas em níveis superiores aos fixados
 CONTRAN;
 
         IV
-- com suas dimensões ou de sua carga superiores aos limites estabelecidos legalmente ou
+— com suas dimensões ou de sua carga superiores aos limites estabelecidos legalmente ou
 pela sinalização, sem autorização:
 
 Infração - grave;
@@ -6166,7 +6166,7 @@ Penalidade - multa;
 Medida administrativa - retenção do veículo para regularização;
 
         V
-- com excesso de peso, admitido percentual de tolerância quando aferido por equipamento,
+— com excesso de peso, admitido percentual de tolerância quando aferido por equipamento,
 na forma a ser estabelecida pelo CONTRAN:
 
 Infração - média;
@@ -6184,23 +6184,23 @@ a) até 600 kg (seiscentos quilogramas) - R$
  centavos);         
  [(Redação dada pela Lei nº 13.281, de 2016)](https://www.planalto.gov.br/_Ato2015-2018/2016/Lei/L13281.htm#art1)      
  [(Vigência)](https://www.planalto.gov.br/_Ato2015-2018/2016/Lei/L13281.htm#art7)
-
+ 
  c) de 801 (oitocentos e um) a 1.000 kg (mil 
  quilogramas) - R$ 21,28 (vinte e um reais e vinte e oito centavos);         
  [(Redação dada pela Lei nº 13.281, de 2016)](https://www.planalto.gov.br/_Ato2015-2018/2016/Lei/L13281.htm#art1)      
  [(Vigência)](https://www.planalto.gov.br/_Ato2015-2018/2016/Lei/L13281.htm#art7)
-
+ 
  d) de 1.001 (mil e um) a 3.000 kg (três mil 
  quilogramas) - R$ 31,92 (trinta e um reais e noventa e dois centavos);         
  [(Redação dada pela Lei nº 13.281, de 2016)](https://www.planalto.gov.br/_Ato2015-2018/2016/Lei/L13281.htm#art1)      
  [(Vigência)](https://www.planalto.gov.br/_Ato2015-2018/2016/Lei/L13281.htm#art7)
-
+ 
  e) de 3.001 (três mil e um) a 5.000 kg (cinco 
  mil quilogramas) - R$ 42,56 (quarenta e dois reais e cinquenta e seis 
  centavos);         
  [(Redação dada pela Lei nº 13.281, de 2016)](https://www.planalto.gov.br/_Ato2015-2018/2016/Lei/L13281.htm#art1)      
  [(Vigência)](https://www.planalto.gov.br/_Ato2015-2018/2016/Lei/L13281.htm#art7)
-
+ 
  f) acima de 5.001 kg (cinco mil e um 
  quilogramas) - R$ 53,20 (cinquenta e três reais e vinte centavos);         
  [(Redação dada pela Lei nº 13.281, de 2016)](https://www.planalto.gov.br/_Ato2015-2018/2016/Lei/L13281.htm#art1)      
@@ -6209,7 +6209,7 @@ a) até 600 kg (seiscentos quilogramas) - R$
 Medida administrativa - retenção do veículo e transbordo da carga excedente;
 
         VI
-- em desacordo com a autorização especial, expedida pela autoridade competente para
+— em desacordo com a autorização especial, expedida pela autoridade competente para
 transitar com dimensões excedentes, ou quando a mesma estiver vencida:
 
 Infração - grave;
@@ -6228,13 +6228,13 @@ esse fim, salvo casos de força maior ou com permissão da autoridade competente
  [(Redação dada pela 
  Lei nº 13.855, de 2019)](https://www.planalto.gov.br/_Ato2019-2022/2019/Lei/L13855.htm#art2)      
  [(Vigência)](https://www.planalto.gov.br/_Ato2019-2022/2019/Lei/L13855.htm#art2)
-
+ 
  Penalidade  
  multa;            
  [(Redação dada pela 
  Lei nº 13.855, de 2019)](https://www.planalto.gov.br/_Ato2019-2022/2019/Lei/L13855.htm#art2)      
  [(Vigência)](https://www.planalto.gov.br/_Ato2019-2022/2019/Lei/L13855.htm#art2)
-
+ 
  Medida 
  administrativa  remoção do veículo;            
  [(Redação dada pela 
@@ -6242,7 +6242,7 @@ esse fim, salvo casos de força maior ou com permissão da autoridade competente
  [(Vigência)](https://www.planalto.gov.br/_Ato2019-2022/2019/Lei/L13855.htm#art2)
 
         IX
-- desligado ou desengrenado, em declive:
+— desligado ou desengrenado, em declive:
 
 Infração - média;
 
@@ -6251,7 +6251,7 @@ Penalidade - multa;
 Medida administrativa - retenção do veículo;
 
         X
-- excedendo a capacidade máxima de tração:
+— excedendo a capacidade máxima de tração:
 
 Infração - de média a gravíssima, a depender da relação entre o excesso de peso
 apurado e a capacidade máxima de tração, a ser regulamentada pelo CONTRAN;
@@ -6396,7 +6396,7 @@ nº 14.071, de 2020)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.
 nº 14.071, de 2020)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art1)     [(Vigência)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art7)
 
         II
-- transportando passageiro sem o capacete de segurança, na forma estabelecida no inciso
+— transportando passageiro sem o capacete de segurança, na forma estabelecida no inciso
 anterior, ou fora do assento suplementar colocado atrás do condutor ou em carro lateral;
 
 III - fazendo malabarismo ou equilibrando-se apenas em uma roda;
@@ -6410,22 +6410,22 @@ V - transportando criança menor de 10 (dez) anos de idade ou que não
  tenha, nas circunstâncias, condições de cuidar da própria segurança:    
 [ (Redação dada pela Lei 
 nº 14.071, de 2020)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art1)    [(Vigência)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art7)
-
+ 
          Infração - gravíssima;      
  [ (Redação dada 
  pela Lei nº 14.071, de 2020)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art1)      [(Vigência)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art7)
-
+ 
          Penalidade - multa e suspensão do direito de dirigir;      
  [ (Redação dada 
  pela Lei nº 14.071, de 2020)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art1)    [(Vigência)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art7)
-
+ 
          Medida administrativa - retenção do veículo até regularização e
  recolhimento do documento de habilitação;    
  [ (Redação dada 
  pela Lei nº 14.071, de 2020)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art1)     [(Vigência)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art7)
 
         VI
-- rebocando outro veículo;
+— rebocando outro veículo;
 
 VII - sem segurar o guidom com ambas as mãos, salvo eventualmente para indicação de
 manobras;
@@ -6449,12 +6449,12 @@ grave;        
  nº 12.009, de 2009)](https://www.planalto.gov.br/_Ato2007-2010/2009/Lei/L12009.htm#art5)
          Penalidade  
 multa;          
-
+ 
  [(Incluído pela Lei 
  nº 12.009, de 2009)](https://www.planalto.gov.br/_Ato2007-2010/2009/Lei/L12009.htm#art5)
          Medida 
 administrativa  apreensão do veículo para regularização.         
-
+ 
  [(Incluído pela Lei 
  nº 12.009, de 2009)](https://www.planalto.gov.br/_Ato2007-2010/2009/Lei/L12009.htm#art5)
 
@@ -6563,7 +6563,7 @@ Penalidade - multa.
 Art. 250. Quando o veículo estiver em movimento:
 
         I
-- deixar de manter acesa a luz baixa:
+— deixar de manter acesa a luz baixa:
 
         a)
 durante a noite;
@@ -6624,10 +6624,10 @@ Medida administrativa - retenção do veículo até a regularização.     
 Art. 251. Utilizar as luzes do veículo:
 
         I
-- o pisca-alerta, exceto em imobilizações ou situações de emergência;
+— o pisca-alerta, exceto em imobilizações ou situações de emergência;
 
         II
-- baixa e alta de forma intermitente, exceto nas seguintes situações:
+— baixa e alta de forma intermitente, exceto nas seguintes situações:
 
         a)
 a curtos intervalos, quando for conveniente advertir a outro condutor que se tem o
@@ -6647,23 +6647,23 @@ Penalidade - multa.
 Art. 252. Dirigir o veículo:
 
         I
-- com o braço do lado de fora;
+— com o braço do lado de fora;
 
         II
-- transportando pessoas, animais ou volume à sua esquerda ou entre os braços e pernas;
+— transportando pessoas, animais ou volume à sua esquerda ou entre os braços e pernas;
 
 III - com incapacidade física ou mental temporária que comprometa a segurança do
 trânsito;
 
         IV
-- usando calçado que não se firme nos pés ou que comprometa a utilização dos pedais;
+— usando calçado que não se firme nos pés ou que comprometa a utilização dos pedais;
 
         V
-- com apenas uma das mãos, exceto quando deva fazer sinais regulamentares de braço,
+— com apenas uma das mãos, exceto quando deva fazer sinais regulamentares de braço,
 mudar a marcha do veículo, ou acionar equipamentos e acessórios do veículo;
 
         VI
-- utilizando-se de fones nos ouvidos conectados a aparelhagem sonora ou de telefone
+— utilizando-se de fones nos ouvidos conectados a aparelhagem sonora ou de telefone
 celular;
 
 Infração - média;
@@ -6672,15 +6672,15 @@ Penalidade - multa.
 
 VII - realizando a cobrança de 
 tarifa com o veículo em movimento: 
-
+        
 [(Incluído pela Lei nº 13.154, de 2015)](https://www.planalto.gov.br/_Ato2015-2018/2015/Lei/L13154.htm#art1)
 
 Infração - média; 
-
+        
 [(Incluído pela Lei nº 13.154, de 2015)](https://www.planalto.gov.br/_Ato2015-2018/2015/Lei/L13154.htm#art1)
 
 Penalidade - multa. 
-
+        
 [(Incluído pela Lei nº 13.154, de 2015)](https://www.planalto.gov.br/_Ato2015-2018/2015/Lei/L13154.htm#art1)
 
 Parágrafo único. A hipótese prevista no inciso V 
@@ -6731,25 +6731,25 @@ normalidade para a circulação na via.         
 Art. 254. É proibido ao pedestre:
 
         I
-- permanecer ou andar nas pistas de rolamento, exceto para cruzá-las onde for permitido;
+— permanecer ou andar nas pistas de rolamento, exceto para cruzá-las onde for permitido;
 
         II
-- cruzar pistas de rolamento nos viadutos, pontes, ou túneis, salvo onde exista
+— cruzar pistas de rolamento nos viadutos, pontes, ou túneis, salvo onde exista
 permissão;
 
 III - atravessar a via dentro das áreas de cruzamento, salvo quando houver sinalização
 para esse fim;
 
         IV
-- utilizar-se da via em agrupamentos capazes de perturbar o trânsito, ou para a prática
+— utilizar-se da via em agrupamentos capazes de perturbar o trânsito, ou para a prática
 de qualquer folguedo, esporte, desfiles e similares, salvo em casos especiais e com a
 devida licença da autoridade competente;
 
         V
-- andar fora da faixa própria, passarela, passagem aérea ou subterrânea;
+— andar fora da faixa própria, passarela, passagem aérea ou subterrânea;
 
         VI
-- desobedecer à sinalização de trânsito específica;
+— desobedecer à sinalização de trânsito específica;
 
 Infração - leve;
 
@@ -6757,13 +6757,13 @@ Penalidade - multa, em 50% (cinqüenta por cento) do valor da infração de natu
 
 VII - (VETADO).         
 [(Incluído pela Lei nº 13.281, de 2016)](https://www.planalto.gov.br/_Ato2015-2018/2016/Lei/L13281.htm#art3)
-
+   
     § 1º  (VETADO).         
 [(Incluído pela Lei nº 13.281, de 2016)](https://www.planalto.gov.br/_Ato2015-2018/2016/Lei/L13281.htm#art3)
-
+   
     § 2º  (VETADO).         
 [(Incluído pela Lei nº 13.281, de 2016)](https://www.planalto.gov.br/_Ato2015-2018/2016/Lei/L13281.htm#art3)
-
+   
     § 3º  (VETADO).         
 [(Incluído pela Lei nº 13.281, de 2016)](https://www.planalto.gov.br/_Ato2015-2018/2016/Lei/L13281.htm#art3)
 
@@ -6784,23 +6784,23 @@ Código e dentro de sua circunscrição, deverá aplicar, às infrações nele p
 as seguintes penalidades:
 
         I
-- advertência por escrito;
+— advertência por escrito;
 
         II
-- multa;
+— multa;
 
 III - suspensão do direito de dirigir;
 
         IV
--         
+— 
 [(Revogado pela Lei nº 13.281, de 2016)](https://www.planalto.gov.br/_Ato2015-2018/2016/Lei/L13281.htm#art6)      
 [(Vigência)](https://www.planalto.gov.br/_Ato2015-2018/2016/Lei/L13281.htm#art7)
 
         V
-- cassação da Carteira Nacional de Habilitação;
+— cassação da Carteira Nacional de Habilitação;
 
         VI
-- cassação da Permissão para Dirigir;
+— cassação da Permissão para Dirigir;
 
 VII - freqüência obrigatória em curso de reciclagem.
 
@@ -6870,7 +6870,7 @@ nº 14.071, de 2020)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.
  vezes o da multa originária, garantidos o direito de defesa prévia e 
  de interposição de recursos previstos neste Código, na forma 
  estabelecida pelo Contran.        
-
+ 
 [(Redação dada pela Lei nº 14.229, de 2021)](https://www.planalto.gov.br/_Ato2019-2022/2021/Lei/L14229.htm#art2)    
  [(Vigência)](https://www.planalto.gov.br/_Ato2019-2022/2021/Lei/L14229.htm#art7)
 
@@ -6884,26 +6884,26 @@ próprio do cadastro do veículo no Renavam.               
  [(Incluído 
  pela Lei nº 13.495, 2017)](https://www.planalto.gov.br/_Ato2015-2018/2017/Lei/L13495.htm#art2)    
  [(Vigência)](https://www.planalto.gov.br/_Ato2015-2018/2017/Lei/L13495.htm#art3)
-
+ 
  § 11.  O 
 principal condutor será excluído do Renavam:               
  [(Incluído 
  pela Lei nº 13.495, 2017)](https://www.planalto.gov.br/_Ato2015-2018/2017/Lei/L13495.htm#art2)    
  [(Vigência)](https://www.planalto.gov.br/_Ato2015-2018/2017/Lei/L13495.htm#art3)
-
+ 
  I - 
   quando 
 houver transferência de propriedade do veículo;               
  [(Incluído 
  pela Lei nº 13.495, 2017)](https://www.planalto.gov.br/_Ato2015-2018/2017/Lei/L13495.htm#art2)    
  [(Vigência)](https://www.planalto.gov.br/_Ato2015-2018/2017/Lei/L13495.htm#art3)
-
+ 
  II - mediante 
 requerimento próprio ou do proprietário do veículo;               
  [(Incluído 
  pela Lei nº 13.495, 2017)](https://www.planalto.gov.br/_Ato2015-2018/2017/Lei/L13495.htm#art2)    
  [(Vigência)](https://www.planalto.gov.br/_Ato2015-2018/2017/Lei/L13495.htm#art3)
-
+ 
  III - a partir da indicação de outro 
  principal condutor.               
  [(Incluído 
@@ -6957,15 +6957,15 @@ específico é o previsto neste Código.
 Art. 259. A cada infração cometida são computados os seguintes números de pontos:
 
         I
-- gravíssima - sete pontos;
+— gravíssima - sete pontos;
 
         II
-- grave - cinco pontos;
+— grave - cinco pontos;
 
 III - média - quatro pontos;
 
         IV
-- leve - três pontos.
+— leve - três pontos.
 
         §
 1º 
@@ -6983,13 +6983,13 @@ III - média - quatro pontos;
 [(Incluído 
 pela Lei nº 
 12.619, de 2012)](https://www.planalto.gov.br/_Ato2011-2014/2012/Lei/L12619.htm#art6) [(Vigência)](https://www.planalto.gov.br/_Ato2011-2014/2012/Msg/VEP-151.htm#art12)
-
+ 
          § 4º  Ao condutor identificado será atribuída pontuação pelas
  infrações de sua responsabilidade, nos termos previstos no § 3º do
  art. 257 deste Código, exceto aquelas:     
  [ (Redação dada 
  pela Lei nº 14.071, de 2020)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art1)
-
+ 
          I - praticadas por passageiros usuários do serviço de transporte
  rodoviário de passageiros em viagens de longa distância transitando em
  rodovias com a utilização de ônibus, em linhas regulares
@@ -6999,13 +6999,13 @@ pela Lei nº
  no art. 65 deste Código;    
  [ (Incluído pela 
  Lei nº 14.071, de 2020)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art1)
-
+ 
          II - previstas no art. 221, nos incisos VII e XXI do art. 230 e nos
  arts. 232, 233, 233-A, 240 e 241 deste Código, sem prejuízo da
  aplicação das penalidades e medidas administrativas cabíveis;      
  [ (Incluído pela 
  Lei nº 14.071, de 2020)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art1)
-
+ 
          III - puníveis de forma específica com suspensão do direito de
  dirigir.      
  [ (Incluído pela 
@@ -7037,29 +7037,29 @@ respeitado o princípio de reciprocidade.
  direito de dirigir será imposta nos seguintes casos:         
 [(Redação dada pela Lei nº 13.281, de 2016)](https://www.planalto.gov.br/_Ato2015-2018/2016/Lei/L13281.htm#art1)      
 [(Vigência)](https://www.planalto.gov.br/_Ato2015-2018/2016/Lei/L13281.htm#art7)
-
+ 
          I - 
  sempre que, conforme a pontuação prevista no art. 259 deste
  Código, o infrator atingir, no período de 12 (doze) meses, a seguinte
  contagem de pontos:       
  [ (Redação dada 
  pela Lei nº 14.071, de 2020)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art1)    [(Vigência)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art7)
-
+ 
          a)  20 (vinte) pontos, caso constem 2 (duas) ou mais infrações
  gravíssimas na pontuação;      
  [ (Incluído pela 
  Lei nº 14.071, de 2020)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art1)     [(Vigência)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art7)
-
+ 
          b)  30 (trinta) pontos, caso conste 1 (uma) infração gravíssima
  na pontuação;       
  [ (Incluído pela 
  Lei nº 14.071, de 2020)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art1)    [(Vigência)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art7)
-
+ 
          c)  40 (quarenta) pontos, caso não conste nenhuma infração
  gravíssima na pontuação;        
  [ (Incluído pela 
  Lei nº 14.071, de 2020)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art1)     [(Vigência)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art7)
-
+ 
  II - por transgressão às normas estabelecidas 
  neste Código, cujas infrações preveem, de forma específica, a penalidade 
  de suspensão do direito de dirigir.         
@@ -7076,7 +7076,7 @@ respeitado o princípio de reciprocidade.
  penalidade de suspensão do direito de dirigir são os seguintes:         
 [(Redação dada pela Lei nº 13.281, de 2016)](https://www.planalto.gov.br/_Ato2015-2018/2016/Lei/L13281.htm#art1)      
 [(Vigência)](https://www.planalto.gov.br/_Ato2015-2018/2016/Lei/L13281.htm#art7)
-
+ 
   I - no caso do inciso I do 
  caput: de 6 
  (seis) meses a 1 (um) ano e, no caso de reincidência no período de 12 
@@ -7084,7 +7084,7 @@ respeitado o princípio de reciprocidade.
  [(Incluído pela Lei 
  nº 13.281, de 2016)](https://www.planalto.gov.br/_Ato2015-2018/2016/Lei/L13281.htm#art1)      
  [(Vigência)](https://www.planalto.gov.br/_Ato2015-2018/2016/Lei/L13281.htm#art7)
-
+ 
   II - no caso do inciso II do 
  caput: de 
  2 (dois) a 8 (oito) meses, exceto para as infrações com prazo descrito 
@@ -7096,7 +7096,7 @@ respeitado o princípio de reciprocidade.
  [(Vigência)](https://www.planalto.gov.br/_Ato2015-2018/2016/Lei/L13281.htm#art7)
 
  III - (VETADO).       
-
+ 
   [(Incluído 
  pela Lei nº 14.304, de 2022)](https://www.planalto.gov.br/_Ato2019-2022/2022/Lei/L14304.htm#art4)
 
@@ -7110,9 +7110,9 @@ curso de reciclagem.
  § 3º  A imposição da penalidade de suspensão do direito de
  dirigir elimina a quantidade de pontos computados, prevista no inciso
  I do
-
+ 
  caput
-
+ 
  ou no § 5º deste artigo, para fins de contagem
  subsequente.  
 [ (Redação dada pela Lei 
@@ -7129,18 +7129,18 @@ nº 14.071, de 2020)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.
  § 5º  No caso do condutor que exerce atividade remunerada ao
  veículo, a penalidade de suspensão do direito de dirigir de que trata
  o
-
+ 
  caput
-
+ 
  deste artigo será imposta quando o infrator atingir
  o limite de pontos previsto na alínea
-
+ 
  c
-
+ 
  do inciso I do
-
+ 
  caput
-
+ 
  deste artigo, independentemente da natureza das
  infrações cometidas, facultado a ele participar de curso preventivo de
  reciclagem sempre que, no período de 12 (doze) meses, atingir 30
@@ -7151,7 +7151,7 @@ nº 14.071, de 2020)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.
  § 6o Concluído o curso de reciclagem 
 previsto no § 5o, o condutor terá eliminados os pontos que lhe 
 tiverem sido atribuídos, para fins de contagem subsequente. 
-
+        
 [(Incluído pela Lei nº 13.154, de 2015)](https://www.planalto.gov.br/_Ato2015-2018/2015/Lei/L13154.htm#art1)
 
  § 7º  O motorista que optar pelo curso 
@@ -7174,16 +7174,16 @@ Contran.         
  [(Vigência)](https://www.planalto.gov.br/_Ato2015-2018/2016/Lei/L13281.htm#art7)
     § 10.  O processo de suspensão do direito de dirigir a que se
  refere o inciso II do
-
+ 
  caput
-
+ 
  deste artigo deverá ser
  instaurado concomitantemente ao processo de aplicação da penalidade de
  multa, e ambos serão de competência do órgão ou entidade responsável
  pela aplicação da multa, na forma definida pelo Contran.       
  [ (Redação dada 
  pela Lei nº 14.071, de 2020)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art1)     [(Vigência)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art7)
-
+    
  § 11.  O Contran regulamentará as 
  disposições deste artigo.         
  [(Incluído pela Lei nº 13.281, de 2016)](https://www.planalto.gov.br/_Ato2015-2018/2016/Lei/L13281.htm#art1)      
@@ -7208,10 +7208,10 @@ Contran.         
          Art. 263. A cassação do documento de habilitação dar-se-á:
 
          I
-- quando, suspenso o direito de dirigir, o infrator conduzir qualquer veículo;
+— quando, suspenso o direito de dirigir, o infrator conduzir qualquer veículo;
 
          II
-- no caso de reincidência, no prazo de doze meses, das infrações previstas no inciso
+— no caso de reincidência, no prazo de doze meses, das infrações previstas no inciso
 III do art. 162 e nos arts. 163, 164, 165, 173, 174 e 175;
 
 III - quando condenado judicialmente por delito de trânsito, observado o disposto no art.
@@ -7234,7 +7234,7 @@ poderá requerer sua reabilitação, submetendo-se a todos os exames necessário
 habilitação, na forma estabelecida pelo CONTRAN.
 
  § 3º (VETADO).        
-
+ 
   [(Incluído 
 pela Lei nº 14.304, de 2022)](https://www.planalto.gov.br/_Ato2019-2022/2022/Lei/L14304.htm#art4)
 
@@ -7257,12 +7257,12 @@ Art. 267.  Deverá ser imposta a penalidade de advertência por
  nos últimos 12 (doze) meses.       
 [ (Redação dada pela Lei 
 nº 14.071, de 2020)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art1)    [(Vigência)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art7)
-
+ 
          § 1º 
  (Revogado).      
  [ (Redação dada 
  pela Lei nº 14.071, de 2020)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art1)     [(Vigência)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art7)
-
+ 
          § 2º (Revogado).    
  [ (Redação dada 
  pela Lei nº 14.071, de 2020)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art1)       [(Vigência)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art7)
@@ -7276,7 +7276,7 @@ CONTRAN:
 nº 14.071, de 2020)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art1)      [(Vigência)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art7)
 
         II
-- quando suspenso do direito de dirigir;
+— quando suspenso do direito de dirigir;
 
  III - quando se envolver em sinistro grave para o qual haja 
  contribuído, independentemente de processo judicial;       
@@ -7285,10 +7285,10 @@ nº 14.071, de 2020)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.
 pela Lei nº 14.599, de 2023)](https://www.planalto.gov.br/_Ato2023-2026/2023/Lei/L14599.htm#art1)
 
         IV
-- quando condenado judicialmente por delito de trânsito;
+— quando condenado judicialmente por delito de trânsito;
 
         V
-- a qualquer tempo, se for constatado que o condutor está colocando em risco a segurança
+— a qualquer tempo, se for constatado que o condutor está colocando em risco a segurança
 do trânsito;
 
   VI - 
@@ -7299,10 +7299,10 @@ nº 14.071, de 2020)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.
  previsto no caput deste artigo, o infrator será submetido à 
  avaliação psicológica nos casos dos incisos III, IV e V do caput 
  deste artigo.   
-
+ 
 [ (Incluído pela Lei nº 
 14.071, de 2020)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art1)     
-
+ 
 [(Vigência)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art7)     
 
  [(Parte promulgada pelo Congresso Nacional)](https://www.planalto.gov.br#art268p)
@@ -7362,7 +7362,7 @@ Art. 268-A.  Fica criado o Registro Nacional Positivo de
  de Habilitação ou da Autorização para Conduzir Ciclomotor, estiver 
  cadastrado no RNPC terá sua habilitação renovada automaticamente, e ficará 
  dispensado dos procedimentos previstos no art. 147.   
-
+ 
  [(Incluído pela Medida 
  Provisória nº 1.327, de 2025)](https://www.planalto.gov.br/_Ato2023-2026/2025/Mpv/mpv1327.htm#art1)
 
@@ -7395,21 +7395,21 @@ estabelecidas neste Código e dentro de sua circunscrição, deverá adotar as s
 medidas administrativas:
 
         I
-- retenção do veículo;
+— retenção do veículo;
 
         II
-- remoção do veículo;
+— remoção do veículo;
 
 III - recolhimento da Carteira Nacional de Habilitação;
 
         IV
-- recolhimento da Permissão para Dirigir;
+— recolhimento da Permissão para Dirigir;
 
         V
-- recolhimento do Certificado de Registro;
+— recolhimento do Certificado de Registro;
 
         VI
-- recolhimento do Certificado de Licenciamento Anual;
+— recolhimento do Certificado de Licenciamento Anual;
 
 VII - 
 
@@ -7418,11 +7418,11 @@ VII -
 VIII - transbordo do excesso de carga;
 
         IX
-- realização de teste de dosagem de alcoolemia ou perícia de substância entorpecente
+— realização de teste de dosagem de alcoolemia ou perícia de substância entorpecente
 ou que determine dependência física ou psíquica;
 
         X
-- recolhimento de animais que se encontrem soltos nas vias e na faixa de domínio das vias
+— recolhimento de animais que se encontrem soltos nas vias e na faixa de domínio das vias
 de circulação, restituindo-os aos seus proprietários, após o pagamento de multas e
 encargos devidos.
 
@@ -7452,12 +7452,12 @@ pela Lei nº 14.599, de 2023)](https://www.planalto.gov.br/_Ato2023-2026/2023/Le
 pela Lei nº 14.599, de 2023)](https://www.planalto.gov.br/_Ato2023-2026/2023/Lei/L14599.htm#art1)
 
  II - a Permissão para Dirigir; e       
-
+ 
  [(Incluído 
 pela Lei nº 14.599, de 2023)](https://www.planalto.gov.br/_Ato2023-2026/2023/Lei/L14599.htm#art1)
 
  III - a Autorização para Conduzir Ciclomotor.      
-
+ 
  [(Incluído 
 pela Lei nº 14.599, de 2023)](https://www.planalto.gov.br/_Ato2023-2026/2023/Lei/L14599.htm#art1)
 
@@ -7467,9 +7467,9 @@ no que couber.
 
          § 5º  No caso de documentos em meio digital, as medidas
  administrativas previstas nos incisos III, IV, V e VI do
-
+ 
  caput
-
+ 
  deste artigo serão realizadas por meio de registro no Renach ou
  Renavam, conforme o caso, na forma estabelecida pelo Contran.       
 [ (Incluído pela Lei nº 
@@ -7532,13 +7532,13 @@ fixado pelo órgão ou entidade competente, com circunscrição sobre a via.
  específica.       
 [(Incluído pela Lei nº 
 13.160, de 2015)](https://www.planalto.gov.br/_Ato2015-2018/2015/Lei/L13160.htm#art2)
-
+   
       § 2o A liberação do veículo 
  removido é condicionada ao reparo de qualquer componente ou equipamento 
  obrigatório que não esteja em perfeito estado de funcionamento.       
 [(Incluído pela Lei nº 
 13.160, de 2015)](https://www.planalto.gov.br/_Ato2015-2018/2015/Lei/L13160.htm#art2)
-
+   
      § 3º  Se o reparo 
 referido no § 2º demandar providência que não possa ser tomada no 
 depósito, a autoridade responsável pela remoção liberará o veículo para reparo, 
@@ -7546,21 +7546,21 @@ na forma transportada, mediante autorização, assinalando prazo para
 reapresentação.         
 [(Redação dada pela Lei nº 
 13.281, de 2016)](https://www.planalto.gov.br/_Ato2015-2018/2016/Lei/L13281.htm#art3)
-
+         
 § 4º  Os serviços de remoção, depósito e 
 guarda de veículo poderão ser realizados por órgão público, diretamente, ou por 
 particular contratado por licitação pública, sendo o proprietário do veículo o 
 responsável pelo pagamento dos custos desses serviços.         
 [(Redação dada pela Lei nº 
 13.281, de 2016)](https://www.planalto.gov.br/_Ato2015-2018/2016/Lei/L13281.htm#art3)
-
+   
      § 5o O proprietário ou o 
  condutor deverá ser notificado, no ato de remoção do veículo, sobre as 
  providências necessárias à sua restituição e sobre o disposto no art. 328, 
  conforme regulamentação do CONTRAN.       
 [(Incluído pela Lei nº 
 13.160, de 2015)](https://www.planalto.gov.br/_Ato2015-2018/2015/Lei/L13160.htm#art2)
-
+   
      § 
  6º  Caso o proprietário ou o condutor não esteja presente no 
  momento da remoção do veículo, a autoridade de trânsito, no prazo de 10 
@@ -7569,18 +7569,18 @@ responsável pelo pagamento dos custos desses serviços.         
  meio tecnológico hábil que assegure a sua ciência, e, caso reste 
  frustrada, a notificação poderá ser feita por edital.          
 [(Redação dada pela Lei nº 13.281, de 2016)](https://www.planalto.gov.br/_Ato2015-2018/2016/Lei/L13281.htm#art3)
-
+   
       § 7o A notificação devolvida 
  por desatualização do endereço do proprietário do veículo ou por recusa 
  desse de recebê-la será considerada recebida para todos os efeitos       
 [(Incluído pela Lei nº 
 13.160, de 2015)](https://www.planalto.gov.br/_Ato2015-2018/2015/Lei/L13160.htm#art2)
-
+   
       § 8o Em caso de veículo 
  licenciado no exterior, a notificação será feita por edital.       
 [(Incluído pela Lei nº 
 13.160, de 2015)](https://www.planalto.gov.br/_Ato2015-2018/2015/Lei/L13160.htm#art2)
-
+   
       § 9º  Não caberá remoção nos casos em que a irregularidade for
  sanada no local da infração.      
 [ (Redação dada pela Lei 
@@ -7600,7 +7600,7 @@ nº 14.071, de 2020)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.
 
  § 9º-B. O disposto no § 9º-A deste artigo não se aplica às infrações 
  previstas no inciso V do 
-
+ 
  caput 
  do art. 230 e no inciso VIII do 
  caput do art. 231 deste Código.         
@@ -7654,19 +7654,19 @@ Art. 273. O recolhimento do Certificado de Registro dar-se-á mediante recibo, a
 casos previstos neste Código, quando:
 
         I
-- houver suspeita de inautenticidade ou adulteração;
+— houver suspeita de inautenticidade ou adulteração;
 
         II
-- se, alienado o veículo, não for transferida sua propriedade no prazo de trinta dias.
+— se, alienado o veículo, não for transferida sua propriedade no prazo de trinta dias.
 
 Art. 274. O recolhimento do Certificado de Licenciamento Anual dar-se-á mediante recibo,
 além dos casos previstos neste Código, quando:
 
         I
-- houver suspeita de inautenticidade ou adulteração;
+— houver suspeita de inautenticidade ou adulteração;
 
         II
-- se o prazo de licenciamento estiver vencido;
+— se o prazo de licenciamento estiver vencido;
 
 III - no caso de retenção do veículo, se a irregularidade não puder ser sanada no
 local.
@@ -7800,23 +7800,23 @@ Art. 280. Ocorrendo infração prevista na legislação de trânsito, lavrar-se-
 infração, do qual constará:
 
         I
-- tipificação da infração;
+— tipificação da infração;
 
         II
-- local, data e hora do cometimento da infração;
+— local, data e hora do cometimento da infração;
 
 III - caracteres da placa de identificação do veículo, sua marca e espécie, e outros
 elementos julgados necessários à sua identificação;
 
         IV
-- o prontuário do condutor, sempre que possível;
+— o prontuário do condutor, sempre que possível;
 
         V
-- identificação do órgão ou entidade e da autoridade ou agente autuador ou equipamento
+— identificação do órgão ou entidade e da autoridade ou agente autuador ou equipamento
 que comprovar a infração;
 
         VI
-- assinatura do infrator, sempre que possível, valendo esta como notificação do
+— assinatura do infrator, sempre que possível, valendo esta como notificação do
 cometimento da infração.
 
         §
@@ -7869,7 +7869,7 @@ insubsistente:    
 [(Vigência)](https://www.planalto.gov.br/_Ato2019-2022/2022/Lei/L14304.htm#art5)
 
         I
-- se considerado inconsistente ou irregular;
+— se considerado inconsistente ou irregular;
 
 II - se, no prazo
 máximo de trinta dias, não for expedida a notificação da autuação.        [(Redação dada pela Lei nº 9.602, de 1998)](https://www.planalto.gov.br/L9602.htm#art3)
@@ -7925,7 +7925,7 @@ da notificação da penalidade.        [(Incluído pela Lei nº 9.602, de
 § 5º No caso de
 penalidade de multa, a data estabelecida no parágrafo anterior será a data para o
 recolhimento de seu valor.        [(Incluído pela Lei nº 9.602, de 1998)](https://www.planalto.gov.br/L9602.htm#art282)
-
+ 
         § 6º O prazo para expedição das notificações das penalidades 
  previstas no art. 256 deste Código é de 180 (cento e oitenta) dias 
  ou, se houver interposição de defesa prévia, de 360 (trezentos e 
@@ -7935,7 +7935,7 @@ recolhimento de seu valor.        [(Incluído pela Lei nº 9.602, de 1998
 14.229, de 2021)](https://www.planalto.gov.br/_Ato2019-2022/2021/Lei/L14229.htm#art2)
 
  I - no caso das penalidades previstas nos incisos I e II do 
-
+ 
  caput 
  do art. 256 deste Código, da data do cometimento da infração;        
 
@@ -7986,17 +7986,17 @@ nº 14.071, de 2020)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.
 no órgão executivo de trânsito do Estado ou do Distrito Federal.       
 [ (Redação dada pela Lei nº 
 14.071, de 2020)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art1)     [(Vigência)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art7)
-
+ 
   § 2º  Na hipótese de notificação prevista no
-
+ 
  caput
-
+ 
  deste artigo, o proprietário ou o condutor autuado será considerado
  notificado 30 (trinta) dias após a inclusão da informação no sistema
  eletrônico e do envio da respectiva mensagem.       
  [ (Redação dada 
  pela Lei nº 14.071, de 2020)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art1)       [(Vigência)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art7)
-
+ 
  § 3º O  sistema previsto no caput 
  será certificado digitalmente, atendidos os requisitos de autenticidade, 
  integridade, validade jurídica e interoperabilidade da Infraestrutura de 
@@ -8012,7 +8012,7 @@ responsabilidade do órgão máximo executivo de trânsito da União.     
 14.440, de 2022)](https://www.planalto.gov.br/_Ato2019-2022/2022/Lei/L14440.htm#art15)
 
 § 5º 
-
+ 
 [(Vide Lei nº 14.440, de 
 2022)](https://www.planalto.gov.br/_Ato2019-2022/2022/Lei/L14440.htm#art15)      
 [(Vigência)](https://www.planalto.gov.br/_Ato2019-2022/2022/Lei/L14440.htm#art24)
@@ -8032,20 +8032,20 @@ notificação, por oitenta por cento do seu valor.
 
  [(Redação dada 
 pela Lei nº 14.599, de 2023)](https://www.planalto.gov.br/_Ato2023-2026/2023/Lei/L14599.htm#art1)
-
+ 
  § 2º  O recolhimento do valor da multa 
  não implica renúncia ao questionamento administrativo, que pode ser 
  realizado a qualquer momento, respeitado o disposto no § 1º.         
  [(Incluído pela Lei nº 13.281, de 2016)](https://www.planalto.gov.br/_Ato2015-2018/2016/Lei/L13281.htm#art1)      
  [(Vigência)](https://www.planalto.gov.br/_Ato2015-2018/2016/Lei/L13281.htm#art7)
-
+ 
  § 3º  Não incidirá cobrança moratória 
  e não poderá ser aplicada qualquer restrição, inclusive para fins de 
  licenciamento e transferência, enquanto não for encerrada a instância 
  administrativa de julgamento de infrações e penalidades.         
  [(Incluído pela Lei nº 13.281, de 2016)](https://www.planalto.gov.br/_Ato2015-2018/2016/Lei/L13281.htm#art1)      
  [(Vigência)](https://www.planalto.gov.br/_Ato2015-2018/2016/Lei/L13281.htm#art7)
-
+ 
  § 4º  Encerrada a instância 
  administrativa de julgamento de infrações e penalidades, a multa não 
  paga até o vencimento será acrescida de juros de mora equivalentes à 
@@ -8062,7 +8062,7 @@ pela Lei nº 14.599, de 2023)](https://www.planalto.gov.br/_Ato2023-2026/2023/Le
  apresentação de defesa prévia e de recurso, quando o infrator não 
  reconhecer o cometimento da infração, na forma regulamentada pelo 
  Contran.    
-
+ 
  [(Redação dada pela 
  Lei nº 14.440, de 2022)](https://www.planalto.gov.br/_Ato2019-2022/2022/Lei/L14440.htm#art15)
 
@@ -8071,33 +8071,33 @@ pela Lei nº 14.599, de 2023)](https://www.planalto.gov.br/_Ato2023-2026/2023/Le
  tiver aderido ao sistema de notificação eletrônica de que trata o 
  art. 282-A deste Código, desde que o infrator tenha cumprido os 
  requisitos nele descritos.     
-
+ 
  [(Incluído 
 pela Lei nº 14.599, de 2023)](https://www.planalto.gov.br/_Ato2023-2026/2023/Lei/L14599.htm#art1)
 
  Art. 285. O recurso contra a penalidade imposta nos termos do art. 
 282 deste Código será interposto perante a autoridade que imputou a penalidade e 
 terá efeito suspensivo.        
-
+ 
 [(Redação dada pela Lei nº 14.229, de 2021)](https://www.planalto.gov.br/_Ato2019-2022/2021/Lei/L14229.htm#art2)    
  [(Vigência)](https://www.planalto.gov.br/_Ato2019-2022/2021/Lei/L14229.htm#art7)
 
  § 1º O recurso intempestivo ou interposto por parte ilegítima não 
 terá efeito suspensivo.       
-
+ 
 [(Redação dada pela Lei nº 14.229, de 2021)](https://www.planalto.gov.br/_Ato2019-2022/2021/Lei/L14229.htm#art2)    
  [(Vigência)](https://www.planalto.gov.br/_Ato2019-2022/2021/Lei/L14229.htm#art7)
 
   § 2º Recebido o recurso tempestivo, a autoridade o remeterá à Jari, 
  no prazo de 10 (dez) dias, contado da data de sua interposição.        
-
+ 
  [(Redação dada 
  pela Lei nº 14.229, de 2021)](https://www.planalto.gov.br/_Ato2019-2022/2021/Lei/L14229.htm#art2)    
  [(Vigência)](https://www.planalto.gov.br/_Ato2019-2022/2021/Lei/L14229.htm#art7)
 
   § 3º 
  [(Revogado)](https://www.planalto.gov.br/_Ato2019-2022/2021/Lei/L14229.htm#art6).         
-
+ 
  [(Redação dada 
  pela Lei nº 14.229, de 2021)](https://www.planalto.gov.br/_Ato2019-2022/2021/Lei/L14229.htm#art2)    
  [(Vigência)](https://www.planalto.gov.br/_Ato2019-2022/2021/Lei/L14229.htm#art7)
@@ -8117,7 +8117,7 @@ terá efeito suspensivo.      
  § 6º 
 
   O recurso de que trata o 
-
+ 
  caput 
  deste artigo deverá ser julgado no prazo de 24 (vinte e quatro) 
  meses, contado do recebimento do recurso pelo órgão julgador.       
@@ -8161,7 +8161,7 @@ infração, e da decisão de provimento, pela autoridade que impôs a penalidade
  Art. 289. O recurso de que trata o art. 288 deste Código deverá ser 
  julgado no prazo de 24 (vinte e quatro) meses, contado do 
  recebimento do recurso pelo órgão julgador:    
-
+ 
 [(Redação dada pela Lei nº 14.229, de 2021)](https://www.planalto.gov.br/_Ato2019-2022/2021/Lei/L14229.htm#art2)    
  [(Vigência)](https://www.planalto.gov.br/_Ato2019-2022/2021/Lei/L14229.htm#art7)
 
@@ -8171,29 +8171,29 @@ I -
  Presidente de Junta; 
 [ (Redação dada pela Lei 
 nº 14.071, de 2020)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art1)      [(Vigência)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art7)
-
+ 
          a) (revogada);      
  [ (Redação dada 
  pela Lei nº 14.071, de 2020)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art1)      [(Vigência)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art7)
-
+ 
          b) (revogada);       
  [ (Redação dada 
  pela Lei nº 14.071, de 2020)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art1)     [(Vigência)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art7)
 
         II
-- tratando-se de penalidade imposta por órgão ou entidade de trânsito estadual,
+— tratando-se de penalidade imposta por órgão ou entidade de trânsito estadual,
 municipal ou do Distrito Federal, pelos CETRAN E CONTRANDIFE, respectivamente.
 
  Parágrafo único. No caso do inciso I do 
  caput deste artigo:        
-
+ 
  [(Redação dada 
  pela Lei nº 14.229, de 2021)](https://www.planalto.gov.br/_Ato2019-2022/2021/Lei/L14229.htm#art2)    
  [(Vigência)](https://www.planalto.gov.br/_Ato2019-2022/2021/Lei/L14229.htm#art7)
 
  I - quando houver apenas 1 (uma) Jari, o recurso será julgado por 
  seus membros;        
-
+ 
  [(Incluído pela Lei nº 14.229, de 2021)](https://www.planalto.gov.br/_Ato2019-2022/2021/Lei/L14229.htm#art2)    
  [(Vigência)](https://www.planalto.gov.br/_Ato2019-2022/2021/Lei/L14229.htm#art7)
 
@@ -8201,17 +8201,17 @@ municipal ou do Distrito Federal, pelos CETRAN E CONTRANDIFE, respectivamente.
  formados, compostos pelo Presidente da Junta que apreciou o recurso 
  e por mais 2 (dois) Presidentes de Junta, na forma estabelecida pelo 
  Contran.      
-
+ 
  [(Incluído pela Lei nº 14.229, de 2021)](https://www.planalto.gov.br/_Ato2019-2022/2021/Lei/L14229.htm#art2)    
  [(Vigência)](https://www.planalto.gov.br/_Ato2019-2022/2021/Lei/L14229.htm#art7)
 
  Art. 289-A. O não julgamento dos recursos nos prazos previstos no § 
  6º do art. 285 e no 
-
+ 
  caput 
  do art. 289 deste Código ensejará a prescrição da pretensão 
  punitiva.      
-
+ 
  [(Incluído pela Lei nº 14.229, de 2021)](https://www.planalto.gov.br/_Ato2019-2022/2021/Lei/L14229.htm#art2)    
  [(Vigência)](https://www.planalto.gov.br/_Ato2019-2022/2021/Lei/L14229.htm#art7)
 
@@ -8219,17 +8219,17 @@ Art. 290. Implicam encerramento da instância
  administrativa de julgamento de infrações e penalidades:         
 [(Redação dada pela Lei nº 13.281, de 2016)](https://www.planalto.gov.br/_Ato2015-2018/2016/Lei/L13281.htm#art2)      
 [(Vigência)](https://www.planalto.gov.br/_Ato2015-2018/2016/Lei/L13281.htm#art7)
-
+ 
  I - o julgamento do recurso de que tratam os 
  arts. 288 e 289;         
  [(Incluído pela Lei nº 13.281, de 2016)](https://www.planalto.gov.br/_Ato2015-2018/2016/Lei/L13281.htm#art2)      
  [(Vigência)](https://www.planalto.gov.br/_Ato2015-2018/2016/Lei/L13281.htm#art7)
-
+ 
  II - a não interposição do recurso no prazo 
  legal; e         
  [(Incluído pela Lei nº 13.281, de 2016)](https://www.planalto.gov.br/_Ato2015-2018/2016/Lei/L13281.htm#art2)      
  [(Vigência)](https://www.planalto.gov.br/_Ato2015-2018/2016/Lei/L13281.htm#art7)
-
+ 
  III - o pagamento da multa, com 
  reconhecimento da infração e requerimento de encerramento do processo na 
  fase em que se encontra, sem apresentação de defesa ou recurso.         
@@ -8241,7 +8241,7 @@ Código serão cadastradas no RENACH.
          Art. 290-A. Os prazos processuais de que trata este Código não se 
  suspendem, salvo por motivo de força maior devidamente comprovado, 
  nos termos de regulamento do Contran.       
-
+ 
 [(Incluído pela Lei nº 14.229, de 2021)](https://www.planalto.gov.br/_Ato2019-2022/2021/Lei/L14229.htm#art2)    
  [(Vigência)](https://www.planalto.gov.br/_Ato2019-2022/2021/Lei/L14229.htm#art7)
 
@@ -8260,20 +8260,20 @@ este Capítulo não dispuser de modo diverso, bem como a [Lei nº
 culposa o disposto nos arts. 74, 76 e 88 da Lei no 9.099, de 
 26 de setembro de 1995, exceto se o agente estiver:         [(Renumerado 
 do parágrafo único pela Lei nº 11.705, de 2008)](https://www.planalto.gov.br/_Ato2007-2010/2008/Lei/L11705.htm#art5)
-
+ 
          I - sob a influência de álcool ou qualquer outra substância psicoativa que 
 determine dependência;         [(Incluído 
  pela Lei nº 11.705, de 2008)](https://www.planalto.gov.br/_Ato2007-2010/2008/Lei/L11705.htm#art5)
-
+ 
          II - participando, em via pública, de corrida, disputa ou competição 
 automobilística, de exibição ou demonstração de perícia em manobra de veículo 
 automotor, não autorizada pela autoridade competente;         [(Incluído 
  pela Lei nº 11.705, de 2008)](https://www.planalto.gov.br/_Ato2007-2010/2008/Lei/L11705.htm#art5)
-
+ 
          III - transitando em velocidade superior à máxima permitida para a via em 50 
 km/h (cinqüenta quilômetros por hora).        [(Incluído 
  pela Lei nº 11.705, de 2008)](https://www.planalto.gov.br/_Ato2007-2010/2008/Lei/L11705.htm#art5)
-
+ 
          § 2o  Nas hipóteses previstas no § 1o deste 
 artigo, deverá ser instaurado inquérito policial para a investigação da infração 
 penal.       
@@ -8356,31 +8356,31 @@ Art. 298. São circunstâncias que sempre agravam as penalidades dos crimes de t
 ter o condutor do veículo cometido a infração:
 
         I
-- com dano potencial para duas ou mais pessoas ou com grande risco de grave dano
+— com dano potencial para duas ou mais pessoas ou com grande risco de grave dano
 patrimonial a terceiros;
 
         II
-- utilizando o veículo sem placas, com placas falsas ou adulteradas;
+— utilizando o veículo sem placas, com placas falsas ou adulteradas;
 
 III - sem possuir Permissão para Dirigir ou Carteira de Habilitação;
 
         IV
-- com Permissão para Dirigir ou Carteira de Habilitação de categoria diferente da do
+— com Permissão para Dirigir ou Carteira de Habilitação de categoria diferente da do
 veículo;
 
         V
-- quando a sua profissão ou atividade exigir cuidados especiais com o transporte de
+— quando a sua profissão ou atividade exigir cuidados especiais com o transporte de
 passageiros ou de carga;
 
         VI
-- utilizando veículo em que tenham sido adulterados equipamentos ou características que
+— utilizando veículo em que tenham sido adulterados equipamentos ou características que
 afetem a sua segurança ou o seu funcionamento de acordo com os limites de velocidade
 prescritos nas especificações do fabricante;
 
 VII - sobre faixa de trânsito temporária ou permanentemente destinada a pedestres.
 
  Parágrafo único. (VETADO).        
-
+ 
   [(Incluído 
 pela Lei nº 14.304, de 2022)](https://www.planalto.gov.br/_Ato2019-2022/2022/Lei/L14304.htm#art4)
 
@@ -8405,7 +8405,7 @@ Seção II
 Dos Crimes em Espécie
 
 Art. 302. Praticar homicídio culposo na direção de veículo automotor:
-
+        
 Penas - detenção, de dois a quatro anos, e suspensão ou proibição de se obter a 
 permissão ou a habilitação para dirigir veículo automotor.
 
@@ -8416,13 +8416,13 @@ a pena é aumentada de 1/3 (um terço) à metade, se o agente:         
  pela Lei nº 
  12.971, de 2014)](https://www.planalto.gov.br/_Ato2011-2014/2014/Lei/L12971.htm#art1)   
  [(Vigência)](https://www.planalto.gov.br/_Ato2011-2014/2014/Lei/L12971.htm#art20)
-
+ 
  I - não possuir Permissão para Dirigir ou Carteira de Habilitação;         
  [(Incluído 
  pela Lei nº 
  12.971, de 2014)](https://www.planalto.gov.br/_Ato2011-2014/2014/Lei/L12971.htm#art1)   
  [(Vigência)](https://www.planalto.gov.br/_Ato2011-2014/2014/Lei/L12971.htm#art20)
-
+ 
  II - praticá-lo em faixa de pedestres ou na calçada;         
  [(Incluído 
  pela Lei nº 
@@ -8431,10 +8431,10 @@ a pena é aumentada de 1/3 (um terço) à metade, se o agente:         
 
  III - deixar de prestar socorro, quando possível fazê-lo sem risco 
  pessoal, à vítima do sinistro;      
-
+ 
  [(Redação dada 
 pela Lei nº 14.599, de 2023)](https://www.planalto.gov.br/_Ato2023-2026/2023/Lei/L14599.htm#art1)
-
+ 
  IV - no exercício de sua profissão ou atividade, estiver conduzindo veículo de 
 transporte de passageiros.         
  [(Incluído 
@@ -8485,7 +8485,7 @@ do art. 302.     
  psicomotora alterada em razão da influência de álcool ou de outra substância 
  psicoativa que determine dependência, e se do crime resultar lesão corporal 
 de natureza grave ou gravíssima. 
-
+    
 [(Incluído pela Lei nº 
 13.546, de 2017)](https://www.planalto.gov.br/_Ato2015-2018/2017/Lei/L13546.htm#art3)  
 [(Vigência)](https://www.planalto.gov.br/_Ato2015-2018/2017/Lei/L13546.htm#art6)
@@ -8562,7 +8562,7 @@ direito à contraprova.         
  ser empregado qualquer aparelho homologado pelo Instituto Nacional de 
  Metrologia, Qualidade e Tecnologia - INMETRO - para se determinar o 
  previsto no caput.      
-
+ 
  [(Incluído pela 
  Lei nº 13.840, de 2019)](https://www.planalto.gov.br/_Ato2019-2022/2019/Lei/L13840.htm#art18)
 
@@ -8661,7 +8661,7 @@ Art. 312-A.  Para os crimes relacionados nos arts. 302 a 312 deste Código, nas
  entidades públicas, em uma das seguintes atividades:         
 [(Incluído pela Lei nº 13.281, de 2016)](https://www.planalto.gov.br/_Ato2015-2018/2016/Lei/L13281.htm#art2)      
 [(Vigência)](https://www.planalto.gov.br/_Ato2015-2018/2016/Lei/L13281.htm#art7)
-
+ 
  I - trabalho, aos fins de semana, em equipes 
  de resgate dos corpos de bombeiros e em outras unidades móveis 
  especializadas no atendimento a vítimas de trânsito;         
@@ -8671,19 +8671,19 @@ Art. 312-A.  Para os crimes relacionados nos arts. 302 a 312 deste Código, nas
  II - trabalho em unidades de pronto-socorro de hospitais da rede 
  pública que recebem vítimas de sinistro de trânsito e 
  politraumatizados;     
-
+ 
  [(Redação dada 
 pela Lei nº 14.599, de 2023)](https://www.planalto.gov.br/_Ato2023-2026/2023/Lei/L14599.htm#art1)
 
  III - trabalho em clínicas ou instituições especializadas na 
  recuperação de sinistrados de trânsito;      
-
+ 
  [(Redação dada 
 pela Lei nº 14.599, de 2023)](https://www.planalto.gov.br/_Ato2023-2026/2023/Lei/L14599.htm#art1)
 
  IV - outras atividades relacionadas a resgate, atendimento e 
  recuperação de vítimas de sinistros de trânsito.     
-
+ 
  [(Redação dada 
 pela Lei nº 14.599, de 2023)](https://www.planalto.gov.br/_Ato2023-2026/2023/Lei/L14599.htm#art1)
 
@@ -8691,9 +8691,9 @@ pela Lei nº 14.599, de 2023)](https://www.planalto.gov.br/_Ato2023-2026/2023/Le
  Aos crimes previstos no § 3º do art. 302 e no § 2º do
  art. 303 deste Código não se aplica o disposto no
  [inciso I do
-
+ 
  caput
-
+ 
  do art. 44 do Decreto-Lei nº 2.848, de
  7 de dezembro de 1940 (Código Penal)](https://www.planalto.gov.br/Decreto-Lei/Del2848.htm#art44i)
  .    
@@ -8749,7 +8749,7 @@ Art. 319-A.  Os valores de multas constantes
  Consumidor Amplo (IPCA) no exercício anterior.         
 [(Incluído pela Lei nº 13.281, de 2016)](https://www.planalto.gov.br/_Ato2015-2018/2016/Lei/L13281.htm#art2)      
 [(Vigência)](https://www.planalto.gov.br/_Ato2015-2018/2016/Lei/L13281.htm#art7)
-
+ 
  Parágrafo único. Os novos valores decorrentes 
  do disposto no caput serão divulgados pelo Contran com, no 
  mínimo, 90 (noventa) dias de antecedência de sua aplicação.         
@@ -8763,7 +8763,7 @@ circulante, em educação de trânsito e em custeio do processo de habilitação
 condutores de baixa renda.  
 [(Redação dada pela Lei nº 
 15.153, de 2025)](https://www.planalto.gov.br/_Ato2023-2026/2025/Lei/L15153.htm#art2)   
-
+ 
  [ Vigência](https://www.planalto.gov.br/_Ato2023-2026/2025/Lei/L15153.htm#art3)
 
 § 1º  O percentual de cinco 
@@ -8796,7 +8796,7 @@ deste Código, ressalvado o previsto em regulamento do Poder Executivo.
  habilitação para candidatos de baixa renda.  
  [(Incluído pela 
  Lei nº 15.153, de 2025)](https://www.planalto.gov.br/_Ato2023-2026/2025/Lei/L15153.htm#art2)   
-
+ 
  [ Vigência](https://www.planalto.gov.br/_Ato2023-2026/2025/Lei/L15153.htm#art3)
 
  § 5º O candidato de baixa renda de que trata o § 4º deste artigo 
@@ -8804,7 +8804,7 @@ deste Código, ressalvado o previsto em regulamento do Poder Executivo.
  Programas Sociais do Governo Federal (CadÚnico).  
  [(Incluído pela 
  Lei nº 15.153, de 2025)](https://www.planalto.gov.br/_Ato2023-2026/2025/Lei/L15153.htm#art2)   
-
+ 
  [ Vigência](https://www.planalto.gov.br/_Ato2023-2026/2025/Lei/L15153.htm#art3)
 
 Art. 
@@ -8814,7 +8814,7 @@ inclusive por meio do compartilhamento da receita arrecadada com a cobrança das
 multas de trânsito.         
 [(Incluído pela Lei nº 
 13.281, de 2016)](https://www.planalto.gov.br/_Ato2015-2018/2016/Lei/L13281.htm#art3)
-
+       
 Art. 321. 
 
  (VETADO) 
@@ -8843,7 +8843,7 @@ Art. 325.  As repartições de trânsito
  aos autos de infração de trânsito.         
 [(Redação dada pela Lei nº 13.281, de 2016)](https://www.planalto.gov.br/_Ato2015-2018/2016/Lei/L13281.htm#art2)      
 [(Vigência)](https://www.planalto.gov.br/_Ato2015-2018/2016/Lei/L13281.htm#art7)
-
+ 
  § 1º Os documentos previstos no 
  caput poderão ser gerados e tramitados eletronicamente, bem como 
  arquivados e armazenados em meio digital, desde que assegurada a 
@@ -8852,14 +8852,14 @@ Art. 325.  As repartições de trânsito
  dispensada, nesse caso, a sua guarda física.         
  [(Incluído pela Lei nº 13.281, de 2016)](https://www.planalto.gov.br/_Ato2015-2018/2016/Lei/L13281.htm#art2)      
  [(Vigência)](https://www.planalto.gov.br/_Ato2015-2018/2016/Lei/L13281.htm#art7)
-
+ 
  § 2º  O Contran regulamentará a 
  geração, a tramitação, o arquivamento, o armazenamento e a eliminação de 
  documentos eletrônicos e físicos gerados em decorrência da aplicação das 
  disposições deste Código.         
  [(Incluído pela Lei nº 13.281, de 2016)](https://www.planalto.gov.br/_Ato2015-2018/2016/Lei/L13281.htm#art2)      
  [(Vigência)](https://www.planalto.gov.br/_Ato2015-2018/2016/Lei/L13281.htm#art7)
-
+ 
  § 3º  Na hipótese prevista nos §§ 1º 
  e 2º, o sistema deverá ser certificado digitalmente, atendidos os 
  requisitos de autenticidade, integridade, validade jurídica e 
@@ -8878,24 +8878,24 @@ compreendido entre 18 e 25 de setembro.
  Estado e pelo Distrito Federal, detalhando-se os dados levantados e 
  as ações realizadas em vias federais, estaduais, distritais e 
  municipais, na forma regulamentada pelo Contran.     
-
+ 
  [(Redação dada 
 pela Lei nº 14.599, de 2023)](https://www.planalto.gov.br/_Ato2023-2026/2023/Lei/L14599.htm#art1)
 
  § 1º O objetivo geral do estabelecimento de metas é, ao final de 
  2030, reduzir à metade, no mínimo, o índice de mortes por grupo de 
  habitantes, relativamente ao índice apurado em 2020.       
-
+ 
  [(Redação dada 
 pela Lei nº 14.599, de 2023)](https://www.planalto.gov.br/_Ato2023-2026/2023/Lei/L14599.htm#art1)
-
+ 
  § 2o  As metas expressam a 
  diferença a menor, em base percentual, entre os índices mais recentes, 
  oficialmente apurados, e os índices que se pretende alcançar.                
  [(Incluído pela Lei nº 13.614, de 
  2018)](https://www.planalto.gov.br/_Ato2015-2018/2018/Lei/L13614.htm#art5)     
  [(Vigência)](https://www.planalto.gov.br/_Ato2015-2018/2018/Lei/L13614.htm#art6)
-
+ 
  § 3o  A decisão que fixar 
  as metas anuais estabelecerá as respectivas margens de tolerância.                
  [(Incluído pela Lei nº 13.614, de 
@@ -8906,7 +8906,7 @@ pela Lei nº 14.599, de 2023)](https://www.planalto.gov.br/_Ato2023-2026/2023/Le
  Distrito Federal, mediante propostas fundamentadas dos Cetran, do 
  Contrandife e da Polícia Rodoviária Federal, no âmbito das 
  respectivas circunscrições.       
-
+ 
  [(Redação dada 
 pela Lei nº 14.599, de 2023)](https://www.planalto.gov.br/_Ato2023-2026/2023/Lei/L14599.htm#art1)
 
@@ -8914,17 +8914,17 @@ pela Lei nº 14.599, de 2023)](https://www.planalto.gov.br/_Ato2023-2026/2023/Le
  Contrandife e a Polícia Rodoviária Federal realizarão consulta ou 
  audiência pública para manifestação da sociedade sobre as metas a 
  serem propostas.       
-
+ 
  [(Redação dada 
 pela Lei nº 14.599, de 2023)](https://www.planalto.gov.br/_Ato2023-2026/2023/Lei/L14599.htm#art1)
 
  § 6º As propostas dos Cetran, do Contrandife e da Polícia Rodoviária 
  Federal serão encaminhadas ao Contran até o dia 1º de agosto de cada 
  ano, conforme regulamentação do Contran.     
-
+ 
  [(Redação dada 
 pela Lei nº 14.599, de 2023)](https://www.planalto.gov.br/_Ato2023-2026/2023/Lei/L14599.htm#art1)
-
+ 
  § 7o  As metas fixadas 
  serão divulgadas em setembro, durante a Semana Nacional de Trânsito, 
  assim como o desempenho, absoluto e relativo, de cada Estado e do 
@@ -8943,7 +8943,7 @@ pela Lei nº 14.599, de 2023)](https://www.planalto.gov.br/_Ato2023-2026/2023/Le
  este artigo, assim como a metodologia para a coleta e o tratamento 
  dos dados estatísticos necessários para a composição dos termos das 
  fórmulas.      
-
+ 
  [(Redação dada 
 pela Lei nº 14.599, de 2023)](https://www.planalto.gov.br/_Ato2023-2026/2023/Lei/L14599.htm#art1)
 
@@ -8951,29 +8951,29 @@ pela Lei nº 14.599, de 2023)](https://www.planalto.gov.br/_Ato2023-2026/2023/Le
  Federal serão tratados e consolidados pelos respectivos órgãos ou 
  entidades executivos de trânsito, que os repassarão ao órgão máximo 
  executivo de trânsito da União, conforme regulamentação do Contran.        
-
+ 
  [(Redação dada 
 pela Lei nº 14.599, de 2023)](https://www.planalto.gov.br/_Ato2023-2026/2023/Lei/L14599.htm#art1)
-
+ 
  § 10.  Os dados estatísticos sujeitos à 
  consolidação pelo órgão ou entidade executivos de trânsito do Estado ou 
  do Distrito Federal compreendem os coletados naquela circunscrição:                
  [(Incluído pela Lei nº 13.614, de 
  2018)](https://www.planalto.gov.br/_Ato2015-2018/2018/Lei/L13614.htm#art5)     
  [(Vigência)](https://www.planalto.gov.br/_Ato2015-2018/2018/Lei/L13614.htm#art6)
-
+ 
  I - pela Polícia Rodoviária Federal e pelo 
  órgão executivo rodoviário da União;                
  [(Incluído pela Lei nº 13.614, de 
  2018)](https://www.planalto.gov.br/_Ato2015-2018/2018/Lei/L13614.htm#art5)     
  [(Vigência)](https://www.planalto.gov.br/_Ato2015-2018/2018/Lei/L13614.htm#art6)
-
+ 
  II - pela Polícia Militar e pelo órgão ou 
  entidade executivos rodoviários do Estado ou do Distrito Federal;                
  [(Incluído pela Lei nº 13.614, de 
  2018)](https://www.planalto.gov.br/_Ato2015-2018/2018/Lei/L13614.htm#art5)     
  [(Vigência)](https://www.planalto.gov.br/_Ato2015-2018/2018/Lei/L13614.htm#art6)
-
+ 
  III - pelos órgãos ou entidades executivos 
  rodoviários e pelos órgãos ou entidades executivos de trânsito dos 
  Municípios.                
@@ -8985,16 +8985,16 @@ pela Lei nº 14.599, de 2023)](https://www.planalto.gov.br/_Ato2023-2026/2023/Le
  Federal, será feito pelo órgão máximo executivo de trânsito da 
  União, ouvidos os Cetran, o Contrandife, a Polícia Rodoviária 
  Federal e os demais órgãos do Sistema Nacional de Trânsito.   
-
+ 
  [(Redação dada 
 pela Lei nº 14.599, de 2023)](https://www.planalto.gov.br/_Ato2023-2026/2023/Lei/L14599.htm#art1)
 
  § 12. Os índices serão divulgados oficialmente até o dia 30 de abril 
  de cada ano.     
-
+ 
  [(Redação dada 
 pela Lei nº 14.599, de 2023)](https://www.planalto.gov.br/_Ato2023-2026/2023/Lei/L14599.htm#art1)
-
+ 
  § 13.  Com base em índices parciais, apurados 
  no decorrer do ano, o Contran, os Cetran e o Contrandife poderão 
  recomendar aos integrantes do Sistema Nacional de Trânsito alterações 
@@ -9004,14 +9004,14 @@ pela Lei nº 14.599, de 2023)](https://www.planalto.gov.br/_Ato2023-2026/2023/Le
  [(Incluído pela Lei nº 13.614, de 
  2018)](https://www.planalto.gov.br/_Ato2015-2018/2018/Lei/L13614.htm#art5)     
  [(Vigência)](https://www.planalto.gov.br/_Ato2015-2018/2018/Lei/L13614.htm#art6)
-
+ 
  § 14.  A partir da análise de desempenho a 
  que se refere o § 7o deste artigo, o Contran elaborará 
  e divulgará, também durante a Semana Nacional de Trânsito:                
  [(Incluído pela Lei nº 13.614, de 
  2018)](https://www.planalto.gov.br/_Ato2015-2018/2018/Lei/L13614.htm#art5)     
  [(Vigência)](https://www.planalto.gov.br/_Ato2015-2018/2018/Lei/L13614.htm#art6)
-
+ 
  I - duas classificações ordenadas dos Estados 
  e do Distrito Federal, uma referente ao ano analisado e outra que 
  considere a evolução do desempenho dos Estados e do Distrito Federal 
@@ -9019,7 +9019,7 @@ pela Lei nº 14.599, de 2023)](https://www.planalto.gov.br/_Ato2023-2026/2023/Le
  [(Incluído pela Lei nº 13.614, de 
  2018)](https://www.planalto.gov.br/_Ato2015-2018/2018/Lei/L13614.htm#art5)     
  [(Vigência)](https://www.planalto.gov.br/_Ato2015-2018/2018/Lei/L13614.htm#art6)
-
+ 
  II - relatório a respeito do cumprimento do 
  objetivo geral do estabelecimento de metas previsto no § 1o 
  deste artigo.                
@@ -9048,45 +9048,45 @@ Art. 328. O veículo apreendido ou removido a
  leilão, a ser realizado preferencialmente por meio eletrônico.         
 [(Redação dada pela Lei nº 
 13.160, de 2015)](https://www.planalto.gov.br/_Ato2015-2018/2015/Lei/L13160.htm#art2)
-
+ 
  § 1o Publicado o edital do 
  leilão, a preparação poderá ser iniciada após trinta dias, contados da data 
  de recolhimento do veículo, o qual será classificado em duas categorias:         
  [(Incluído pela Lei nº 
  13.160, de 2015)](https://www.planalto.gov.br/_Ato2015-2018/2015/Lei/L13160.htm#art2)
-
+ 
  I  conservado, quando apresenta condições de 
  segurança para trafegar; e         
  [(Incluído pela Lei nº 
  13.160, de 2015)](https://www.planalto.gov.br/_Ato2015-2018/2015/Lei/L13160.htm#art2)
-
+ 
  II  sucata, quando não está apto a trafegar.         
  [(Incluído pela Lei nº 
  13.160, de 2015)](https://www.planalto.gov.br/_Ato2015-2018/2015/Lei/L13160.htm#art2)
-
+ 
  § 2o Se não houver oferta igual 
  ou superior ao valor da avaliação, o lote será incluído no leilão seguinte, 
  quando será arrematado pelo maior lance, desde que por valor não inferior a 
  cinquenta por cento do avaliado.         
  [(Incluído pela Lei nº 
  13.160, de 2015)](https://www.planalto.gov.br/_Ato2015-2018/2015/Lei/L13160.htm#art2)
-
+ 
  § 3o Mesmo classificado como 
  conservado, o veículo que for levado a leilão por duas vezes e não for 
  arrematado será leiloado como sucata.         
  [(Incluído pela Lei nº 
  13.160, de 2015)](https://www.planalto.gov.br/_Ato2015-2018/2015/Lei/L13160.htm#art2)
-
+ 
  § 4o É vedado o retorno do 
  veículo leiloado como sucata à circulação.         
  [(Incluído pela Lei nº 
  13.160, de 2015)](https://www.planalto.gov.br/_Ato2015-2018/2015/Lei/L13160.htm#art2)
-
+ 
  § 5o A cobrança das despesas 
  com estada no depósito será limitada ao prazo de seis meses.         
  [(Incluído pela Lei nº 
  13.160, de 2015)](https://www.planalto.gov.br/_Ato2015-2018/2015/Lei/L13160.htm#art2)
-
+ 
  § 6o Os valores arrecadados em 
  leilão deverão ser utilizados para custeio da realização do leilão, 
  dividindo-se os custos entre os veículos arrematados, proporcionalmente ao 
@@ -9094,71 +9094,71 @@ Art. 328. O veículo apreendido ou removido a
  ordem, para:         
  [(Incluído pela Lei nº 
  13.160, de 2015)](https://www.planalto.gov.br/_Ato2015-2018/2015/Lei/L13160.htm#art2)
-
+ 
  I  as despesas com remoção e estada;         
  [(Incluído pela Lei nº 
  13.160, de 2015)](https://www.planalto.gov.br/_Ato2015-2018/2015/Lei/L13160.htm#art2)
-
+ 
  II  os tributos vinculados ao veículo, na forma 
  do § 10;         
  [(Incluído pela Lei nº 
  13.160, de 2015)](https://www.planalto.gov.br/_Ato2015-2018/2015/Lei/L13160.htm#art2)
-
+ 
  III  os credores trabalhistas, tributários e 
  titulares de crédito com garantia real, segundo a ordem de preferência 
  estabelecida no [art. 186 da Lei no 5.172, de 25 de outubro 
  de 1966 (Código Tributário Nacional)](https://www.planalto.gov.br/L5172.htm#art186);        
  [(Incluído pela Lei nº 
  13.160, de 2015)](https://www.planalto.gov.br/_Ato2015-2018/2015/Lei/L13160.htm#art2)
-
+ 
  IV  as multas devidas ao órgão ou à entidade 
  responsável pelo leilão;         
  [(Incluído pela Lei nº 
  13.160, de 2015)](https://www.planalto.gov.br/_Ato2015-2018/2015/Lei/L13160.htm#art2)
-
+ 
  V  as demais multas devidas aos órgãos 
  integrantes do Sistema Nacional de Trânsito, segundo a ordem cronológica; e 
-
+         
  [(Incluído pela Lei nº 
  13.160, de 2015)](https://www.planalto.gov.br/_Ato2015-2018/2015/Lei/L13160.htm#art2)
-
+ 
  VI  os demais créditos, segundo a ordem de 
  preferência legal.         
  [(Incluído pela Lei nº 
  13.160, de 2015)](https://www.planalto.gov.br/_Ato2015-2018/2015/Lei/L13160.htm#art2)
-
+ 
  § 7o Sendo insuficiente o valor 
  arrecadado para quitar os débitos incidentes sobre o veículo, a situação 
  será comunicada aos credores.         
  [(Incluído pela Lei nº 
  13.160, de 2015)](https://www.planalto.gov.br/_Ato2015-2018/2015/Lei/L13160.htm#art2)
-
+ 
  § 8o Os órgãos públicos 
  responsáveis serão comunicados do leilão previamente para que formalizem a 
  desvinculação dos ônus incidentes sobre o veículo no prazo máximo de dez 
  dias.         
  [(Incluído pela Lei nº 
  13.160, de 2015)](https://www.planalto.gov.br/_Ato2015-2018/2015/Lei/L13160.htm#art2)
-
+ 
  § 9o Os débitos incidentes 
  sobre o veículo antes da alienação administrativa ficam dele automaticamente 
  desvinculados, sem prejuízo da cobrança contra o proprietário anterior.         
  [(Incluído pela Lei nº 
  13.160, de 2015)](https://www.planalto.gov.br/_Ato2015-2018/2015/Lei/L13160.htm#art2)
-
+ 
  § 10. Aplica-se o disposto no § 9o 
  inclusive ao débito relativo a tributo cujo fato gerador seja a propriedade, 
  o domínio útil, a posse, a circulação ou o licenciamento de veículo.         
  [(Incluído pela Lei nº 
  13.160, de 2015)](https://www.planalto.gov.br/_Ato2015-2018/2015/Lei/L13160.htm#art2)
-
+ 
  § 11. Na hipótese de o antigo proprietário reaver 
  o veículo, por qualquer meio, os débitos serão novamente vinculados ao bem, 
  aplicando-se, nesse caso, o disposto nos §§ 1o, 2o 
  e 3o do art. 271.         
  [(Incluído pela Lei nº 
  13.160, de 2015)](https://www.planalto.gov.br/_Ato2015-2018/2015/Lei/L13160.htm#art2)
-
+ 
  § 12. Quitados os débitos, o saldo remanescente 
  será depositado em conta específica do órgão responsável pela realização do 
  leilão e ficará à disposição do antigo proprietário, devendo ser expedida 
@@ -9168,14 +9168,14 @@ Art. 328. O veículo apreendido ou removido a
  único do art. 320.         
  [(Incluído pela Lei nº 
  13.160, de 2015)](https://www.planalto.gov.br/_Ato2015-2018/2015/Lei/L13160.htm#art2)
-
+ 
  § 13. Aplica-se o disposto neste artigo, no que 
  couber, ao animal recolhido, a qualquer título, e não reclamado por seu 
  proprietário no prazo de sessenta dias, a contar da data de recolhimento, 
  conforme regulamentação do CONTRAN.         
  [(Incluído pela Lei nº 
  13.160, de 2015)](https://www.planalto.gov.br/_Ato2015-2018/2015/Lei/L13160.htm#art2)
-
+ 
  § 14.  Se identificada a existência de 
  restrição policial ou judicial sobre o prontuário do veículo, a 
  autoridade responsável pela restrição será notificada para a retirada do 
@@ -9230,21 +9230,21 @@ experiência, conforme modelos aprovados e rubricados pelos órgãos de trânsit
 1º Os livros indicarão:
 
         I
-- data de entrada do veículo no estabelecimento;
+— data de entrada do veículo no estabelecimento;
 
         II
-- nome, endereço e identidade do proprietário ou vendedor;
+— nome, endereço e identidade do proprietário ou vendedor;
 
 III - data da saída ou baixa, nos casos de desmontagem;
 
         IV
-- nome, endereço e identidade do comprador;
+— nome, endereço e identidade do comprador;
 
         V
-- características do veículo constantes do seu certificado de registro;
+— características do veículo constantes do seu certificado de registro;
 
         VI
-- número da placa de experiência.
+— número da placa de experiência.
 
         §
 2º Os livros terão suas páginas numeradas tipograficamente e serão encadernados ou em
@@ -9324,11 +9324,11 @@ Trânsito Brasileiro.
  Art. 338-A. As competências previstas no inciso XV do 
  caput do art. 21 e no 
  inciso XXII do 
-
+ 
  caput 
  do art. 24 deste Código serão atribuídas aos órgãos ou entidades 
  descritos no 
-
+ 
  caput 
  dos referidos artigos a partir de 1º de janeiro de 2024.       
 
@@ -9337,7 +9337,7 @@ Trânsito Brasileiro.
 
  Parágrafo único. Até 31 de dezembro de 2023, as competências a que 
  se refere o 
-
+ 
  caput 
  deste artigo serão exercidas pelos órgãos e entidades executivos de 
  trânsito dos Estados e do Distrito Federal.     
@@ -9401,7 +9401,7 @@ AGENTE DA AUTORIDADE DE TRÂNSITO - agente de trânsito e policial
 
 [(Redação dada pela Lei nº 
 14.229, de 2021)](https://www.planalto.gov.br/_Ato2019-2022/2021/Lei/L14229.htm#art3)
-
+ 
  AGENTE DE TRÂNSITO - servidor civil efetivo de carreira do órgão ou 
  entidade executivos de trânsito ou rodoviário, com as atribuições de 
  educação, operação e fiscalização de trânsito e de transporte no exercício 
@@ -9680,7 +9680,7 @@ PATRULHAMENTO -
 
  [(Redação dada 
 pela Lei nº 14.599, de 2023)](https://www.planalto.gov.br/_Ato2023-2026/2023/Lei/L14599.htm#art2)
-
+ 
  PATRULHAMENTO VIÁRIO - função exercida pelos agentes de trânsito 
  dos órgãos e entidades executivos de trânsito e rodoviário, no âmbito de 
  suas competências, com o objetivo de garantir a segurança viária nos termos 
