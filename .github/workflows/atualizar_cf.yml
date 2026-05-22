@@ -40,12 +40,12 @@ jobs:
         with open('CF_88.html', 'r', encoding='utf-8') as f:
             conteudo = f.read()
 
-        # 1. Limpeza inicial de metadados estruturais
+        # 1. Remove cabeçalhos, scripts e estilos complexos
         conteudo = re.sub(r'(?i)<head[^>]*>([\s\S]*?)</head>', '', conteudo)
         conteudo = re.sub(r'(?i)<script[^>]*>([\s\S]*?)</script>', '', conteudo)
         conteudo = re.sub(r'(?i)<style[^>]*>([\s\S]*?)</style>', '', conteudo)
 
-        # 2. Converte tags de link HTML para Markdown de forma textual direta
+        # 2. Converte links HTML para Markdown mantendo o destino oficial
         def processar_link(match):
             propriedades = match.group(1)
             texto_interno = match.group(2).strip()
@@ -57,24 +57,27 @@ jobs:
 
         conteudo = re.sub(r'(?i)<a([^>]+)>([\s\S]*?)</a>', processar_link, conteudo)
 
-        # 3. Normalização prévia de quebras de linha para evitar falhas do padrão do Windows
+        # CORREÇÃO CRUCIAL 1: Normaliza quebras de linha de bloco do HTML antes do filtro de tachados
         conteudo = conteudo.replace('\r\n', '\n').replace('\r', '\n')
+        # Transforma quebras de linha consecutivas dentro de tags em espaços simples para não quebrar a regex
+        conteudo = re.sub(r'(<font[^>]*>|<strike[^>]*>|<p[^>]*>)([\s\S]*?)(</font>|</strike>|</p>)', lambda m: m.group(1) + m.group(2).replace('\n', ' ') + m.group(3), conteudo)
 
-        # FIX ESPECÍFICO DO ART. 6º: Corrige tags quebradas e hifens do Planalto antes do processamento
-        conteudo = re.sub(r'(?i)Art\.\s*6[^>]*\n*o', 'Art. 6º', conteudo)
+        # Padroniza a escrita do caractere indicador de ordem ordinal (º) do Art. 6º
+        conteudo = re.sub(r'(?i)Art\.\s*6\s*<\s*[^>]*>\s*o', 'Art. 6º', conteudo)
+        conteudo = re.sub(r'(?i)Art\.\s*6\s+o', 'Art. 6º', conteudo)
 
-        # 4. CAPTURA DOS TACHADOS: Identifica e envelopa os blocos de texto antes de remover o HTML
+        # 3. CAPTURA DOS TACHADOS: Mapeia todas as formas de texto revogado do Planalto
         conteudo = re.sub(r'(?i)<strike[^>]*>([\s\S]*?)</strike>', r'~~\1~~', conteudo)
         conteudo = re.sub(r'(?i)<s>([\s\S]*?)</s>', r'~~\1~~', conteudo)
         conteudo = re.sub(r'(?i)<del[^>]*>([\s\S]*?)</del>', r'~~\1~~', conteudo)
         conteudo = re.sub(r'(?i)<font[^>]*style=[^>]*line-through[^>]*>([\s\S]*?)</font>', r'~~\1~~', conteudo)
         conteudo = re.sub(r'(?i)<p[^>]*class=[\"\']?(?:text-through|txtTachado|revogado)[\"\']?[^>]*>([\s\S]*?)</p>', r'\n\n~~\1~~\n\n', conteudo)
 
-        # 5. Remove todas as demais tags HTML restantes com segurança
+        # 4. Limpa todas as demais tags estruturais do HTML com segurança
         texto_limpo = re.sub(r'<[^>]+>', '', conteudo)
         texto_limpo = html.unescape(texto_limpo)
 
-        # 6. Padronização de travessões no início das linhas
+        # 5. Formatação de travessões legislativos (—) no início dos parágrafos/incisos
         linhas_corrigidas = []
         for linha in texto_limpo.split('\n'):
             linha_sub = linha.strip()
@@ -84,33 +87,32 @@ jobs:
 
         texto_limpo = '\n'.join(linhas_corrigidas)
 
-        # 7. Limpeza e formatação final de blocos de texto do Markdown
+        # 6. Otimização de espaçamentos do Markdown e colagem das tags do Obsidian
         texto_limpo = re.sub(r'[ \t]+', ' ', texto_limpo)
-        
-        # Correção estrita para manter a formatação do Obsidian colada ao texto
         texto_limpo = texto_limpo.replace('~~ ', '~~').replace(' ~~', '~~')
-        # Remove quebras de linha indesejadas que rompem o tachado do Obsidian
+        
+        # Remove quebras de linha acidentais que ficaram presas dentro dos marcadores ~~
         texto_limpo = re.sub(r'~~([^~]+)~~', lambda m: '~~' + m.group(1).replace('\n', ' ').strip() + '~~', texto_limpo)
 
+        # Remove linhas em branco excessivas
         texto_limpo = re.sub(r'\n\s*\n\s*\n+', '\n\n', texto_limpo)
 
-        # Agrupamento de linhas órfãs ou fragmentadas
+        # CORREÇÃO CRUCIAL 2: Agrupa APENAS as referências de emendas de fim de parágrafo (Evita quebra do Art. 7)
         blocos = texto_limpo.split('\n\n')
         resultado = []
-        i = 0
-        while i < len(blocos):
-            bloco_atual = blocos[i].strip()
-            if len(bloco_atual) < 25 and bloco_atual and i + 1 < len(blocos):
-                proximo = blocos[i + 1].strip()
-                resultado.append(bloco_atual + ' ' + proximo)
-                i += 2
+        for bloco in blocos:
+            bloco_limpo = bloco.strip()
+            if not bloco_limpo:
+                continue
+            # Se o bloco atual for apenas um indicador de Emenda solto (ex: '(Redação dada pela...)'), une ao anterior
+            if (bloco_limpo.startswith('(Redação') or bloco_limpo.startswith('(Incluído') or bloco_limpo.startswith('(Vide')) and resultado:
+                resultado[-1] = resultado[-1] + ' ' + bloco_limpo
             else:
-                resultado.append(bloco_atual)
-                i += 1
+                resultado.append(bloco_limpo)
 
         texto_limpo = '\n\n'.join(resultado)
 
-        # Criação do diretório e gravação do arquivo final compilado
+        # Criação da pasta de destino e gravação final limpa
         os.makedirs('Constituicao', exist_ok=True)
 
         with open('Constituicao/CF88.md', 'w', encoding='utf-8') as f:
