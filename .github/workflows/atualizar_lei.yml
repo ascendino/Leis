@@ -22,7 +22,7 @@ jobs:
     # Baixa a versão consolidada e atualizada direto da Câmara dos Deputados
     - name: Baixar Lei Atualizada da Câmara
       run: |
-        curl -sL "https://www2.camara.leg.br/legin/fed/lei/1997/lei-9503-23-setembro-1997-372348-normaatualizada-pl.html" -o ctb_atualizado.html
+        curl -sL "https://camara.leg.br" -o ctb_atualizado.html
 
     - name: Converter HTML para Markdown limpo
       run: |
@@ -30,8 +30,8 @@ jobs:
         import re
         import html
 
-        # O site da Câmara usa codificação latin-1/iso-8859-1
-        with open('ctb_atualizado.html', 'r', encoding='latin-1', errors='ignore') as f:
+        # Corrigido para utf-8 para ler corretamente a acentuação do site da Câmara
+        with open('ctb_atualizado.html', 'r', encoding='utf-8', errors='ignore') as f:
             conteudo = f.read()
 
         # Remove scripts e estilos CSS para não poluírem o texto
@@ -48,7 +48,7 @@ jobs:
         texto_limpo = re.sub(r'[ \t]+', ' ', texto_limpo)
         texto_limpo = re.sub(r'\n\s*\n', '\n\n', texto_limpo)
 
-        # Salva o arquivo final em formato Markdown limpo
+        # Salva o arquivo final em formato Markdown limpo em UTF-8
         with open('ctb_atualizado.md', 'w', encoding='utf-8') as f:
             f.write('# Código de Trânsito Brasileiro (Lei 9.503)\n\n' + texto_limpo.strip())
         "
