@@ -22,42 +22,47 @@ jobs:
     - name: Instalar dependências de extração
       run: pip install beautifulsoup4 lxml requests
 
-    # O download e a filtragem agora acontecem de forma isolada dentro do Python
-    - name: Baixar e Isolar Texto da Lei
+    - name: Baixar e Converter com Links
       run: |
         python -c "
         import requests
         from bs4 import BeautifulSoup
         import re
         import html
+        from urllib.parse import urljoin
 
-        url = 'https://www2.camara.leg.br/legin/fed/lei/1997/lei-9503-23-setembro-1997-372348-normaatualizada-pl.html'
+        url = 'https://camara.leg.br'
         headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'}
         
         response = requests.get(url, headers=headers)
         response.encoding = 'utf-8'
         
         soup = BeautifulSoup(response.text, 'lxml')
-        
-        # Encontra especificamente a área que contém o corpo da lei, removendo os menus do site
         conteudo_lei = soup.find(class_='textoNorma')
         
         if conteudo_lei:
-            # Remove scripts ou estilos internos que possam ter restado
+            # Remove scripts e estilos
             for s in conteudo_lei(['script', 'style']):
                 s.decompose()
-                
+            
+            # Converte as tags de link HTML <a> em formato Markdown [Texto](Link)
+            for a in conteudo_lei.find_all('a', href=True):
+                texto_link = a.get_text().strip()
+                if texto_link:
+                    # Resolve links relativos do site para links completos (absolutos)
+                    link_completo = urljoin(url, a['href'])
+                    # Substitui a tag pelo formato Markdown
+                    a.replace_with(f'[{texto_link}]({link_completo})')
+            
             texto_bruto = conteudo_lei.get_text('\n')
         else:
-            # Caso o layout mude, tenta pegar por uma tag de conteúdo geral
             texto_bruto = soup.get_text('\n')
 
-        # Limpeza e formatação do texto
+        # Limpeza e formatação do texto final
         texto_limpo = html.unescape(texto_bruto)
         texto_limpo = re.sub(r'[ \t]+', ' ', texto_limpo)
         texto_limpo = re.sub(r'\n\s*\n', '\n\n', texto_limpo)
 
-        # Salva o arquivo final Markdown perfeitamente limpo
         with open('ctb_atualizado.md', 'w', encoding='utf-8') as f:
             f.write('# Código de Trânsito Brasileiro (Lei 9.503)\n\n' + texto_limpo.strip())
         "
@@ -70,7 +75,7 @@ jobs:
         git add ctb_atualizado.md
         
         if ! git diff --cached --quiet; then
-          git commit -m "Auto: Código de Trânsito Brasileiro atualizado em $(date +'%d/%m/%Y')"
+          git commit -m "Auto: Código de Trânsito Brasileiro atualizado com links em $(date +'%d/%m/%Y')"
           git push
         else
           echo "Nenhuma alteração encontrada na lei."
