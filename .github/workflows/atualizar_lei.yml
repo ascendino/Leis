@@ -20,51 +20,47 @@ jobs:
         python-version: '3.10'
 
     - name: Instalar dependências de extração
-      run: pip install beautifulsoup4 lxml requests
+      run: pip install beautifulsoup4 lxml
 
-    - name: Baixar e Converter com Links
+    # Baixa e converte a codificação do Planalto nativamente no Linux antes do Python rodar
+    - name: Baixar Lei Seca Atualizada (Planalto)
+      run: |
+        curl -sL -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" "https://planalto.gov.br" -o ctb_raw.html
+        iconv -f iso-8859-1 -t utf-8//IGNORE ctb_raw.html -o ctb_atualizado.html
+
+    - name: Converter HTML para Markdown com Links
       run: |
         python -c "
-        import requests
-        from bs4 import BeautifulSoup
         import re
         import html
+        from bs4 import BeautifulSoup
         from urllib.parse import urljoin
 
-        url = 'https://camara.leg.br'
-        headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'}
-        
-        response = requests.get(url, headers=headers)
-        response.encoding = 'utf-8'
-        
-        soup = BeautifulSoup(response.text, 'lxml')
-        conteudo_lei = soup.find(class_='textoNorma')
-        
-        if conteudo_lei:
-            # Remove scripts e estilos
-            for s in conteudo_lei(['script', 'style']):
-                s.decompose()
-            
-            # Converte as tags de link HTML <a> em formato Markdown [Texto](Link)
-            for a in conteudo_lei.find_all('a', href=True):
-                texto_link = a.get_text().strip()
-                if texto_link:
-                    # Resolve links relativos do site para links completos (absolutos)
-                    link_completo = urljoin(url, a['href'])
-                    # Substitui a tag pelo formato Markdown
-                    a.replace_with(f'[{texto_link}]({link_completo})')
-            
-            texto_bruto = conteudo_lei.get_text('\n')
-        else:
-            texto_bruto = soup.get_text('\n')
+        url_base = 'https://planalto.gov.br'
 
-        # Limpeza e formatação do texto final
-        texto_limpo = html.unescape(texto_bruto)
-        texto_limpo = re.sub(r'[ \t]+', ' ', texto_limpo)
-        texto_limpo = re.sub(r'\n\s*\n', '\n\n', texto_limpo)
+        with open('ctb_atualizado.html', 'r', encoding='utf-8') as f:
+            conteudo = f.read()
+
+        soup = BeautifulSoup(conteudo, 'lxml')
+
+        # Remove elementos nocivos à leitura
+        for s in soup(['script', 'style']):
+            s.decompose()
+
+        # Transforma tags de link HTML em Markdown clicável [Texto](Link)
+        for a in soup.find_all('a', href=True):
+            texto_link = a.get_text().strip()
+            if texto_link:
+                link_completo = urljoin(url_base, a['href'])
+                a.replace_with(f'[{texto_link}]({link_completo})')
+
+        # Extrai o texto geral da norma limpo
+        texto_final = soup.get_text('\n')
+        texto_final = re.sub(r'[ \t]+', ' ', texto_final)
+        texto_final = re.sub(r'\n\s*\n', '\n\n', texto_final)
 
         with open('ctb_atualizado.md', 'w', encoding='utf-8') as f:
-            f.write('# Código de Trânsito Brasileiro (Lei 9.503)\n\n' + texto_limpo.strip())
+            f.write('# Código de Trânsito Brasileiro (Lei 9.503)\n\n' + texto_final.strip())
         "
 
     - name: Verificar mudanças e commitar
@@ -75,7 +71,7 @@ jobs:
         git add ctb_atualizado.md
         
         if ! git diff --cached --quiet; then
-          git commit -m "Auto: Código de Trânsito Brasileiro atualizado com links em $(date +'%d/%m/%Y')"
+          git commit -m "Auto: Código de Trânsito Brasileiro com links atualizado em $(date +'%d/%m/%Y')"
           git push
         else
           echo "Nenhuma alteração encontrada na lei."
