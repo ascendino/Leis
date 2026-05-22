@@ -19,9 +19,6 @@ jobs:
       with:
         python-version: '3.10'
 
-    - name: Instalar dependências de limpeza
-      run: pip install beautifulsoup4 lxml
-
     - name: Baixar Lei Seca Atualizada
       run: |
         curl -sL -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" "https://planalto.gov.br" -o ctb_atualizado.html
@@ -29,17 +26,23 @@ jobs:
     - name: Converter HTML para Markdown limpo
       run: |
         python -c "
-        from bs4 import BeautifulSoup
         import re
+        import html
 
-        # Mudado para latin-1 para ler corretamente a acentuação do site do Planalto
+        # Lê o arquivo usando o formato do Planalto (latin-1)
         with open('ctb_atualizado.html', 'r', encoding='latin-1') as f:
-            html = f.read()
+            conteudo = f.read()
 
-        soup = BeautifulSoup(html, 'lxml')
-        texto_limpo = soup.get_text('\n')
+        # Remove todas as tags HTML usando expressão regular direta
+        texto_limpo = re.sub(r'<[^>]+>', '', conteudo)
+        
+        # Converte códigos HTML como &nbsp; ou &amp; em texto normal
+        texto_limpo = html.unescape(texto_limpo)
+        
+        # Remove linhas em branco excessivas
         texto_limpo = re.sub(r'\n\s*\n', '\n\n', texto_limpo)
 
+        # Salva o arquivo final em UTF-8 padrão do GitHub
         with open('ctb_atualizado.md', 'w', encoding='utf-8') as f:
             f.write('# Código de Trânsito Brasileiro (Lei 9.503)\n\n' + texto_limpo)
         "
