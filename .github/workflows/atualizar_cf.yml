@@ -3,7 +3,7 @@ on:
   schedule:
     # Roda todos os dias às 06:00 UTC (03:00 no horário de Brasília)
     - cron: '0 6 * * *'
-  workflow_dispatch: # Permite que você force a atualização manualmente
+  workflow_dispatch: # Permite força a atualização manualmente
 
 jobs:
   build:
@@ -24,10 +24,10 @@ jobs:
       run: |
         curl -sL -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" \
           "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm" \
-          -o ctb_raw.html
-        iconv -f iso-8859-1 -t utf-8//IGNORE ctb_raw.html -o CF_88.html
+          -o cf_raw.html
+        iconv -f iso-8859-1 -t utf-8//IGNORE cf_raw.html -o CF_88.html
 
-    - name: Converter HTML para Markdown com Links
+    - name: Converter HTML para Markdown com Links e Tachados
       run: |
         python -c "
         import os
@@ -57,6 +57,12 @@ jobs:
 
         conteudo = re.sub(r'(?i)<a([^>]+)>([\s\S]*?)</a>', processar_link, conteudo)
 
+        # CORREÇÃO: Captura e converte as tags de texto riscado/tachado antes de limpar o HTML
+        conteudo = re.sub(r'(?i)<strike[^>]*>([\s\S]*?)</strike>', r'~~\1~~', conteudo)
+        conteudo = re.sub(r'(?i)<s[^>]*>([\s\S]*?)</s>', r'~~\1~~', conteudo)
+        conteudo = re.sub(r'(?i)<del[^>]*>([\s\S]*?)</del>', r'~~\1~~', conteudo)
+        conteudo = re.sub(r'(?i)<font[^>]*style=[^>]*line-through[^>]*>([\s\S]*?)</font>', r'~~\1~~', conteudo)
+
         # 3. Tratamento pré-limpeza: Remove quebras de linha indesejadas
         conteudo = conteudo.replace('\r\n', '\n').replace('\r', '\n')
 
@@ -67,7 +73,7 @@ jobs:
         # 5. Corrige hífens no início de linhas para evitar listas automáticas do Markdown
         linhas_corrigidas = []
         for linha in texto_limpo.split('\n'):
-            linha_sub = linha.strip()
+            linha_sub = line = linha.strip()
             if linha_sub.startswith('-') or linha_sub.startswith('–') or linha_sub.startswith('—'):
                 linha = re.sub(r'^[-–—]\s*', '— ', linha_sub)
             linhas_corrigidas.append(linha)
@@ -78,14 +84,12 @@ jobs:
         texto_limpo = re.sub(r'[ \t]+', ' ', texto_limpo)
         texto_limpo = re.sub(r'\n\s*\n\s*\n+', '\n\n', texto_limpo)
 
-        # 7. Une parágrafos curtos isolados (§, incisos, VETADO) ao parágrafo seguinte
-        # Divide em blocos separados por linha em branco e une os muito curtos ao próximo
+        # 7. Une parágrafos curtos isolados
         blocos = texto_limpo.split('\n\n')
         resultado = []
         i = 0
         while i < len(blocos):
             bloco_atual = blocos[i].strip()
-            # Se o bloco tem menos de 25 caracteres e não é o último, une ao próximo
             if len(bloco_atual) < 25 and bloco_atual and i + 1 < len(blocos):
                 proximo = blocos[i + 1].strip()
                 resultado.append(bloco_atual + ' ' + proximo)
@@ -96,21 +100,23 @@ jobs:
 
         texto_limpo = '\n\n'.join(resultado)
 
-        # Garante a criação da pasta CTB antes de salvar o arquivo
-        os.makedirs('CTB', exist_ok=True)
+        # CORREÇÃO: Ajustado pastas e títulos para referenciar a CF88 corretamente
+        os.makedirs('Constituicao', exist_ok=True)
 
-        # Salva o arquivo final com todas as correções aplicadas
-        with open('CF_88.md', 'w', encoding='utf-8') as f:
-            f.write('# Código de Trânsito Brasileiro (Lei 9.503)\n\n' + texto_limpo.strip())
+        with open('Constituicao/CF88.md', 'w', encoding='utf-8') as f:
+            f.write('# Constituição da República Federativa do Brasil de 1988\n\n' + texto_limpo.strip())
         "
 
     - name: Verificar mudanças e commitar
       run: |
         git config --global user.name "github-actions[bot]"
         git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        
+        # CORREÇÃO: Adiciona o arquivo gerado para o Git poder rastrear as modificações
+        git add Constituicao/CF88.md
 
         if ! git diff --cached --quiet; then
-          git commit -m "Auto: CF_88 em $(date +'%d/%m/%Y')"
+          git commit -m "Auto: CF_88 atualizada em $(date +'%d/%m/%Y')"
           git push
         else
           echo "Nenhuma alteração encontrada na lei."
