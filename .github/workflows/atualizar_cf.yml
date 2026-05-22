@@ -28,8 +28,8 @@ jobs:
         iconv -f iso-8859-1 -t utf-8//IGNORE cf_raw.html -o CF_88.html
 
     - name: Converter HTML para Markdown com Links e Tachados
+      shell: python
       run: |
-        python -c "
         import os
         import re
         import html
@@ -93,4 +93,64 @@ jobs:
             elif re.match(r'^CAP[IÍ]TULO\s+[IVXLCDM\d]+', linha_sub, re.IGNORECASE):
                 linhas_corrigidas.append('\n### ' + linha_sub)
             elif re.match(r'^SE[CÇ][AÃ]O\s+[IVXLCDM\d]+', linha_sub, re.IGNORECASE):
-                linhas_corrig
+                linhas_corrigidas.append('\n#### ' + linha_sub)
+            elif re.match(r'^SUBSE[CÇ][AÃ]O\s+[IVXLCDM\d]+', linha_sub, re.IGNORECASE):
+                linhas_corrigidas.append('\n##### ' + linha_sub)
+            
+            # Tratamento de Artigos, Incisos e Parágrafos para mantê-los isolados e organizados
+            else:
+                # Se for um inciso ou travessão, garante a quebra de linha visual limpa
+                if re.match(r'^[IVXLCDM]+\s*-\s*', linha_sub) or linha_sub.startswith(('-', '–', '—')):
+                    linha_sub = re.sub(r'^[-–—]\s*', '', linha_sub)
+                    linhas_corrigidas.append('\n' + linha_sub)
+                # Alíneas isoladas (ex: a), b)) ganham quebra de linha própria para não grudar no inciso
+                elif re.match(r'^[a-z]\)', linha_sub):
+                    linhas_corrigidas.append('\n' + linha_sub)
+                # Artigos e Parágrafos ganham quebra própria
+                elif linha_sub.startswith(('Art.', 'Parágrafo', '§')):
+                    linhas_corrigidas.append('\n\n' + linha_sub)
+                else:
+                    linhas_corrigidas.append('\n' + linha_sub)
+
+        texto_limpo = ''.join(linhas_corrigidas)
+
+        # 6. Otimização final de espaços e alinhamento do delimitador de tachado
+        texto_limpo = re.sub(r'[ \t]+', ' ', texto_limpo)
+        texto_limpo = texto_limpo.replace('~~ ', '~~').replace(' ~~', '~~')
+        texto_limpo = re.sub(r'\n\s*\n\s*\n+', '\n\n', texto_limpo)
+
+        # 7. Une estritamente as notas de rodapé / emendas ao final do parágrafo correspondente
+        blocos = texto_limpo.split('\n\n')
+        resultado = []
+        for bloco in blocos:
+            bloco_limpo = bloco.strip()
+            if not bloco_limpo:
+                continue
+            if (bloco_limpo.startswith('(Redação') or bloco_limpo.startswith('(Incluído') or bloco_limpo.startswith('(Vide')) and resultado:
+                resultado[-1] = resultado[-1] + ' ' + bloco_limpo
+            else:
+                resultado.append(bloco_limpo)
+
+        texto_limpo = '\n\n'.join(resultado)
+
+        # Garante a pasta Leis criada
+        os.makedirs('Leis', exist_ok=True)
+
+        with open('Leis/CF88.md', 'w', encoding='utf-8') as f:
+            f.write('# Constituição da República Federativa do Brasil de 1988\n\n' + texto_limpo.strip())
+
+    - name: Verificar mudanças e commitar
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        
+        # Remove do rastreamento a pasta antiga do GitHub (se houver) e foca na correta
+        git rm -rf Constituicao 2>/dev/null || true
+        git add Leis/CF88.md
+
+        if ! git diff --cached --quiet; then
+          git commit -m "Auto: CF_88 atualizada em $(date +'%d/%m/%Y')"
+          git push
+        else
+          echo "Nenhuma alteração encontrada na lei."
+        fi
