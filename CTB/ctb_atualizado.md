@@ -724,9 +724,7 @@ mês, os dados estatísticos para os fins previstos no inciso X.
 [(Incluído pela Lei nº 13.281, de 2016)](https://www.planalto.gov.br/_Ato2015-2018/2016/Lei/L13281.htm#art1)      
 [(Vigência)](https://www.planalto.gov.br/_Ato2015-2018/2016/Lei/L13281.htm#art7)
 
-§ 5º
-
-As informações 
+§ 5º As informações 
  constantes do Renach e do Renavam deverão ser disponibilizadas na 
 internet para consulta, pelo motorista habilitado, dos dados de sua habilitação, 
 e, pelo proprietário de veículo, dos dados de veículo de sua propriedade.
@@ -4354,9 +4352,7 @@ Art. 154. Os veículos destinados à formação de condutores serão identificad
 faixa amarela, de vinte centímetros de largura, pintada ao longo da carroçaria, à meia
 altura, com a inscrição AUTO-ESCOLA na cor preta.
 
-§ 1º
-
-No veículo eventualmente utilizado para aprendizagem, 
+§ 1º No veículo eventualmente utilizado para aprendizagem, 
 quando autorizado para servir a esse fim, deverá ser afixada ao longo de sua 
 carroçaria, à meia altura, faixa branca removível, de vinte centímetros de 
 largura, com a inscrição AUTO-ESCOLA na cor preta.  
