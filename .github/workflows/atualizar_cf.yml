@@ -45,7 +45,7 @@ jobs:
         conteudo = re.sub(r'(?i)<script[^>]*>([\s\S]*?)</script>', '', conteudo)
         conteudo = re.sub(r'(?i)<style[^>]*>([\s\S]*?)</style>', '', conteudo)
 
-        # 2. Converte links HTML para Markdown
+        # 2. Converte links HTML para Markdown de forma direta
         def processar_link(match):
             propriedades = match.group(1)
             texto_interno = match.group(2).strip()
@@ -57,15 +57,14 @@ jobs:
 
         conteudo = re.sub(r'(?i)<a([^>]+)>([\s\S]*?)</a>', processar_link, conteudo)
 
-        # Normalização inicial padrão de quebras de linha
+        # Normalização de quebras de linha para padrão Unix
         conteudo = conteudo.replace('\r\n', '\n').replace('\r', '\n')
 
-        # CORREÇÃO UNIFORME DE ARTIGOS: Força a junção se houver quebra de linha entre 'Art.' e o número
-        conteudo = re.sub(r'(?i)Art\.\s*6\s*<\s*[^>]*>\s*o', 'Art. 6º', conteudo)
-        conteudo = re.sub(r'(?i)Art\.\s*6\s+o', 'Art. 6º', conteudo)
-        conteudo = re.sub(r'(?i)Art\.\s*\n+\s*(\d+)', r'Art. \1', conteudo)
+        # Garante o alinhamento de quebras de parágrafos críticos do Planalto antes de limpar as tags
+        conteudo = re.sub(r'(?i)</p>|<br\s*/?>|</tr>', '\n', conteudo)
+        conteudo = re.sub(r'(?i)<p[^>]*>|<tr>', '\n', conteudo)
 
-        # 3. CAPTURA DOS TACHADOS (Remove quebra de linha APENAS dentro do texto riscado)
+        # 3. CAPTURA DOS TACHADOS (Garante linearidade interna para o Markdown não quebrar)
         def limpar_quebras_internas(match):
             texto_interno = match.group(1)
             texto_linear = re.sub(r'\s*\n\s*', ' ', texto_interno).strip()
@@ -77,50 +76,56 @@ jobs:
         conteudo = re.sub(r'(?i)<font[^>]*style=[^>]*line-through[^>]*>([\s\S]*?)</font>', limpar_quebras_internas, conteudo)
         conteudo = re.sub(r'(?i)<p[^>]*class=[\"\']?(?:text-through|txtTachado|revogado)[\"\']?[^>]*>([\s\S]*?)</p>', lambda m: '\n\n~~' + re.sub(r'\s*\n\s*', ' ', m.group(1)).strip() + '~~\n\n', conteudo)
 
-        # 4. Limpa todas as demais tags estruturais do HTML com segurança
+        # 4. Remove todas as demais tags HTML restantes com segurança
         texto_limpo = re.sub(r'<[^>]+>', '', conteudo)
         texto_limpo = html.unescape(texto_limpo)
 
-        # 5. Formatação estrutural de linhas e Títulos (Ajustado com strip rígido)
+        # 5. Formatação estrutural linha por linha (Identifica cabeçalhos e corrige recuos)
         linhas_corrigidas = []
         for linha in texto_limpo.split('\n'):
             linha_sub = linha.strip()
-            if not linha_sub:
+            if not len(linha_sub):
                 continue
             
-            # Formatação de Títulos, Capítulos e Seções (Pega toda a linha contendo a descrição)
+            # Formatação de Títulos, Capítulos e Seções completos (Aplica ##, ###, ####)
             if re.match(r'^T[IÍ]TULO\s+[IVXLCDM\d]+', linha_sub, re.IGNORECASE):
-                linha_sub = '## ' + linha_sub
+                linhas_corrigidas.append('\n## ' + linha_sub)
             elif re.match(r'^CAP[IÍ]TULO\s+[IVXLCDM\d]+', linha_sub, re.IGNORECASE):
-                linha_sub = '### ' + linha_sub
+                linhas_corrigidas.append('\n### ' + linha_sub)
             elif re.match(r'^SE[CÇ][AÃ]O\s+[IVXLCDM\d]+', linha_sub, re.IGNORECASE):
-                linha_sub = '#### ' + linha_sub
+                linhas_corrigidas.append('\n#### ' + linha_sub)
             elif re.match(r'^SUBSE[CÇ][AÃ]O\s+[IVXLCDM\d]+', linha_sub, re.IGNORECASE):
-                linha_sub = '##### ' + linha_sub
-                
-            # Padronização de travessões legislativos (—) no início de incisos
-            elif linha_sub.startswith('-') or linha_sub.startswith('–') or linha_sub.startswith('—'):
-                linha_sub = re.sub(r'^[-–—]\s*', '— ', linha_sub)
-                
-            linhas_corrigidas.append(linha_sub)
+                linhas_corrigidas.append('\n##### ' + linha_sub)
+            
+            # Tratamento de Artigos, Incisos e Parágrafos para mantê-los isolados e organizados
+            else:
+                # Se for um inciso ou travessão, garante a quebra de linha visual limpa
+                if re.match(r'^[IVXLCDM]+\s*-\s*', linha_sub) or linha_sub.startswith(('-', '–', '—')):
+                    linha_sub = re.sub(r'^[-–—]\s*', '', linha_sub)
+                    linhas_corrigidas.append('\n' + linha_sub)
+                # Alíneas isoladas (ex: a), b)) ganham quebra de linha própria para não grudar no inciso
+                elif re.match(r'^[a-z]\)', linha_sub):
+                    linhas_corrigidas.append('\n' + linha_sub)
+                # Artigos e Parágrafos ganham quebra própria
+                elif linha_sub.startswith(('Art.', 'Parágrafo', '§')):
+                    linhas_corrigidas.append('\n\n' + linha_sub)
+                else:
+                    linhas_corrigidas.append('\n' + linha_sub)
 
-        texto_limpo = '\n\n'.join(linhas_corrigidas)
+        texto_limpo = ''.join(linhas_corrigidas)
 
-        # 6. Otimização de espaçamentos e remoção de espaços duplicados
+        # 6. Otimização final de espaços e alinhamento do delimitador de tachado
         texto_limpo = re.sub(r'[ \t]+', ' ', texto_limpo)
         texto_limpo = texto_limpo.replace('~~ ', '~~').replace(' ~~', '~~')
-        
-        # Remove quebras de linha residuais presas no meio do mesmo bloco de tachado
-        texto_limpo = re.sub(r'~~([^~]+)~~', lambda m: '~~' + m.group(1).replace('\n', ' ').strip() + '~~', texto_limpo)
+        texto_limpo = re.sub(r'\n\s*\n\s*\n+', '\n\n', texto_limpo)
 
-        # 7. Agrupa APENAS as notas de emendas ao final do parágrafo correspondente
+        # 7. Une estritamente as notas de rodapé / emendas ao final do parágrafo correspondente
         blocos = texto_limpo.split('\n\n')
         resultado = []
         for bloco in blocos:
             bloco_limpo = bloco.strip()
             if not bloco_limpo:
                 continue
-            # Concatena apenas notas explicativas/emendas à linha imediatamente anterior
             if (bloco_limpo.startswith('(Redação') or bloco_limpo.startswith('(Incluído') or bloco_limpo.startswith('(Vide')) and resultado:
                 resultado[-1] = resultado[-1] + ' ' + bloco_limpo
             else:
@@ -128,7 +133,7 @@ jobs:
 
         texto_limpo = '\n\n'.join(resultado)
 
-        # Criação do diretório e gravação do arquivo final limpo
+        # Criação do diretório e gravação do arquivo final compilado
         os.makedirs('Constituicao', exist_ok=True)
 
         with open('Constituicao/CF88.md', 'w', encoding='utf-8') as f:
