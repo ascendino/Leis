@@ -40,12 +40,12 @@ jobs:
         with open('CF_88.html', 'r', encoding='utf-8') as f:
             conteudo = f.read()
 
-        # 1. Remove cabeçalhos, scripts e estilos complexos (Mantém quebras estruturais)
+        # 1. Remove cabeçalhos, scripts e estilos complexos
         conteudo = re.sub(r'(?i)<head[^>]*>([\s\S]*?)</head>', '', conteudo)
         conteudo = re.sub(r'(?i)<script[^>]*>([\s\S]*?)</script>', '', conteudo)
         conteudo = re.sub(r'(?i)<style[^>]*>([\s\S]*?)</style>', '', conteudo)
 
-        # 2. Converte links HTML para Markdown mantendo o destino oficial
+        # 2. Converte links HTML para Markdown
         def processar_link(match):
             propriedades = match.group(1)
             texto_interno = match.group(2).strip()
@@ -57,14 +57,15 @@ jobs:
 
         conteudo = re.sub(r'(?i)<a([^>]+)>([\s\S]*?)</a>', processar_link, conteudo)
 
-        # Normalização inicial padrão apenas para quebras do Windows (\r\n -> \n)
+        # Normalização inicial padrão de quebras de linha
         conteudo = conteudo.replace('\r\n', '\n').replace('\r', '\n')
 
-        # FIX DO ART. 6º: Corrige a quebra do caractere ordinal 'º'
+        # CORREÇÃO UNIFORME DE ARTIGOS: Garante que 'Art.' e seu número fiquem grudados na mesma linha
         conteudo = re.sub(r'(?i)Art\.\s*6\s*<\s*[^>]*>\s*o', 'Art. 6º', conteudo)
         conteudo = re.sub(r'(?i)Art\.\s*6\s+o', 'Art. 6º', conteudo)
+        conteudo = re.sub(r'(?i)Art\.\s*\n+\s*(\d+)', r'Art. \1', conteudo)
 
-        # 3. CAPTURA DOS TACHADOS (Com remoção de quebra de linha APENAS dentro do texto riscado)
+        # 3. CAPTURA DOS TACHADOS (Remove quebra de linha APENAS dentro do texto riscado)
         def limpar_quebras_internas(match):
             texto_interno = match.group(1)
             texto_linear = re.sub(r'\s*\n\s*', ' ', texto_interno).strip()
@@ -80,73 +81,11 @@ jobs:
         texto_limpo = re.sub(r'<[^>]+>', '', conteudo)
         texto_limpo = html.unescape(texto_limpo)
 
-        # 5. Formatação de travessões legislativos (—) no início dos incisos/parágrafos
+        # 5. Formatação estrutural de linhas (Evita listas automáticas ruins do Markdown)
         linhas_corrigidas = []
         for linha in texto_limpo.split('\n'):
             linha_sub = linha.strip()
-            if linha_sub.startswith('-') or linha_sub.startswith('–') or linha_sub.startswith('—'):
-                linha = re.sub(r'^[-–—]\s*', '— ', linha_sub)
-            linhas_corrigidas.append(linha)
-
-        texto_limpo = '\n'.join(linhas_corrigidas)
-
-        # 6. Otimização de espaçamentos e remoção de espaços duplicados
-        texto_limpo = re.sub(r'[ \t]+', ' ', texto_limpo)
-        texto_limpo = texto_limpo.replace('~~ ', '~~').replace(' ~~', '~~')
-        texto_limpo = re.sub(r'\n\s*\n\s*\n+', '\n\n', texto_limpo)
-
-        # 7. Agrupa as referências de emendas de fim de parágrafo de forma limpa
-        blocos = texto_limpo.split('\n\n')
-        resultado = []
-        for bloco in blocos:
-            bloco_limpo = bloco.strip()
-            if not bloco_limpo:
+            if not linha_sub:
                 continue
-            if (bloco_limpo.startswith('(Redação') or bloco_limpo.startswith('(Incluído') or bloco_limpo.startswith('(Vide')) and resultado:
-                resultado[-1] = resultado[-1] + ' ' + bloco_limpo
-            else:
-                resultado.append(bloco_limpo)
-
-        texto_limpo = '\n\n'.join(resultado)
-
-        # =========================================================================
-        # NOVA ETAPA: FORMATAÇÃO AUTOMÁTICA DE TÍTULOS E CAPÍTULOS PARA O OBSIDIAN
-        # =========================================================================
-        linhas_finais = []
-        for linha in texto_limpo.split('\n'):
-            l_strip = linha.strip()
-            # Se a linha começar com 'TÍTULO' seguido de algarismos romanos, vira Título 2 (##)
-            if re.match(r'^TÍTULO\s+[IVXLCDM]+', l_strip, re.IGNORECASE):
-                linha = '## ' + l_strip
-            # Se a linha começar com 'CAPÍTULO' seguido de algarismos romanos, vira Título 3 (###)
-            elif re.match(r'^CAPÍTULO\s+[IVXLCDM]+', l_strip, re.IGNORECASE):
-                linha = '### ' + l_strip
-            # Se a linha começar com 'SEÇÃO' seguido de algarismos romanos, vira Título 4 (####)
-            elif re.match(r'^SEÇÃO\s+[IVXLCDM]+', l_strip, re.IGNORECASE):
-                linha = '#### ' + l_strip
-            linhas_finais.append(linha)
-        
-        texto_limpo = '\n'.join(linhas_finais)
-        # =========================================================================
-
-        # Criação do diretório e gravação final limpa
-        os.makedirs('Constituicao', exist_ok=True)
-
-        with open('Constituicao/CF88.md', 'w', encoding='utf-8') as f:
-            f.write('# Constituição da República Federativa do Brasil de 1988\n\n' + texto_limpo.strip())
-        "
-
-    - name: Verificar mudanças e commitar
-      run: |
-        git config --global user.name "github-actions[bot]"
-        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-        
-        # Adiciona o arquivo gerado para o Git poder rastrear as modificações
-        git add Constituicao/CF88.md
-
-        if ! git diff --cached --quiet; then
-          git commit -m "Auto: CF_88 atualizada em $(date +'%d/%m/%Y')"
-          git push
-        else
-          echo "Nenhuma alteração encontrada na lei."
-        fi
+            
+            # Formatação de
