@@ -60,7 +60,7 @@ jobs:
         # Normalização inicial padrão de quebras de linha
         conteudo = conteudo.replace('\r\n', '\n').replace('\r', '\n')
 
-        # CORREÇÃO UNIFORME DE ARTIGOS: Garante que 'Art.' e seu número fiquem grudados na mesma linha
+        # CORREÇÃO UNIFORME DE ARTIGOS: Força a junção se houver quebra de linha entre 'Art.' e o número
         conteudo = re.sub(r'(?i)Art\.\s*6\s*<\s*[^>]*>\s*o', 'Art. 6º', conteudo)
         conteudo = re.sub(r'(?i)Art\.\s*6\s+o', 'Art. 6º', conteudo)
         conteudo = re.sub(r'(?i)Art\.\s*\n+\s*(\d+)', r'Art. \1', conteudo)
@@ -81,11 +81,71 @@ jobs:
         texto_limpo = re.sub(r'<[^>]+>', '', conteudo)
         texto_limpo = html.unescape(texto_limpo)
 
-        # 5. Formatação estrutural de linhas (Evita listas automáticas ruins do Markdown)
+        # 5. Formatação estrutural de linhas e Títulos (Ajustado com strip rígido)
         linhas_corrigidas = []
         for linha in texto_limpo.split('\n'):
             linha_sub = linha.strip()
             if not linha_sub:
                 continue
             
-            # Formatação de
+            # Formatação de Títulos, Capítulos e Seções (Pega toda a linha contendo a descrição)
+            if re.match(r'^T[IÍ]TULO\s+[IVXLCDM\d]+', linha_sub, re.IGNORECASE):
+                linha_sub = '## ' + linha_sub
+            elif re.match(r'^CAP[IÍ]TULO\s+[IVXLCDM\d]+', linha_sub, re.IGNORECASE):
+                linha_sub = '### ' + linha_sub
+            elif re.match(r'^SE[CÇ][AÃ]O\s+[IVXLCDM\d]+', linha_sub, re.IGNORECASE):
+                linha_sub = '#### ' + linha_sub
+            elif re.match(r'^SUBSE[CÇ][AÃ]O\s+[IVXLCDM\d]+', linha_sub, re.IGNORECASE):
+                linha_sub = '##### ' + linha_sub
+                
+            # Padronização de travessões legislativos (—) no início de incisos
+            elif linha_sub.startswith('-') or linha_sub.startswith('–') or linha_sub.startswith('—'):
+                linha_sub = re.sub(r'^[-–—]\s*', '— ', linha_sub)
+                
+            linhas_corrigidas.append(linha_sub)
+
+        texto_limpo = '\n\n'.join(linhas_corrigidas)
+
+        # 6. Otimização de espaçamentos e remoção de espaços duplicados
+        texto_limpo = re.sub(r'[ \t]+', ' ', texto_limpo)
+        texto_limpo = texto_limpo.replace('~~ ', '~~').replace(' ~~', '~~')
+        
+        # Remove quebras de linha residuais presas no meio do mesmo bloco de tachado
+        texto_limpo = re.sub(r'~~([^~]+)~~', lambda m: '~~' + m.group(1).replace('\n', ' ').strip() + '~~', texto_limpo)
+
+        # 7. Agrupa APENAS as notas de emendas ao final do parágrafo correspondente
+        blocos = texto_limpo.split('\n\n')
+        resultado = []
+        for bloco in blocos:
+            bloco_limpo = bloco.strip()
+            if not bloco_limpo:
+                continue
+            # Concatena apenas notas explicativas/emendas à linha imediatamente anterior
+            if (bloco_limpo.startswith('(Redação') or bloco_limpo.startswith('(Incluído') or bloco_limpo.startswith('(Vide')) and resultado:
+                resultado[-1] = resultado[-1] + ' ' + bloco_limpo
+            else:
+                resultado.append(bloco_limpo)
+
+        texto_limpo = '\n\n'.join(resultado)
+
+        # Criação do diretório e gravação do arquivo final limpo
+        os.makedirs('Constituicao', exist_ok=True)
+
+        with open('Constituicao/CF88.md', 'w', encoding='utf-8') as f:
+            f.write('# Constituição da República Federativa do Brasil de 1988\n\n' + texto_limpo.strip())
+        "
+
+    - name: Verificar mudanças e commitar
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        
+        # Adiciona o arquivo gerado para o Git poder rastrear as modificações
+        git add Constituicao/CF88.md
+
+        if ! git diff --cached --quiet; then
+          git commit -m "Auto: CF_88 atualizada em $(date +'%d/%m/%Y')"
+          git push
+        else
+          echo "Nenhuma alteração encontrada na lei."
+        fi
