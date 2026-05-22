@@ -93,11 +93,4 @@ jobs:
             elif re.match(r'^CAP[IÍ]TULO\s+[IVXLCDM\d]+', linha_sub, re.IGNORECASE):
                 linhas_corrigidas.append('\n### ' + linha_sub)
             elif re.match(r'^SE[CÇ][AÃ]O\s+[IVXLCDM\d]+', linha_sub, re.IGNORECASE):
-                linhas_corrigidas.append('\n#### ' + linha_sub)
-            elif re.match(r'^SUBSE[CÇ][AÃ]O\s+[IVXLCDM\d]+', linha_sub, re.IGNORECASE):
-                linhas_corrigidas.append('\n##### ' + linha_sub)
-            
-            # Tratamento de Artigos, Incisos e Parágrafos para mantê-los isolados e organizados
-            else:
-                # Se for um inciso ou travessão, garante a quebra de linha visual limpa
-                if re.match(r'^
+                linhas_corrig
