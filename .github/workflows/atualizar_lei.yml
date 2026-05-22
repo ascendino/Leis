@@ -67,7 +67,7 @@ jobs:
         # 5. Corrige hífens no início de linhas para evitar listas automáticas do Markdown
         linhas_corrigidas = []
         for linha in texto_limpo.split('\n'):
-            linha_sub = linha.strip()
+            linha_sub = line = linha.strip()
             if linha_sub.startswith('-') or linha_sub.startswith('–') or linha_sub.startswith('—'):
                 linha = re.sub(r'^[-–—]\s*', '— ', linha_sub)
             linhas_corrigidas.append(linha)
@@ -79,13 +79,11 @@ jobs:
         texto_limpo = re.sub(r'\n\s*\n\s*\n+', '\n\n', texto_limpo)
 
         # 7. Une parágrafos curtos isolados (§, incisos, VETADO) ao parágrafo seguinte
-        # Divide em blocos separados por linha em branco e une os muito curtos ao próximo
         blocos = texto_limpo.split('\n\n')
         resultado = []
         i = 0
         while i < len(blocos):
             bloco_atual = blocos[i].strip()
-            # Se o bloco tem menos de 25 caracteres e não é o último, une ao próximo
             if len(bloco_atual) < 25 and bloco_atual and i + 1 < len(blocos):
                 proximo = blocos[i + 1].strip()
                 resultado.append(bloco_atual + ' ' + proximo)
@@ -99,20 +97,21 @@ jobs:
         # Garante a criação da pasta CTB antes de salvar o arquivo
         os.makedirs('CTB', exist_ok=True)
 
-        # Salva o arquivo final com todas as correções aplicadas
-        with open('CTB/ctb_atualizado.md', 'w', encoding='utf-8') as f:
+        # CORRIGIDO: Salva com o nome correto desejado (CTB.md)
+        with open('CTB/CTB.md', 'w', encoding='utf-8') as f:
             f.write('# Código de Trânsito Brasileiro (Lei 9.503)\n\n' + texto_limpo.strip())
         "
 
     - name: Verificar mudanças e commitar
       run: |
         git config --global user.name "github-actions[bot]"
-        git config --global user.email "41898282+github-actions[bot]@://github.com"
+        # CORRIGIDO: E-mail do robô ajustado com domínio correto do GitHub
+        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-        # Remove o arquivo com o nome antigo do histórico para evitar duplicidade
+        # Remove permanentemente o arquivo antigo ctb_atualizado.md do repositório
         git rm -f CTB/ctb_atualizado.md || true
 
-        # Adiciona o novo arquivo renomeado
+        # Adiciona o novo arquivo renomeado de maneira limpa
         git add CTB/CTB.md
 
         if ! git diff --cached --quiet; then
