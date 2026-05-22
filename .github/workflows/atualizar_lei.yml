@@ -1,0 +1,33 @@
+name: Atualizador Automático de Lei
+
+on:
+  schedule:
+    # Roda todos os dias às 06:00 UTC (03:00 no horário de Brasília)
+    - cron: '0 6 * * *'
+  workflow_dispatch: # Permite que você force a atualização manualmente
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout do repositório
+      uses: actions/checkout@v4
+
+    - name: Baixar Lei Seca Atualizada
+      run: |
+        curl -sL "https://planalto.gov.br" -o ctb_atualizado.html
+
+    - name: Verificar mudanças e commitar
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "41898282+github-actions[bot]@://github.com"
+        
+        git add ctb_atualizado.html
+        
+        if ! git diff --cached --quiet; then
+          git commit -m "Auto: Código de Trânsito Brasileiro atualizado em $(date +'%d/%m/%Y')"
+          git push
+        else
+          echo "Nenhuma alteração encontrada no site do Planalto."
+        fi
