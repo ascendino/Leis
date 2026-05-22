@@ -57,11 +57,11 @@ jobs:
 
         conteudo = re.sub(r'(?i)<a([^>]+)>([\s\S]*?)</a>', processar_link, conteudo)
 
-        # CORREÇÃO: Captura e converte as tags de texto riscado/tachado antes de limpar o HTML
+        # AJUSTE ROBUSTO: Captura variações de tags e estilos inline de tachados do Planalto
         conteudo = re.sub(r'(?i)<strike[^>]*>([\s\S]*?)</strike>', r'~~\1~~', conteudo)
         conteudo = re.sub(r'(?i)<s[^>]*>([\s\S]*?)</s>', r'~~\1~~', conteudo)
         conteudo = re.sub(r'(?i)<del[^>]*>([\s\S]*?)</del>', r'~~\1~~', conteudo)
-        conteudo = re.sub(r'(?i)<font[^>]*style=[^>]*line-through[^>]*>([\s\S]*?)</font>', r'~~\1~~', conteudo)
+        conteudo = re.sub(r'(?i)<font[^>]*style\s*=\s*[\"\'][^\"\']*line-through[^\"\']*[\"\'][^>]*>([\s\S]*?)</font>', r'~~\1~~', conteudo)
 
         # 3. Tratamento pré-limpeza: Remove quebras de linha indesejadas
         conteudo = conteudo.replace('\r\n', '\n').replace('\r', '\n')
@@ -73,7 +73,7 @@ jobs:
         # 5. Corrige hífens no início de linhas para evitar listas automáticas do Markdown
         linhas_corrigidas = []
         for linha in texto_limpo.split('\n'):
-            linha_sub = line = linha.strip()
+            linha_sub = linha.strip()
             if linha_sub.startswith('-') or linha_sub.startswith('–') or linha_sub.startswith('—'):
                 linha = re.sub(r'^[-–—]\s*', '— ', linha_sub)
             linhas_corrigidas.append(linha)
@@ -100,7 +100,7 @@ jobs:
 
         texto_limpo = '\n\n'.join(resultado)
 
-        # CORREÇÃO: Ajustado pastas e títulos para referenciar a CF88 corretamente
+        # Garante as pastas e títulos referenciando a CF88 corretamente
         os.makedirs('Constituicao', exist_ok=True)
 
         with open('Constituicao/CF88.md', 'w', encoding='utf-8') as f:
@@ -112,7 +112,7 @@ jobs:
         git config --global user.name "github-actions[bot]"
         git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
         
-        # CORREÇÃO: Adiciona o arquivo gerado para o Git poder rastrear as modificações
+        # Adiciona o arquivo gerado para o Git poder rastrear as modificações
         git add Constituicao/CF88.md
 
         if ! git diff --cached --quiet; then
