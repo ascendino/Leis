@@ -3795,15 +3795,23 @@ Art. 146. Para conduzir veículos de outra categoria o condutor deverá realizar
 complementares exigidos para habilitação na categoria pretendida.
 
 Art. 
-147.  O candidato à habilitação deverá submeter-se, conforme norma do Contran, 
-aos exames:    
-[(Redação dada pela Medida 
-Provisória nº 1.327, de 2025)](https://www.planalto.gov.br/_Ato2023-2026/2025/Mpv/mpv1327.htm#art1)[2020)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art5)
+ 147.  O candidato à habilitação deverá submeter-se a exames realizados 
+ pelo órgão executivo de trânsito, na ordem descrita a seguir, e os 
+ exames de aptidão física e mental e a avaliação psicológica deverão ser 
+ realizados por médicos e psicólogos peritos examinadores, 
+ respectivamente, com titulação de especialista em medicina do tráfego e 
+ em psicologia do trânsito, conferida pelo respectivo conselho 
+ profissional, conforme regulamentação do Contran:    
+ 
+[ (Redação dada pela Lei 
+nº 14.071, de 2020)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art1)  
+[(Vigência)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art7)    
+ [(Parte promulgada pelo Congresso Nacional)](https://www.planalto.gov.br#art147)      
+ 
+[ (Vide Lei nº 
+14.071, de 2020)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art5)
 
-I 
-— de aptidão física e mental e de avaliação psicológica;
-[(Redação dada pela Medida 
-Provisória nº 1.327, de 2025)](https://www.planalto.gov.br/_Ato2023-2026/2025/Mpv/mpv1327.htm#art1)
+I - de aptidão física e mental;
 
 II
 — (VETADO)
@@ -3821,61 +3829,43 @@ estiver habilitando-se.
 resultados dos exames e a identificação dos respectivos examinadores serão registrados
 no RENACH.      [(Renumerado do parágrafo único, pela Lei nº 9.602, de 1998)](https://www.planalto.gov.br/L9602.htm#art2)
 
-§ 1º-A.  Os exames serão realizados:     
- 
- [(Incluído pela Medida 
- Provisória nº 1.327, de 2025)](https://www.planalto.gov.br/_Ato2023-2026/2025/Mpv/mpv1327.htm#art1)
+§ 1º-A. I -
 
-I - nas hipóteses do inciso I do caput - por, 
-respectivamente, médicos e psicólogos peritos examinadores; e
+II - § 2º  O exame de aptidão física e mental, a ser realizado no
+ local de residência ou domicílio do examinado, será preliminar e
+ renovável com a seguinte periodicidade:      
+ [ (Redação dada 
+ pela Lei nº 14.071, de 2020)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art1)  [(Vigência)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art7)
 
-[(Incluído pela Medida 
-Provisória nº 1.327, de 2025)](https://www.planalto.gov.br/_Ato2023-2026/2025/Mpv/mpv1327.htm#art1)
+I - a cada 10 (dez) anos, para condutores com idade inferior a 50
+ (cinquenta) anos;      
+ [ (Incluído pela 
+ Lei nº 14.071, de 2020)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art1)   [(Vigência)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art7)
 
-II - nas demais hipóteses do caput - pelo órgão executivo de 
-trânsito.
+II - a cada 5 (cinco) anos, para condutores com idade igual ou
+ superior a 50 (cinquenta) anos e inferior a 70 (setenta) anos;      
+ [ (Incluído pela 
+ Lei nº 14.071, de 2020)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art1)   [(Vigência)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art7)
 
-[(Incluído pela Medida 
-Provisória nº 1.327, de 2025)](https://www.planalto.gov.br/_Ato2023-2026/2025/Mpv/mpv1327.htm#art1)
+III - a cada 3 (três) anos, para condutores com idade igual ou
+ superior a 70 (setenta) anos.     
+ [ (Incluído pela 
+ Lei nº 14.071, de 2020)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art1)   [(Vigência)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art7)
 
-§ 2º  A Carteira Nacional de Habilitação e a Autorização para 
-Conduzir Ciclomotor terão validade de:
+§ 3o O exame previsto no § 2o
+incluirá avaliação psicológica preliminar e complementar sempre que a ele se 
+submeter o condutor que exerce atividade remunerada ao veículo, incluindo-se 
+esta avaliação para os demais candidatos apenas no exame referente à primeira 
+habilitação.          [(Redação dada pela 
+Lei nº 10.350, de 2001)](https://www.planalto.gov.br/LEIS_2001/L10350.htm#art1)
 
-[(Redação dada pela Medida 
-Provisória nº 1.327, de 2025)](https://www.planalto.gov.br/_Ato2023-2026/2025/Mpv/mpv1327.htm#art1)
-
-I - dez anos, para condutores com idade inferior a cinquenta anos;
-
-[(Redação dada pela Medida 
-Provisória nº 1.327, de 2025)](https://www.planalto.gov.br/_Ato2023-2026/2025/Mpv/mpv1327.htm#art1)
-
-II - cinco anos, para condutores com idade igual ou superior a cinquenta anos e 
-inferior a setenta anos; e
-
-[(Redação dada pela Medida 
-Provisória nº 1.327, de 2025)](https://www.planalto.gov.br/_Ato2023-2026/2025/Mpv/mpv1327.htm#art1)
-
-III - três anos, para condutores com idade igual ou superior a setenta anos.
-
-[(Redação dada pela Medida 
-Provisória nº 1.327, de 2025)](https://www.planalto.gov.br/_Ato2023-2026/2025/Mpv/mpv1327.htm#art1)
-
-§ 3º  Além dos candidatos à primeira habilitação, a avaliação psicológica 
-prevista no inciso I do caput será exigida para o condutor que pretenda 
-exercer atividade remunerada ao veículo.
-
-[(Redação dada pela Medida 
-Provisória nº 1.327, de 2025)](https://www.planalto.gov.br/_Ato2023-2026/2025/Mpv/mpv1327.htm#art1)
-
-§ 
-4º  Os exames de aptidão física e mental serão renováveis, observada a 
-periodicidade prevista no § 2º, a qual, excepcionalmente, poderá ser reduzida, 
-mediante recomendação do médico responsável, quando houver indícios de 
-deficiência física ou mental ou de progressividade de doença com potencial de 
-comprometer a capacidade para conduzir veículo.
-
-[(Redação dada pela Medida 
-Provisória nº 1.327, de 2025)](https://www.planalto.gov.br/_Ato2023-2026/2025/Mpv/mpv1327.htm#art1)
+§ 4º  Quando houver indícios de deficiência física ou mental,
+ ou de progressividade de doença que possa diminuir a capacidade para
+ conduzir o veículo, os prazos previstos nos incisos I, II e III do §
+ 2º deste artigo poderão ser diminuídos por proposta do perito
+ examinador.       
+[ (Redação dada pela Lei 
+nº 14.071, de 2020)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art1)      [(Vigência)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art7)
 
 § 5o O condutor que exerce atividade remunerada ao veículo
 terá essa informação incluída na sua Carteira Nacional de Habilitação, conforme
@@ -3884,10 +3874,10 @@ especificações do Conselho Nacional de Trânsito – Contran.      
 nº 10.350, de 2001)](https://www.planalto.gov.br/LEIS_2001/L10350.htm#art1)
  
           § 6º  [(Revogado 
- pela Medida Provisória nº 1.327, de 2025)](https://www.planalto.gov.br/_Ato2023-2026/2025/Mpv/mpv1327.htm#art2)
+ pela Lei nº 15.428, de 2026)](https://www.planalto.gov.br/_ato2023-2026/2026/lei/l15428.htm#art2)
  
          § 7º  [(Revogado 
- pela Medida Provisória nº 1.327, de 2025)](https://www.planalto.gov.br/_Ato2023-2026/2025/Mpv/mpv1327.htm#art2)
+ pela Lei nº 15.428, de 2026)](https://www.planalto.gov.br/_ato2023-2026/2026/lei/l15428.htm#art2)
 
 Art. 147-A.  Ao candidato com deficiência 
  auditiva é assegurada acessibilidade de comunicação, mediante emprego de 
@@ -3942,22 +3932,23 @@ Armadas ou pelo Departamento de Aeronáutica Civil, respectivamente, da prestaç
 exame de aptidão física e mental.         [(Incluído pela
 Lei nº 9.602, de 1998)](https://www.planalto.gov.br/L9602.htm#art148§5)
 
-§ 6º  Os exames de aptidão física e mental e a avaliação psicológica 
+§ 6º Os exames de aptidão física e mental e a avaliação psicológica 
  serão realizados, respectivamente, por médicos e psicólogos peritos 
  examinadores, autorizados pelo órgão máximo executivo de trânsito da 
  União, com titulação de especialista em medicina do tráfego e em 
- psicologia do trânsito, conferida pelo respectivo conselho profissional, 
- nos termos de regulação do Contran.     
- 
- [(Incluído pela 
- Medida Provisória nº 1.327, de 2025)](https://www.planalto.gov.br/_Ato2023-2026/2025/Mpv/mpv1327.htm#art1)
+ psicologia do trânsito conferida pelo respectivo conselho profissional, 
+ nos termos de regulação do Contran.    
+ [(Incluído pela Lei 
+ nº 15.428, de 2026)](https://www.planalto.gov.br/_ato2023-2026/2026/lei/l15428.htm#art1)
 
-§ 7º  Os valores correspondentes à realização dos exames de aptidão física e 
+§ 7º Os valores correspondentes à realização dos exames de aptidão física e 
 mental e da avaliação psicológica observarão preço público fixado pelo órgão 
-máximo executivo de trânsito da União, conforme regulamentação do Contran.
+máximo executivo de trânsito da União, conforme regulamentação do Contran, e 
+serão atualizados anualmente pelo Índice Nacional de Preços ao Consumidor Amplo 
+(IPCA) ou por outro índice oficial que venha a substituí-lo.
 
-[(Incluído pela Medida 
-Provisória nº 1.327, de 2025)](https://www.planalto.gov.br/_Ato2023-2026/2025/Mpv/mpv1327.htm#art1)
+[(Incluído pela Lei nº 
+15.428, de 2026)](https://www.planalto.gov.br/_ato2023-2026/2026/lei/l15428.htm#art1)
 
 Art. 148-A.  Os condutores das categorias C, D e E deverão
  comprovar resultado negativo em exame toxicológico para a obtenção e a
@@ -4222,28 +4213,28 @@ aprendizagem poderá conduzir apenas mais um acompanhante.
 [ (Revogado pela Lei nº 
 14.071, de 2020)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art6)       [(Vigência)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art7)
 
-Art. 159.  A Carteira Nacional de Habilitação:
+Art. 159. A Carteira Nacional de Habilitação:
 
-[(Redação dada pela Medida 
-Provisória nº 1.327, de 2025)](https://www.planalto.gov.br/_Ato2023-2026/2025/Mpv/mpv1327.htm#art1)
+[(Redação dada pela Lei nº 
+15.428, de 2026)](https://www.planalto.gov.br/_ato2023-2026/2026/lei/l15428.htm#art1)
 
 I - poderá ser emitida em meio físico ou digital, a critério do candidato ou do 
 condutor;
 
-[(Incluído pela Medida 
-Provisória nº 1.327, de 2025)](https://www.planalto.gov.br/_Ato2023-2026/2025/Mpv/mpv1327.htm#art1)
+[(Incluído pela Lei nº 
+15.428, de 2026)](https://www.planalto.gov.br/_ato2023-2026/2026/lei/l15428.htm#art1)
 
-II - deverá conter fotografia, nome, número de inscrição no Cadastro de Pessoa 
-Física  CPF e demais requisitos estabelecidos pelo Contran; e
+II - deverá conter fotografia, nome, número de inscrição no Cadastro de Pessoas 
+Físicas (CPF) e demais requisitos estabelecidos pelo Contran; e
 
-[(Incluído pela Medida 
-Provisória nº 1.327, de 2025)](https://www.planalto.gov.br/_Ato2023-2026/2025/Mpv/mpv1327.htm#art1)
+[(Incluído pela Lei nº 
+15.428, de 2026)](https://www.planalto.gov.br/_ato2023-2026/2026/lei/l15428.htm#art1)
 
 III - terá fé pública e equivalerá a documento de identidade no território 
 nacional.
 
-[(Incluído pela Medida 
-Provisória nº 1.327, de 2025)](https://www.planalto.gov.br/_Ato2023-2026/2025/Mpv/mpv1327.htm#art1)
+[(Incluído pela Lei nº 
+15.428, de 2026)](https://www.planalto.gov.br/_ato2023-2026/2026/lei/l15428.htm#art1)
 
 §
 1º É obrigatório o porte da Permissão para Dirigir ou da Carteira Nacional de
@@ -4285,13 +4276,10 @@ condutor.
 §
 9º (VETADO)
 
-§ 
-10.  Na hipótese de redução da periodicidade de renovação dos exames, de que 
-trata o art. 147, § 4º, a validade da Carteira Nacional de Habilitação ficará 
-condicionada ao prazo de vigência do exame de aptidão física e mental.
-
-[(Redação dada pela Medida 
-Provisória nº 1.327, de 2025)](https://www.planalto.gov.br/_Ato2023-2026/2025/Mpv/mpv1327.htm#art1)
+§ 10. A 
+validade da Carteira Nacional de Habilitação está condicionada ao prazo de 
+vigência do exame de aptidão física e mental.          [(Incluído pela Lei nº 9.602, 
+de 1998)](https://www.planalto.gov.br/L9602.htm#art159)
 
 § 11. 
  (Revogado).       
@@ -6852,33 +6840,25 @@ Art. 268-A.  Fica criado o Registro Nacional Positivo de
  ente da Federação.       [(Incluído pela Lei nº 14.071, de 2020)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art1)       
 [(Vigência)](https://www.planalto.gov.br/_Ato2019-2022/2020/Lei/L14071.htm#art7)
 
-§ 7º  O condutor que, ao término do período de validade da Carteira Nacional 
+§ 7º O condutor que, ao término do período de validade da Carteira Nacional 
  de Habilitação ou da Autorização para Conduzir Ciclomotor, estiver 
- cadastrado no RNPC terá sua habilitação renovada automaticamente, e ficará 
- dispensado dos procedimentos previstos no art. 147.   
+ cadastrado no RNPC terá sua habilitação renovada automaticamente e ficará 
+ dispensado dos procedimentos previstos no art. 147 deste Código, com exceção 
+ dos exames de aptidão física e mental.      
  
- [(Incluído pela Medida 
- Provisória nº 1.327, de 2025)](https://www.planalto.gov.br/_Ato2023-2026/2025/Mpv/mpv1327.htm#art1)
+ [(Redação dada pela Lei 
+ nº 15.428, de 2026)](https://www.planalto.gov.br/_ato2023-2026/2026/lei/l15428.htm#art1)
 
-§ 8º  O disposto no § 7º:
-
-[(Incluído pela Medida 
+§ 8º [(Incluído pela Medida 
 Provisória nº 1.327, de 2025)](https://www.planalto.gov.br/_Ato2023-2026/2025/Mpv/mpv1327.htm#art1)
 
-I - não se aplica a condutores com a idade a partir de setenta anos;
-
-[(Incluído pela Medida 
+I - [(Incluído pela Medida 
 Provisória nº 1.327, de 2025)](https://www.planalto.gov.br/_Ato2023-2026/2025/Mpv/mpv1327.htm#art1)
 
-II - não poderá ser aplicada para mais do que uma renovação para os condutores a 
-partir de cinquenta anos; e
-
-[(Incluído pela Medida 
+II - [(Incluído pela Medida 
 Provisória nº 1.327, de 2025)](https://www.planalto.gov.br/_Ato2023-2026/2025/Mpv/mpv1327.htm#art1)
 
-III - não se aplica para os condutores de que trata o art. 147, § 4º.
-
-[(Incluído pela Medida 
+III - [(Incluído pela Medida 
 Provisória nº 1.327, de 2025)](https://www.planalto.gov.br/_Ato2023-2026/2025/Mpv/mpv1327.htm#art1)
 
 CAPÍTULO XVII
@@ -6916,12 +6896,10 @@ X
 de circulação, restituindo-os aos seus proprietários, após o pagamento de multas e
 encargos devidos.
 
-XI - realização de exames de aptidão física e mental, quando aplicado por junta 
-especial de saúde, de legislação, de prática de primeiros socorros e de direção 
-veicular.
-
-[(Redação dada pela Medida 
-Provisória nº 1.327, de 2025)](https://www.planalto.gov.br/_Ato2023-2026/2025/Mpv/mpv1327.htm#art1)
+XI - 
+realização de exames de aptidão física, mental, de legislação, de prática de 
+primeiros socorros e de direção veicular.   [(Incluído pela Lei nº 9.602, 
+de 1998)](https://www.planalto.gov.br/L9602.htm#art269xi)
 
 §
 1º A ordem, o consentimento, a fiscalização, as medidas administrativas e coercitivas
