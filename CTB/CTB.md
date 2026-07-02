@@ -8474,6 +8474,13 @@ Art. 326-B. É instituída a Semana Nacional de Prevenção a Acidentes com
  [(Incluído pela 
  Lei nº 15.006, de 2024)](https://www.planalto.gov.br/_Ato2023-2026/2024/Lei/L15006.htm#art2)
 
+Art. 326-C. 
+ Fica reconhecido o terceiro domingo do mês de novembro de cada ano como 
+ o Dia Mundial em Memória das Vítimas do Trânsito.
+
+[(Incluído pela 
+ Lei nº 15.452, de 2026)](https://www.planalto.gov.br/_ato2023-2026/2026/lei/l15452.htm#art1)
+
 Art. 327. A partir da publicação deste Código, somente poderão ser fabricados e
 licenciados veículos que obedeçam aos limites de peso e dimensões fixados na forma
 desta Lei, ressalvados os que vierem a ser regulamentados pelo CONTRAN.
